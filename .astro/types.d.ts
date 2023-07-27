@@ -453,6 +453,13 @@ declare module 'astro:content' {
   collection: "pages";
   data: InferEntrySchema<"pages">
 } & { render(): Render[".md"] };
+"changelog.mdx": {
+	id: "changelog.mdx";
+  slug: "changelog";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".mdx"] };
 "elements.mdx": {
 	id: "elements.mdx";
   slug: "elements";

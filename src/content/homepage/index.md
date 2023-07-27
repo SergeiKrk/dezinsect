@@ -1,17 +1,17 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  title: "Уничтожение насекомых, грызунов и бактерий"
+  content: "Официальная санэпидемслужба в Москве — профессионально устраним проблему и гарантированно избавим от вредителей."
   image: /images/sanepidemstanciya.webp
   button:
-    label: Download The Theme
+    label: Заказать звонок
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: true
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "Уничтожение насекомых, грызунов и бактерий"
+  description: Официальная санэпидемслужба в Москве — профессионально устраним проблему и гарантированно избавим от вредителей.
   feature_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
       title: Live Caption

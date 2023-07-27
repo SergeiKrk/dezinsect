@@ -21,7 +21,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
                   } btn btn-sm cursor-pointer`}
                   onClick={() => setTab("")}
                 >
-                  All Categories
+                  Все услуги
                 </span>
               </li>
               {categories.map((category, i) => (
@@ -42,7 +42,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
           {filterPost.map((item, i) => (
             <div
               key={i}
-              className="integration-tab-item mb-8 md:col-6 lg:col-4"
+              className="integration-tab-item mb-8 md:col-6 lg:col-4 xl:col-3"
             >
               <div className="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
                 <div className="integration-card-head flex items-center space-x-4">

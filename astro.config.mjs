@@ -35,7 +35,6 @@ export default defineConfig({
         "@shortcodes/Blockquote",
         "@shortcodes/Badge",
         "@shortcodes/ContentBlock",
-        "@shortcodes/Changelog",
       ],
     }),
     mdx(),

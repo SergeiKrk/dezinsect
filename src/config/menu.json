@@ -49,10 +49,6 @@
           "url": "/elements"
         },
         {
-          "name": "Changelog",
-          "url": "/changelog"
-        },
-        {
           "name": "Terms And Conditions",
           "url": "/terms-and-conditions"
         }
@@ -76,10 +72,6 @@
     {
       "name": "Elements",
       "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
     }
   ]
 }

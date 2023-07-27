@@ -539,36 +539,6 @@ select:invalid {
   }
 }
 
-//changelogs
-.changelogs {
-  &-content {
-    @apply relative;
-    &::before {
-      @apply absolute -top-[38px] left-0 h-[18px] w-[18px] rounded-full border-4 border-primary bg-body content-[''] lg:-left-[49px] lg:top-0;
-    }
-
-    ul {
-      @apply list-disc pl-6 marker:text-dark;
-
-      + .changelogs-tag {
-        @apply mt-6;
-      }
-
-      & > li {
-        @apply mb-3;
-
-        span {
-          @apply text-primary;
-        }
-      }
-    }
-  }
-
-  &-tag {
-    @apply mb-5 inline-block h-5 rounded px-1 py-0.5 text-xs text-white;
-  }
-}
-
 .text-container {
   @apply mx-auto lg:max-w-[412px];
 }

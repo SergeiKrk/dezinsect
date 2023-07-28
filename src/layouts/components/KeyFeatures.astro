@@ -11,8 +11,9 @@ const { title, description, feature_list } = key_features;
     src="/images/protivogaz.webp"
     height={160}
     width={80}
-    alt=""
+    alt="услуги санэпидемстанции"
   />
+
   <div class="container">
     <div class="row justify-between text-center lg:text-start">
       <div class="lg:col-5">
@@ -22,6 +23,7 @@ const { title, description, feature_list } = key_features;
         <p set:html={markdownify(description)} />
       </div>
     </div>
+    <div class="my-10 text-xl">Самые востребованные услуги:</div>
     <HomapageFeature feature_list={feature_list} client:load />
   </div>
 </section>

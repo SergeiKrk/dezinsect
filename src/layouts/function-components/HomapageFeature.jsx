@@ -11,13 +11,14 @@ const HomapageFeature = ({ feature_list }) => {
             key={i}
             className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg"
           >
-            <div>
-              <h3 className="h4 text-xl lg:text-2xl">{item.title}</h3>
-              <p>{item.content}</p>
+            <div class="integration-card-head flex items-center space-x-4">
+              <div className="icon my-2">
+                <FeatherIcon />
+              </div>
+              <h3 className="text-xl">{item.title}</h3>
             </div>
-            <span className="icon mt-4">
-              <FeatherIcon />
-            </span>
+
+            <p>{item.content}</p>
           </div>
         );
       })}

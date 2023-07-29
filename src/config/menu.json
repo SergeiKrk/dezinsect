@@ -1,23 +1,23 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Главная",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "О нас",
       "url": "/about"
     },
     {
-      "name": "Blog",
+      "name": "Статьи",
       "url": "/blog"
     },
     {
-      "name": "Features",
+      "name": "Услуги",
       "url": "/features"
     },
     {
-      "name": "How It Works",
+      "name": "Как мы работаем",
       "url": "/how-it-works"
     },
     {

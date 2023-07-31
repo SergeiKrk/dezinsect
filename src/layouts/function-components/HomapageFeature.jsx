@@ -7,11 +7,12 @@ const HomapageFeature = ({ feature_list }) => {
       {feature_list.map((item, i) => {
         const FeatherIcon = Icon[humanize(item.icon)];
         return (
-          <a href={item.link}
+          <a
+            href={item.link}
             key={i}
-            className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg hover:shadow-xl hover:bg-[#EDF7F3]"
+            className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg hover:bg-[#EDF7F3] hover:shadow-xl"
           >
-            <div class="integration-card-head flex items-center space-x-4">
+            <div className="integration-card-head flex items-center space-x-4">
               <div className="icon my-2">
                 <FeatherIcon />
               </div>

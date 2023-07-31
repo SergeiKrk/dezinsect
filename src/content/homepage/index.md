@@ -136,18 +136,12 @@ key_services:
   title: "Уничтожение насекомых, грызунов и бактерий"
   description: "Осуществляем следующие виды услуг в Москве и МО:"
   feature_list:
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
+    - title: Howww can I integrate Avocode to my current tool stack?
+      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
+    - title: How can I integrate Avocode to my current tool stack?
+      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
+    - title: How can I integrate Avocode to my current tool stack?
+      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
 
   service_top_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]

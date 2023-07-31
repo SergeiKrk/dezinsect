@@ -3,6 +3,7 @@ import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import Faq from "@layouts/function-components/Faq.jsx";
+import Accordion from "@layouts/function-components/Accordion.jsx";
 import PricingCard from "@layouts/function-components/PricingCard.jsx";
 import { getEntryBySlug } from "astro:content";
 
@@ -38,4 +39,5 @@ const page_data = {
     </div>
   </section>1111
   <Faq client:load data={pricing.data} />
+  <Accordion client:load data={pricing.data} />
 </Base>

@@ -24,8 +24,12 @@ const features = await getEntryBySlug("features", "index");
       </div>
       <div class="mt-6 lg:col-5 lg:mt-0">
         <div class="text-2xl" set:html={markdownify(description)} />
+        <div class="mt-6">
+          <Accordion client:load data={features.data} />
+        </div>
       </div>
     </div>
+    <div class="my-10 text-2xl">Самые востребованные услуги:</div>
     <HomapageFeature feature_list={feature_list} client:load />
   </div>
 </section>

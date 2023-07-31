@@ -13,7 +13,7 @@ const Faq = ({ data }) => {
 
   return (
     <div className="rounded-xl bg-white px-5 py-5 shadow-lg lg:px-10 lg:py-8">
-      {data.faq.faq_list.map((item, i) => (
+      {data.key_services.service_top_list.map((item, i) => (
         <div
           className={`accordion border-b border-border ${
             isActive.includes(i) ? "active" : undefined

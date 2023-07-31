@@ -3,9 +3,9 @@ import { markdownify } from "@lib/utils/textConverter";
 import HomapageFeature from "@layouts/function-components/HomapageFeature";
 import Accordion from "@layouts/function-components/Accordion.jsx";
 import { getEntryBySlug } from "astro:content";
-const { key_features } = Astro.props;
-const { title, description, feature_list } = key_features;
-const features = await getEntryBySlug("features", "index");
+const { key_services } = Astro.props;
+const { title, description, service_top_list } = key_services;
+const homepage = await getEntryBySlug("homepage", "index");
 ---
 
 <section class="section key-feature relative">
@@ -25,11 +25,11 @@ const features = await getEntryBySlug("features", "index");
       <div class="mt-6 lg:col-5 lg:mt-0">
         <div class="text-2xl" set:html={markdownify(description)} />
         <div class="mt-6">
-          <Accordion client:load data={features.data} />
+          <Accordion client:load data={homepage.data} />
         </div>
       </div>
     </div>
     <div class="my-10 text-2xl">Самые востребованные услуги:</div>
-    <HomapageFeature feature_list={feature_list} client:load />
+    <HomapageFeature feature_list={service_top_list} client:load />
   </div>
 </section>

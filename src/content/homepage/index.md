@@ -130,8 +130,12 @@ testimonial:
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-services:
-  service_list:
+
+##key services
+key_services:
+  title: "Уничтожение насекомых, грызунов и бактерий"
+  description: "Осуществляем следующие виды услуг в Москве и МО:"
+  feature_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
       title: Live Caption
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -144,6 +148,7 @@ services:
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       link: "#"
+
   service_top_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
       title: Live Caption

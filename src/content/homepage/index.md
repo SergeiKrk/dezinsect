@@ -133,17 +133,14 @@ testimonial:
 
 ##key services
 key_services:
-  title: "Уничтожение насекомых, грызунов и бактерий"
-  description: "Осуществляем следующие виды услуг в Москве и МО:"
-  faq_list:
+  title: "Осуществляем следующие виды услуг в Москве и МО"
+  service_list:
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-    - title: How can I integrate Avocode to my current tool stack?
-      content: The Service is provided for free during this pilot availability of the Service.</br> If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and
 
   service_top_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]

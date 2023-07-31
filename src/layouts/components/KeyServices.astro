@@ -22,11 +22,8 @@ const homepage = await getEntryBySlug("homepage", "index");
       <div class="lg:col-5">
         <h2 set:html={markdownify(title)} />
       </div>
-      <div class="mt-6 lg:col-5 lg:mt-0">
-        <div class="text-2xl" set:html={markdownify(description)} />
-        <div class="mt-6">
-          <Accordion client:load data={homepage.data} />
-        </div>
+      <div class="mt-6 lg:col-7 lg:mt-0">
+        <Accordion client:load data={homepage.data} />
       </div>
     </div>
     <div class="my-10 text-2xl">Самые востребованные услуги:</div>

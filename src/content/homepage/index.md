@@ -135,8 +135,8 @@ testimonial:
 key_services:
   title: "Уничтожение насекомых, грызунов и бактерий"
   description: "Осуществляем следующие виды услуг в Москве и МО:"
-  feature_list:
-    - title: Howww can I integrate Avocode to my current tool stack?
+  service_list:
+    - title: Howww1 can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.

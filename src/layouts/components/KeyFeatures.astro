@@ -8,7 +8,7 @@ const { title, description, feature_list } = key_features;
 const features = await getEntryBySlug("features", "index");
 ---
 
-<section class="section key-feature relative">
+<section astro:load class="section key-feature relative">
   <img
     class="invisible absolute left-0 top-0 -z-[1] -translate-y-1/2 xl:visible"
     src="/images/protivogaz.webp"

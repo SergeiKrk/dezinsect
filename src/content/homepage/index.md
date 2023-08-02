@@ -138,21 +138,39 @@ key_services:
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
       service:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
+        - title: Supporting
+          icon: "lock" 
+          link: "#"
+        - title: Open
+          icon: "clock" 
+          link: "#"
+        - title: Customer
+          icon: "clock" 
+          link: "#"
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
       service:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
+        - title: Supporting
+          icon: "clock" 
+          link: "#"
+        - title: Ope
+          icon: "clock" 
+          link: "#"
+        - title: Custome
+          icon: "clock" 
+          link: "#"
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
       service:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
+        - title: Supporti
+          icon: "clock" 
+          link: "#"
+        - title: Open tr
+          icon: "clock" 
+          link: "#"
+        - title: Cust
+          icon: "clock" 
+          link: "#"
 
   service_top_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]

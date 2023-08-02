@@ -2,9 +2,9 @@
 import { markdownify } from "@lib/utils/textConverter";
 import HomapageFeature from "@layouts/function-components/HomapageFeature";
 import Accordion from "@layouts/function-components/Accordion.jsx";
-import { getEntryBySlug } from "astro:content";
+import { getEntryBySlug } from "astro:content"
 const { key_services } = Astro.props;
-const { title, description, service_top_list } = key_services;
+const { title, service_top_list } = key_services;
 const homepage = await getEntryBySlug("homepage", "index");
 ---
 
@@ -20,7 +20,7 @@ const homepage = await getEntryBySlug("homepage", "index");
   <div class="container">
     <div class="row justify-between text-center lg:text-start">
       <div class="lg:col-5">
-        <h2 set:html={markdownify(title)} />
+        <h2 class="animate__animated animate__bounceInUp" data-wow-duration="2s" data-wow-delay="5s" set:html={markdownify(title)} />
       </div>
       <div class="mt-6 lg:col-7 lg:mt-0">
         <Accordion client:load data={homepage.data} />

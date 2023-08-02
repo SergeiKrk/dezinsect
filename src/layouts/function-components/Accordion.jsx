@@ -1,5 +1,7 @@
 import { marked } from "marked";
 import { useState } from "react";
+import { humanize } from "@lib/utils/textConverter";
+import * as Icon from "react-feather";
 
 const Faq = ({ data }) => {
   const [isActive, setIsActive] = useState([]);
@@ -10,8 +12,10 @@ const Faq = ({ data }) => {
       setIsActive((prev) => [...prev, index]);
     }
   };
+  // const FeatherIcon = Icon[humanize(service.icon)];
 
   return (
+    
     <div className="rounded-xl bg-white px-5 py-5 shadow-lg lg:px-10 lg:py-8">
       {data.key_services.service_list.map((item, i) => (
         <div
@@ -42,12 +46,28 @@ const Faq = ({ data }) => {
                 __html: marked.parseInline(item.content),
               }}
             />
-            <ul class="mt-6 text-dark lg:-ml-4">
+            <div class="flex text-dark">
               {item.service &&
-                item.service.map((service) => (
-                  <li class="mb-2 flex items-center rounded px-4">{service}</li>
-                ))}
-            </ul>
+                item.service.map((service) => {
+                  const FeatherIcon = Icon[humanize(service.icon)];
+                  return (
+                    <a
+                      href={service.link}
+                      key={i}
+                      className="flex flex-col justify-between rounded-full bg-white py-1 px-4 my-5 mr-2 border border-[#EDF7F3] hover:bg-[#EDF7F3] hover:shadow-lg"
+                    >
+                      <div className="integration-card-head flex items-center space-x-4">
+                        <div className="icon my-2">
+                         <FeatherIcon />
+                        </div>
+                        <div className="text-lg">{service.title}</div>
+                      </div>
+                    </a>            
+                  )
+                }
+                
+                )}
+            </div>
           </div>
         </div>
       ))}

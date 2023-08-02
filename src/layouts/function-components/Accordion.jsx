@@ -42,6 +42,12 @@ const Faq = ({ data }) => {
                 __html: marked.parseInline(item.content),
               }}
             />
+            <ul class="mt-6 text-dark lg:-ml-4">
+              {item.service &&
+                item.service.map((service) => (
+                  <li class="mb-2 flex items-center rounded px-4">{service}</li>
+                ))}
+            </ul>
           </div>
         </div>
       ))}

@@ -139,37 +139,43 @@ key_services:
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
       service:
         - title: Supporting
-          icon: "lock" 
+          icon: "lock"
           link: "#"
         - title: Open
-          icon: "clock" 
+          icon: "clock"
           link: "#"
         - title: Customer
-          icon: "clock" 
+          icon: "clock"
+          link: "#"
+        - title: Open
+          icon: "clock"
+          link: "#"
+        - title: Customer
+          icon: "clock"
           link: "#"
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
       service:
         - title: Supporting
-          icon: "clock" 
+          icon: "clock"
           link: "#"
         - title: Ope
-          icon: "clock" 
+          icon: "clock"
           link: "#"
         - title: Custome
-          icon: "clock" 
+          icon: "clock"
           link: "#"
     - title: How can I integrate Avocode to my current tool stack?
       content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
       service:
         - title: Supporti
-          icon: "clock" 
+          icon: "clock"
           link: "#"
         - title: Open tr
-          icon: "clock" 
+          icon: "clock"
           link: "#"
         - title: Cust
-          icon: "clock" 
+          icon: "clock"
           link: "#"
 
   service_top_list:

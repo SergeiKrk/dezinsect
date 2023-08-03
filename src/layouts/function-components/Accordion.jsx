@@ -15,7 +15,6 @@ const Faq = ({ data }) => {
   // const FeatherIcon = Icon[humanize(service.icon)];
 
   return (
-    
     <div className="rounded-xl bg-white px-5 py-5 shadow-lg lg:px-10 lg:py-8">
       {data.key_services.service_list.map((item, i) => (
         <div
@@ -46,7 +45,7 @@ const Faq = ({ data }) => {
                 __html: marked.parseInline(item.content),
               }}
             />
-            <div class="flex text-dark">
+            <div class="my-5  flex flex-wrap text-dark">
               {item.service &&
                 item.service.map((service) => {
                   const FeatherIcon = Icon[humanize(service.icon)];
@@ -54,19 +53,17 @@ const Faq = ({ data }) => {
                     <a
                       href={service.link}
                       key={i}
-                      className="flex flex-col justify-between rounded-full bg-white py-1 px-4 my-5 mr-2 border border-[#EDF7F3] hover:bg-[#EDF7F3] hover:shadow-lg"
+                      className="mb-2 mr-2 flex w-auto flex-col rounded-full border border-[#BFD3D3] bg-white px-4 py-1 hover:bg-[#BFD3D3] hover:shadow-lg"
                     >
                       <div className="integration-card-head flex items-center space-x-4">
                         <div className="icon my-2">
-                         <FeatherIcon />
+                          <FeatherIcon />
                         </div>
                         <div className="text-lg">{service.title}</div>
                       </div>
-                    </a>            
-                  )
-                }
-                
-                )}
+                    </a>
+                  );
+                })}
             </div>
           </div>
         </div>

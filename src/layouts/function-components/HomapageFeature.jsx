@@ -10,7 +10,7 @@ const HomapageFeature = ({ feature_list }) => {
           <a
             href={item.link}
             key={i}
-            className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg hover:bg-[#EDF7F3] hover:shadow-xl"
+            className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg hover:bg-[#BFD3D3] hover:shadow-xl"
           >
             <div className="integration-card-head flex items-center space-x-4">
               <div className="icon my-2">

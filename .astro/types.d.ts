@@ -300,8 +300,6 @@ declare module 'astro:content' {
   data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 };
-"careers copy": {
-};
 "careers": {
 "-index.mdx": {
 	id: "-index.mdx";
@@ -536,8 +534,6 @@ declare module 'astro:content' {
   collection: "service-pages";
   data: any
 } & { render(): Render[".md"] };
-};
-"servicePages": {
 };
 
 	};

@@ -300,6 +300,8 @@ declare module 'astro:content' {
   data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 };
+"careers copy": {
+};
 "careers": {
 "-index.mdx": {
 	id: "-index.mdx";
@@ -476,6 +478,66 @@ declare module 'astro:content' {
   collection: "pricing";
   data: any
 } & { render(): Render[".mdx"] };
+};
+"service-pages": {
+"-index.mdx": {
+	id: "-index.mdx";
+  slug: "-index";
+  body: string;
+  collection: "service-pages";
+  data: any
+} & { render(): Render[".mdx"] };
+"design-lead.md": {
+	id: "design-lead.md";
+  slug: "design-lead";
+  body: string;
+  collection: "service-pages";
+  data: any
+} & { render(): Render[".md"] };
+"full-stack-developer.md": {
+	id: "full-stack-developer.md";
+  slug: "full-stack-developer";
+  body: string;
+  collection: "service-pages";
+  data: any
+} & { render(): Render[".md"] };
+"head-desigin.md": {
+	id: "head-desigin.md";
+  slug: "head-desigin";
+  body: string;
+  collection: "service-pages";
+  data: any
+} & { render(): Render[".md"] };
+"head-of-inbound-marketing.md": {
+	id: "head-of-inbound-marketing.md";
+  slug: "head-of-inbound-marketing";
+  body: string;
+  collection: "service-pages";
+  data: any
+} & { render(): Render[".md"] };
+"junior-developer.md": {
+	id: "junior-developer.md";
+  slug: "junior-developer";
+  body: string;
+  collection: "service-pages";
+  data: any
+} & { render(): Render[".md"] };
+"laravel-developer.md": {
+	id: "laravel-developer.md";
+  slug: "laravel-developer";
+  body: string;
+  collection: "service-pages";
+  data: any
+} & { render(): Render[".md"] };
+"lead-product-designer.md": {
+	id: "lead-product-designer.md";
+  slug: "lead-product-designer";
+  body: string;
+  collection: "service-pages";
+  data: any
+} & { render(): Render[".md"] };
+};
+"servicePages": {
 };
 
 	};

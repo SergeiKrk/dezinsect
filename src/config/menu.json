@@ -13,7 +13,7 @@
       "url": "/blog"
     },
     {
-      "name": "Услуги",
+      "name": "УслугиИ",
       "url": "/features"
     },
     {
@@ -28,6 +28,11 @@
         {
           "name": "Career",
           "url": "/career"
+        },
+
+        {
+          "name": "Contact",
+          "url": "/contact"
         },
 
         {
@@ -51,8 +56,8 @@
       ]
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Услуги",
+      "url": "/service-pages"
     }
   ],
 

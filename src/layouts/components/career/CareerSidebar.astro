@@ -19,7 +19,7 @@ const { posts, sidebar_content } = Astro.props;
     )
   }
   {
-    posts.slice(0, 2).map((item: any) => (
+    posts.slice(0, 3).map((item: any) => (
       <div class="mb-8 rounded-xl bg-white px-7 py-10 shadow-lg">
         <h5 class="h5">{item.data.title}</h5>
         <p class="mt-6">{item.data.excerpt}</p>

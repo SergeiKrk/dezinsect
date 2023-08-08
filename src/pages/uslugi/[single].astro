@@ -7,11 +7,11 @@ import { getSinglePage } from "@lib/contentParser.astro";
 import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
 
-const careerIndex: any = await getEntryBySlug("careers", "-index");
-const careers = await getSinglePage("careers");
+const serviceIndex: any = await getEntryBySlug("uslugi", "-index");
+const servicepages = await getSinglePage("uslugi");
 export async function getStaticPaths() {
-  const careers = await getSinglePage("careers");
-  const paths = careers.map((post) => ({
+  const servicepages = await getSinglePage("uslugi");
+  const paths = servicepages.map((post) => ({
     params: {
       single: post.slug,
     },
@@ -21,9 +21,9 @@ export async function getStaticPaths() {
 }
 const { post } = Astro.props;
 const { Content } = await post.render();
-const similarPosts = similerItems(post, careers, post.slug);
+const similarPosts = similerItems(post, servicepages, post.slug);
 const page_data = {
-  index_title: careerIndex.data.title,
+  index_title: serviceIndex.data.title,
   page_title: post.data.title,
   slug: post.slug,
 };
@@ -55,7 +55,7 @@ const page_data = {
         </div>
         <CareerSidebar
           posts={similarPosts[0]}
-          sidebar_content={careerIndex.data.sidebar_content}
+          sidebar_content={serviceIndex.data.sidebar_content}
         />
       </div>
     </div>

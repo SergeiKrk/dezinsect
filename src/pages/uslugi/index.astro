@@ -6,16 +6,13 @@ import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 import { Image } from "@astrojs/image/components";
 import CareerBenifits from "@layouts/function-components/CareerBenifits";
-import JobPosts from "@layouts/function-components/JobPosts";
+import ServicePosts from "@layouts/function-components/ServicePosts";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { getTaxonomy } from "@lib/taxonomyParser.astro";
-const careerIndex = await getEntryBySlug<any, string>(
-  "service-pages",
-  "-index"
-);
+const careerIndex = await getEntryBySlug<any, string>("careers", "-index");
 const { benifits, career, image } = careerIndex.data;
-const categories = await getTaxonomy("service-pages", "categories");
-const jobposts = await getSinglePage("service-pages");
+const categories = await getTaxonomy("uslugi", "categories");
+const serviceposts = await getSinglePage("uslugi");
 const page_data = {
   title: careerIndex.data.title,
   page_title: careerIndex.data.page_title,
@@ -38,7 +35,7 @@ const page_data = {
         <div class="relative">
           <Image
             src={image}
-            alt="услуги СЭС"
+            alt=""
             height={532}
             width={1044}
             class="w-full rounded"
@@ -62,11 +59,11 @@ const page_data = {
     </div>
   </section>
   <CareerBenifits benifits={benifits} client:load />
-  <JobPosts
+  <ServicePosts
     client:load
     categories={categories}
     career={career}
-    posts={jobposts}
+    posts={serviceposts}
   />
   <Cta />
 </Base>

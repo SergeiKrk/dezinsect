@@ -9,22 +9,22 @@ import CareerBenifits from "@layouts/function-components/CareerBenifits";
 import ServicePosts from "@layouts/function-components/ServicePosts";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { getTaxonomy } from "@lib/taxonomyParser.astro";
-const careerIndex = await getEntryBySlug<any, string>("careers", "-index");
-const { benifits, career, image } = careerIndex.data;
+const uslugiIndex = await getEntryBySlug<any, string>("uslugi", "-index");
+const { benifits, career, image } = uslugiIndex.data;
 const categories = await getTaxonomy("uslugi", "categories");
 const serviceposts = await getSinglePage("uslugi");
 const page_data = {
-  title: careerIndex.data.title,
-  page_title: careerIndex.data.page_title,
-  content: careerIndex.body,
+  title: uslugiIndex.data.title,
+  page_title: uslugiIndex.data.page_title,
+  content: uslugiIndex.body,
 };
 ---
 
 <Base
-  title={careerIndex.data.title}
-  meta_title={careerIndex.data.meta_title}
-  description={careerIndex.data.description}
-  image={careerIndex.data.image}
+  title={uslugiIndex.data.title}
+  meta_title={uslugiIndex.data.meta_title}
+  description={uslugiIndex.data.description}
+  image={uslugiIndex.data.image}
 >
   <Shape />
 

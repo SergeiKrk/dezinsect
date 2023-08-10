@@ -1,5 +1,5 @@
 ---
-title: "Уничтожение клопов в Москве"
+title: "Уничтожение клопов в Москве и МО"
 excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
 job_nature: "Full Time"
 location: San Francisco

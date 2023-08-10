@@ -569,51 +569,9 @@ declare module 'astro:content' {
   collection: "uslugi";
   data: any
 } & { render(): Render[".mdx"] };
-"design-lead.md": {
-	id: "design-lead.md";
-  slug: "design-lead";
-  body: string;
-  collection: "uslugi";
-  data: any
-} & { render(): Render[".md"] };
-"full-stack-developer.md": {
-	id: "full-stack-developer.md";
-  slug: "full-stack-developer";
-  body: string;
-  collection: "uslugi";
-  data: any
-} & { render(): Render[".md"] };
-"head-desigin.md": {
-	id: "head-desigin.md";
-  slug: "head-desigin";
-  body: string;
-  collection: "uslugi";
-  data: any
-} & { render(): Render[".md"] };
-"head-of-inbound-marketing.md": {
-	id: "head-of-inbound-marketing.md";
-  slug: "head-of-inbound-marketing";
-  body: string;
-  collection: "uslugi";
-  data: any
-} & { render(): Render[".md"] };
-"junior-developer.md": {
-	id: "junior-developer.md";
-  slug: "junior-developer";
-  body: string;
-  collection: "uslugi";
-  data: any
-} & { render(): Render[".md"] };
-"laravel-developer.md": {
-	id: "laravel-developer.md";
-  slug: "laravel-developer";
-  body: string;
-  collection: "uslugi";
-  data: any
-} & { render(): Render[".md"] };
-"lead-product-designer.md": {
-	id: "lead-product-designer.md";
-  slug: "lead-product-designer";
+"dezinsekciya.md": {
+	id: "dezinsekciya.md";
+  slug: "dezinsekciya";
   body: string;
   collection: "uslugi";
   data: any

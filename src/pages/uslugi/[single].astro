@@ -1,5 +1,6 @@
 ---
-import CareerSidebar from "@components/career/CareerSidebar.astro";
+import ServiceSidebar from "@components/uslugi/ServiceSidebar.astro";
+import ServicePageBanner from "@components/features/ServicePageBanner.astro";
 import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
@@ -7,11 +8,11 @@ import { getSinglePage } from "@lib/contentParser.astro";
 import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
 
-const serviceIndex: any = await getEntryBySlug("uslugi", "-index");
-const servicepages = await getSinglePage("uslugi");
+const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
+const uslugipages = await getSinglePage("uslugi");
 export async function getStaticPaths() {
-  const servicepages = await getSinglePage("uslugi");
-  const paths = servicepages.map((post) => ({
+  const uslugipages = await getSinglePage("uslugi");
+  const paths = uslugipages.map((post) => ({
     params: {
       single: post.slug,
     },
@@ -21,9 +22,9 @@ export async function getStaticPaths() {
 }
 const { post } = Astro.props;
 const { Content } = await post.render();
-const similarPosts = similerItems(post, servicepages, post.slug);
+const similarPosts = similerItems(post, uslugipages, post.slug);
 const page_data = {
-  index_title: serviceIndex.data.title,
+  index_title: uslugiIndex.data.title,
   page_title: post.data.title,
   slug: post.slug,
 };
@@ -36,6 +37,7 @@ const page_data = {
   image={post.data.image}
 >
   <Shape />
+  <!-- <ServicePageBanner features={page_data}/> -->
 
   <section class="page-hero pb-14 pt-16">
     <div class="container rounded-xl bg-[#EDF7F3] py-24">
@@ -54,9 +56,9 @@ const page_data = {
             <Content />
           </div>
         </div>
-        <CareerSidebar
+        <ServiceSidebar
           posts={similarPosts[0]}
-          sidebar_content={serviceIndex.data.sidebar_content}
+          sidebar_content={uslugiIndex.data.sidebar_content}
         />
       </div>
     </div>

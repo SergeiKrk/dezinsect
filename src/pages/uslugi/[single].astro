@@ -1,7 +1,6 @@
 ---
 import ServiceSidebar from "@components/uslugi/ServiceSidebar.astro";
 import ServicePageBanner from "@components/features/ServicePageBanner.astro";
-import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
@@ -25,7 +24,11 @@ const { Content } = await post.render();
 const similarPosts = similerItems(post, uslugipages, post.slug);
 const page_data = {
   index_title: uslugiIndex.data.title,
-  excerpt: post.data.excerpt,
+  description: post.data.description,
+  minPric: post.data.minPric,
+  imgBanner: post.data.imgBanner,
+  serviceIcon: post.data.serviceIcon,
+  altserviceIcon: post.data.altserviceIcon,
   page_title: post.data.title,
   slug: post.slug,
 };
@@ -39,14 +42,6 @@ const page_data = {
 >
   <Shape />
   <ServicePageBanner page_data={page_data} />
-
-  <section class="page-hero pb-14 pt-16">
-    <div class="container rounded-xl bg-[#EDF7F3] py-24">
-      <div class="page-hero-content mx-auto max-w-[1200px] text-center">
-        <PageHeader page_data={page_data} />
-      </div>
-    </div>
-  </section>
   <section class="section career-single pt-0">
     <div class="container">
       <div class="lg:gx-4 row">

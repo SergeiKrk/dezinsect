@@ -1,7 +1,10 @@
 ---
 title: "Уничтожение клопов в Москве и МО"
-excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
-job_nature: "Full Time"
+description: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
+imgBanner: /images/sanepidemstanciya.webp
+serviceIcon: /images/logo.webp
+altServiceIcon: "Борьба с клопами"
+minPric: "1500"
 location: San Francisco
 categories: ["Дезинсекция"]
 date: 2021-07-11

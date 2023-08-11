@@ -1,9 +1,7 @@
 ---
-import { Image } from "@astrojs/image/components";
-
-const {
-  features: { title, banner },
-} = Astro.props;
+import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
+const { page_data } = Astro.props || {};
+const { title, excerpt, content } = page_data || {};
 ---
 
 <section class="section">
@@ -36,22 +34,23 @@ const {
             <span class="text-sm leading-none">/ {title}</span>
           </li>
         </ul>
-        <h1>
-          {banner.title}
-        </h1>
-        <p class="mt-6">
-          {banner.content}
-        </p>
-        {
+        <h1
+          set:html={markdownify(
+            page_data?.page_title ? page_data?.page_title : page_data?.title
+          )}
+        />
+        <p class="mt-6" set:html={markdownify(content)} />
+        <p class="mt-6" set:html={markdownify(page_data.excerpt)} />
+        <!-- {
           banner.button.enable && (
             <a class="btn btn-primary mt-6" href={banner.button.link}>
               {banner.button.label}
             </a>
           )
-        }
+        } -->
       </div>
       <div class="lg:col-6 lg:order-2">
-        <Image
+        <img
           class="mx-auto"
           src="/images/features-banner-img.png"
           width={412}

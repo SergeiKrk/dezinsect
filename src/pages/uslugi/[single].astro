@@ -6,6 +6,7 @@ import Base from "@layouts/Base.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
+import { Image } from "@astrojs/image/components";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const uslugipages = await getSinglePage("uslugi");
@@ -42,6 +43,23 @@ const page_data = {
 >
   <Shape />
   <ServicePageBanner page_data={page_data} />
+  <section class="px-4">
+    <div class="container my-8 rounded-xl shadow-lg flex flex-col lg:flex-row justify-center bg-white">
+      <Image
+      class="w-[150px] object-contain animate__animated animate__fadeIn m-8"
+          alt="Роспотребнадзор"
+          src="images/rospotrebnadzor.webp"
+          width={150}
+          height={150} 
+      />
+      <div class="grid content-center p-4 mb-8 lg:mb-0">
+        <p>Все используемые при обработке препараты и средства</p>
+        <p class="text-primary text-2xl lg:text-4xl">
+          Одобрены Роспотребнадзором
+        </p>
+      </div>
+    </div>
+  </section>
   <section class="section career-single pt-0">
     <div class="container">
       <div class="lg:gx-4 row">

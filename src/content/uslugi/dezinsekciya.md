@@ -9,6 +9,35 @@ location: San Francisco
 categories: ["Дезинсекция"]
 date: 2021-07-11
 draft: false
+benifits:
+  title: Обработка от клопов в Москве
+  description: Обрабатываем частные дома, квартиры и любые коммерческие помещения
+  benifit_list:
+    - title: Competitive salary
+      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit
+      amet aliuam vel"
+      color: "#24A1FF"
+      icon: briefcase #icon package react-feather-icon [https://feathericons.com]
+    - title: 100% remote
+      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      color: "#7B5AFF"
+      icon: aperture #icon package react-feather-icon [https://feathericons.com]
+    - title: Unlimited PTO
+      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      color: "#FDC528"
+      icon: umbrella  #icon package react-feather-icon [https://feathericons.com]
+    - title: Flexible HOURS
+      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      color: "#FF5874"
+      icon: clock  #icon package react-feather-icon [https://feathericons.com]
+    - title: Medical insurance
+      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      color: "#12E189"
+      icon: plusSquare  #icon package react-feather-icon [https://feathericons.com]
+    - title: Career growth
+      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      color: "#E545FF"
+      icon: barChart  #icon package react-feather-icon [https://feathericons.com]
 ---
 
 ### What Is the role?

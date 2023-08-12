@@ -3,6 +3,7 @@ import ServiceSidebar from "@components/uslugi/ServiceSidebar.astro";
 import ServicePageBanner from "@components/features/ServicePageBanner.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
+import ServiceBenifits from "@layouts/function-components/ServiceBenifits";
 import { getSinglePage } from "@lib/contentParser.astro";
 import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
@@ -25,6 +26,7 @@ const { Content } = await post.render();
 const similarPosts = similerItems(post, uslugipages, post.slug);
 const page_data = {
   index_title: uslugiIndex.data.title,
+  benifits: post.data.benifits,
   description: post.data.description,
   minPric: post.data.minPric,
   imgBanner: post.data.imgBanner,
@@ -60,6 +62,9 @@ const page_data = {
       </div>
     </div>
   </section>
+
+  <ServiceBenifits benifits={page_data.benifits} client:load />
+
   <section class="section career-single pt-0">
     <div class="container">
       <div class="lg:gx-4 row">

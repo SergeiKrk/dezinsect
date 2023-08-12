@@ -1,6 +1,5 @@
 ---
 import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
@@ -56,7 +55,7 @@ const page_data = {
       </div>
     </div>
   </section>
-  <CareerBenifits benifits={benifits} client:load />1231
+  <CareerBenifits benifits={benifits} client:load />
   <ServicePosts
     client:load
     categories={categories}

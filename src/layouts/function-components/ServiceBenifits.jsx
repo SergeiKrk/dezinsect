@@ -32,7 +32,7 @@ const ServiceBenifits = ({ benifits: { title, description, benifit_list } }) => 
                     />
                   </svg>
                   <span className="benifit-icon absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[28%]">
-                    <FeatherIcon color={item.color} size={48} />
+                    
                   </span>
                 </div>
                 <h3 className="h4 mb-4 mt-8">{item.title}</h3>

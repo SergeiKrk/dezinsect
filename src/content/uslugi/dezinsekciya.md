@@ -13,31 +13,30 @@ benifits:
   title: Обработка от клопов в Москве
   description: Обрабатываем частные дома, квартиры и любые коммерческие помещения
   benifit_list:
-    - title: Competitive salary
-      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit
-      amet aliuam vel"
+    - title: Средства без запаха
+      content: "После обработки комфортно находиться в помещении"
       color: "#24A1FF"
-      icon: briefcase #icon package react-feather-icon [https://feathericons.com]
-    - title: 100% remote
-      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      icon: tabler:building-community #icon package react-feather-icon [https://feathericons.com]
+    - title: Через 2 часа после обработки можно находиться в помещении
+      content: "Достаточно протереть контактные поверхности влажной тряпкой"
       color: "#7B5AFF"
-      icon: aperture #icon package react-feather-icon [https://feathericons.com]
-    - title: Unlimited PTO
-      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      icon: tabler:building-community #icon package react-feather-icon [https://feathericons.com]
+    - title: Безопасно для детей и домашних животных
+      content: "Используются сертифицированные средства"
       color: "#FDC528"
-      icon: umbrella  #icon package react-feather-icon [https://feathericons.com]
-    - title: Flexible HOURS
-      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      icon: tabler:building-community  #icon package react-feather-icon [https://feathericons.com]
+    - title: Эффект до 40 дней
+      content: "Достаточно для уничтожения вылупившихся клопов"
       color: "#FF5874"
-      icon: clock  #icon package react-feather-icon [https://feathericons.com]
-    - title: Medical insurance
-      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      icon: tabler:building-community  #icon package react-feather-icon [https://feathericons.com]
+    - title: Обработка действует уже через 30 минут
+      content: "Активные компоненты агрессивно воздействуют на вредителей практически сразу"
       color: "#12E189"
-      icon: plusSquare  #icon package react-feather-icon [https://feathericons.com]
-    - title: Career growth
-      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
+      icon: tabler:building-community  #icon package react-feather-icon [https://feathericons.com]
+    - title: Нет аллергических реакций
+      content: "Используемые средства прошли сертификацию"
       color: "#E545FF"
-      icon: barChart  #icon package react-feather-icon [https://feathericons.com]
+      icon: tabler:building-community  #icon package react-feather-icon [https://feathericons.com]
 ---
 
 ### What Is the role?

@@ -10,6 +10,7 @@ import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
 import { Image } from "@astrojs/image/components";
 import MyForm from "@components/MyForm.astro";
+import Advantages from "@components/uslugi/Advantages.astro";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const uslugipages = await getSinglePage("uslugi");
@@ -69,7 +70,8 @@ const page_data = {
     </div>
   </section>
 
-  <ServiceBenifits benifits={page_data.benifits} client:load />
+  <!-- <ServiceBenifits benifits={page_data.benifits} client:load /> -->
+  <Advantages benifits={page_data.benifits} />
 
   <section class="px-4">
     <div class="container my-8 p-14 rounded-xl shadow-lg text-center bg-white">

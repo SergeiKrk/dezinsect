@@ -4,6 +4,7 @@ import ServicePageBanner from "@components/features/ServicePageBanner.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import ServiceBenifits from "@layouts/function-components/ServiceBenifits";
+import CounterComponent from "@components/about/CounterComponent.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
@@ -12,6 +13,7 @@ import MyForm from "@components/MyForm.astro";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const uslugipages = await getSinglePage("uslugi");
+const about = await getEntryBySlug("about", "index");
 export async function getStaticPaths() {
   const uslugipages = await getSinglePage("uslugi");
   const paths = uslugipages.map((post) => ({
@@ -25,6 +27,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await post.render();
 const similarPosts = similerItems(post, uslugipages, post.slug);
+const { counter } = about.data;
 const page_data = {
   index_title: uslugiIndex.data.title,
   benifits: post.data.benifits,
@@ -35,6 +38,8 @@ const page_data = {
   altserviceIcon: post.data.altserviceIcon,
   page_title: post.data.title,
   slug: post.slug,
+  ...about.data,
+  content: about.body,
 };
 ---
 
@@ -75,6 +80,12 @@ const page_data = {
       <div class="flex justify-center">
         <MyForm />
       </div>
+    </div>
+  </section>
+
+  <section class="px-4">
+    <div class="container">
+      <CounterComponent counter={counter} />
     </div>
   </section>
 

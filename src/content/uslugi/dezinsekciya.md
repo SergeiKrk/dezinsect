@@ -13,30 +13,30 @@ benifits:
   title: Обработка от клопов в Москве
   description: Обрабатываем частные дома, квартиры и любые коммерческие помещения
   benifit_list:
-    - title: Средства без запаха
-      content: "После обработки комфортно находиться в помещении"
-      color: "#24A1FF"
-      icon: tabler:building-community #icon package react-feather-icon [https://feathericons.com]
-    - title: Через 2 часа после обработки можно находиться в помещении
-      content: "Достаточно протереть контактные поверхности влажной тряпкой"
-      color: "#7B5AFF"
-      icon: tabler:building-community #icon package react-feather-icon [https://feathericons.com]
     - title: Безопасно для детей и домашних животных
       content: "Используются сертифицированные средства"
       color: "#FDC528"
-      icon: tabler:building-community  #icon package react-feather-icon [https://feathericons.com]
-    - title: Эффект до 40 дней
-      content: "Достаточно для уничтожения вылупившихся клопов"
-      color: "#FF5874"
-      icon: tabler:building-community  #icon package react-feather-icon [https://feathericons.com]
+      icon: ph:baby-bold
     - title: Обработка действует уже через 30 минут
       content: "Активные компоненты агрессивно воздействуют на вредителей практически сразу"
       color: "#12E189"
-      icon: tabler:building-community  #icon package react-feather-icon [https://feathericons.com]
-    - title: Нет аллергических реакций
-      content: "Используемые средства прошли сертификацию"
+      icon: mdi:clock-fast
+    - title: Без аллергических реакций
+      content: "Используемые средства прошли сертификацию и не вызывают аллергии"
       color: "#E545FF"
-      icon: tabler:building-community  #icon package react-feather-icon [https://feathericons.com]
+      icon: mdi:allergy-outline
+    - title: Средства без запаха
+      content: "После обработки комфортно находиться в помещении"
+      color: "#24A1FF"
+      icon: mdi:odor-off
+    - title: Через 2 часа можно находиться в помещении
+      content: "Достаточно протереть контактные поверхности влажной тряпкой"
+      color: "#7B5AFF"
+      icon: mdi:home-clock-outline
+    - title: Эффект до 40 дней
+      content: "Достаточно для уничтожения вылупившихся клопов"
+      color: "#FF5874"
+      icon: tabler:calendar-time
 ---
 
 ### What Is the role?

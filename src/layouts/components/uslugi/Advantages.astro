@@ -3,18 +3,18 @@ import { Icon } from "astro-icon";
 const { benifits } = Astro.props;
 ---
 
-<section class="my-8">
-    <div class="container rounded-xl bg-white px-8 py-12">
+<section class="my-8 mt-24">
+    <div class="container">
       <div class="row ">
         <div class="mx-auto text-center lg:col-8">
           <h2>{benifits.title}</h2>
           <p class="mt-4">{benifits.description}</p>
         </div>
       </div>
-      <div class="row mt-14 text-center">
+      <div class="row mt-14 text-center grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
         {
             benifits.benifit_list.map((item: any, i: number) => (
-            <div class="mb-10 sm:col-6 lg:col-4 " key={i}>
+            <div class="py-4 rounded-xl bg-[#EDF7F3]" key={i}>
                 <div class="relative">
                   <svg
                     class={`mx-auto h-[90px] w-[100px]`}
@@ -37,7 +37,7 @@ const { benifits } = Astro.props;
                     />  
                   </span>
                 </div>
-                <h3 class="h4 mb-4 mt-8">{item.title}</h3>
+                <h3 class="h4 my-4">{item.title}</h3>
                 <p>{item.content}</p>
               </div>
             ))

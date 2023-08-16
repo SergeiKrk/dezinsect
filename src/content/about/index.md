@@ -1,6 +1,6 @@
 ---
-title: "About"
-page_title: "About our company"
+title: "О нас"
+page_title: "О нашей компании"
 buttons:
   - label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -12,22 +12,26 @@ buttons:
 
 # counter
 counter:
-  - name: "Customers"
-    number: 25
+  - name: "Человек в команде"
+    number: 20
     messurment: M
     color: "#A3A1FB"
-  - name: "Customers"
-    number: 440
+    icon: ion:people
+  - name: "Обработанных объектов в год"
+    number: 8500
     messurment: M
     color: "#5EE2A0"
-  - name: "Customers"
-    number: 50
+    icon: ic:sharp-home-work
+  - name: "Полностью конфиденциально"
+    number: 100
     messurment: K
     color: "#FE6019"
-  - name: "Customers"
-    number: 20
+    icon: ph:percent-bold
+  - name: "Лет в деле"
+    number: 12
     messurment: K
     color: "#FEC163"
+    icon: dashicons:plus
     
 # Gallery
 gallery:

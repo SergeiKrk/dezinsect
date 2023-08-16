@@ -1,8 +1,9 @@
 ---
+import { Icon } from "astro-icon";
 const { counter } = Astro.props;
 ---
 
-<div class="counter mt-16">
+<div class="counter mt-14">
   <div class="row mx-0 rounded-[20px] bg-white px-10 shadow-lg lg:py-10">
     {
       counter.map((item: any) => (
@@ -17,7 +18,7 @@ const { counter } = Astro.props;
                 color: item.color,
               }}
             >
-              +
+            <Icon class="h-7 w-7 inline mb-2" name={item.icon} />  
             </span>
           </h2>
           <p>{item.name}</p>

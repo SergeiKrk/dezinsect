@@ -5,10 +5,12 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import AutoImport from "astro-auto-import";
 import { defineConfig } from "astro/config";
+import { astroImageTools } from "astro-imagetools";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
 import prefetch from '@astrojs/prefetch';
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,6 +18,7 @@ export default defineConfig({
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   integrations: [
+    astroImageTools,
     prefetch(),
     react(),
     sitemap(),

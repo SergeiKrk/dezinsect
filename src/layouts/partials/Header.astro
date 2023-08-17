@@ -85,6 +85,7 @@ const { pathname } = Astro.url;
                     <li class="nav-dropdown-item">
                       <a
                         href={child.url}
+                        rel="prefetch-intent"
                         class={`nav-dropdown-link block ${
                           (pathname === `${child.url}/` ||
                             pathname === child.url) &&
@@ -101,6 +102,7 @@ const { pathname } = Astro.url;
               <li class="nav-item">
                 <a
                   href={menu.url}
+                  rel="prefetch-intent"
                   class={`nav-link inline-block lg:block ${
                     (pathname === `${menu.url}/` || pathname === menu.url) &&
                     "active"

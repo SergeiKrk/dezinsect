@@ -85,6 +85,7 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
                   <li className="my-1 mr-8">
                     <a
                       className="inline-flex items-center font-semibold text-primary"
+                      rel="prefetch-intent"
                       href={`/uslugi/${post.slug}`}
                     >
                       Read More

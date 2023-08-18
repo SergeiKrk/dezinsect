@@ -9,6 +9,7 @@ import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
 import prefetch from '@astrojs/prefetch';
+import compressor from "astro-compressor";
 
 
 // https://astro.build/config
@@ -41,6 +42,7 @@ export default defineConfig({
       ],
     }),
     mdx(),
+    compressor(),
   ],
   markdown: {
     remarkPlugins: [

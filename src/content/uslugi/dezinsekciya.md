@@ -40,8 +40,10 @@ benifits:
       icon: tabler:calendar-time
 
 serviceMethod:
+  title: от клопов
+  description: Бла бла бла .... преимущества и недостатки
   our_service:
-    - title: Accept payments any country in this whole universe
+    - title: 11Accept payments any country in this whole universe
       desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
       image: "/images/collaboration.png"
       list:

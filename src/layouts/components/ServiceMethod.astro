@@ -3,11 +3,15 @@ import VideoComponent from "@layouts/function-components/VideoComponent";
 import { AiFillCheckCircle } from "react-icons/ai/index.js";
 import { Image } from "@astrojs/image/components";
 const { service } = Astro.props;
-const { our_service } = service;
+const { title, description, our_service } = service;
 ---
 
 <section class="section services">
   <div class="container">
+    <div class="mx-auto text-center lg:max-w-3xl">
+      <h2>Методы обработки помещения {title}:</h2>
+      <p class="mt-4">{description}</p>
+    </div>
     {
       our_service.map((item: any, index: number) => (
         <div class="gx-5 row mt-12 items-center lg:mt-0">

@@ -19,7 +19,6 @@
     "astro": "^2.3.2",
     "astro-auto-import": "^0.3.0",
     "astro-icon": "^0.8.1",
-    "astro-imagetools": "^0.9.0",
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "disqus-react": "^1.1.5",

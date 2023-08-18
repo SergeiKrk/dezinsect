@@ -10,6 +10,7 @@ import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
 import prefetch from '@astrojs/prefetch';
 import compressor from "astro-compressor";
+import minifyHtml from "astro-html-minifier";
 
 
 // https://astro.build/config
@@ -19,6 +20,7 @@ export default defineConfig({
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   integrations: [
     prefetch(),
+    minifyHtml(),
     react(),
     sitemap(),
     tailwind({

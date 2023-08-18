@@ -699,6 +699,13 @@
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
+"@minify-html/node@0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@minify-html/node/-/node-0.11.1.tgz#88c55d00814c525a33244c945dffa32c29cdc3eb"
+  integrity sha512-f+3VvBszFaY5xx8e7POka1K1FnVZur8Apk18uaI4lSyZrzmpLlkSBZfXOPHVhChFc0TDI+RQuBD+ws4qIt9+mg==
+  dependencies:
+    cargo-cp-artifact "^0.1"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -1080,6 +1087,13 @@ astro-compressor@^0.4.0:
   resolved "https://registry.yarnpkg.com/astro-compressor/-/astro-compressor-0.4.0.tgz#43449877235e2ee9d8b03a6caa8af076c6f38536"
   integrity sha512-yw6wM+cjkdyAMc6HW2lrdinOxt64PwQuL5NCAe71cXF/5xjnyJhgg9nyyFE32oQtmtd5I/57Pyp/kPe9IfYAxg==
 
+astro-html-minifier@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/astro-html-minifier/-/astro-html-minifier-0.5.0.tgz#5fb25044bd59dbfb316fb977ae9ee301b8e3a9e6"
+  integrity sha512-DpVLTGPC6TataNbVZ0WeR9YH2trgQRrIxbRpQKnrb2975LbYGKPtcKhda2kli9Gsh0aQ8kp0txE308VlEC4VIg==
+  dependencies:
+    "@minify-html/node" "0.11.1"
+
 astro-icon@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/astro-icon/-/astro-icon-0.8.1.tgz#2259640cea3818326957dfba66ae17aa43f1d3cb"
@@ -1308,6 +1322,11 @@ caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001503:
   version "1.0.30001517"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001517.tgz#90fabae294215c3495807eb24fc809e11dc2f0a8"
   integrity sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==
+
+cargo-cp-artifact@^0.1:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/cargo-cp-artifact/-/cargo-cp-artifact-0.1.8.tgz#353814f49f6aa76601a4bcb3ea5f3071180b90de"
+  integrity sha512-3j4DaoTrsCD1MRkTF2Soacii0Nx7UHCce0EwUf4fHnggwiE4fbmF2AbnfzayR36DF8KGadfh7M/Yfy625kgPlA==
 
 ccount@^2.0.0:
   version "2.0.1"

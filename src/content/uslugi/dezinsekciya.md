@@ -9,6 +9,7 @@ location: San Francisco
 categories: ["Дезинсекция"]
 date: 2021-07-11
 draft: false
+
 benifits:
   title: Обработка от клопов в Москве
   description: Обрабатываем частные дома, квартиры и любые коммерческие помещения
@@ -37,6 +38,25 @@ benifits:
       content: "Достаточно для уничтожения вылупившихся клопов"
       color: "#FF5874"
       icon: tabler:calendar-time
+
+serviceMethod:
+  our_service:
+    - title: Accept payments any country in this whole universe
+      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
+      image: "/images/collaboration.png"
+      list:
+        - Supporting more than 119 country world
+        - Open transaction with more than currencies
+        - Customer Service with 79 languages
+    - title: Accountability that works for you
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+      video:
+        thumbnail: "/images/intro-thumbnail.png"
+        video_id: "g3-VxLQO7do"
+      button:
+        label: Know About Us
+        link: "#"
+        enable: true
 ---
 
 ### What Is the role?

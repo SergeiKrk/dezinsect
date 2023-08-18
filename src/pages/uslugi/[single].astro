@@ -10,6 +10,7 @@ import { getEntryBySlug } from "astro:content";
 import { Image } from "@astrojs/image/components";
 import MyForm from "@components/MyForm.astro";
 import Advantages from "@components/uslugi/Advantages.astro";
+import ServiceMethod from "@components/ServiceMethod.astro";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const uslugipages = await getSinglePage("uslugi");
@@ -31,6 +32,7 @@ const { counter } = about.data;
 const page_data = {
   index_title: uslugiIndex.data.title,
   benifits: post.data.benifits,
+  serviceMethod: post.data.serviceMethod,
   description: post.data.description,
   minPric: post.data.minPric,
   imgBanner: post.data.imgBanner,
@@ -92,6 +94,8 @@ const page_data = {
       <CounterComponent counter={counter} />
     </div>
   </section>
+
+  <ServiceMethod service={page_data.serviceMethod} />
 
   <section class="section career-single pt-0">
     <div class="container">

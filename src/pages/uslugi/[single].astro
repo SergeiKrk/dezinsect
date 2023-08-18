@@ -3,7 +3,6 @@ import ServiceSidebar from "@components/uslugi/ServiceSidebar.astro";
 import ServicePageBanner from "@components/features/ServicePageBanner.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
-import ServiceBenifits from "@layouts/function-components/ServiceBenifits";
 import CounterComponent from "@components/about/CounterComponent.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import similerItems from "@lib/utils/similarItems";
@@ -70,7 +69,6 @@ const page_data = {
     </div>
   </section>
 
-  <!-- <ServiceBenifits benifits={page_data.benifits} client:load /> -->
   <Advantages benifits={page_data.benifits} />
 
   <section class="px-4">

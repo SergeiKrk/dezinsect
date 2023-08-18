@@ -29,7 +29,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
           {
             footer.map((item, i) => (
               <li class={footer.length - 1 === i ? "mb-0" : "mb-4"}>
-                <a rel="prefetch-intent" class="hover:text-primary hover:underline " href={item.url}>
+                <a class="hover:text-primary hover:underline " href={item.url}>
                   {item.name}
                 </a>
               </li>

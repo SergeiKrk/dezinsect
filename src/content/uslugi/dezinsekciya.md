@@ -44,20 +44,20 @@ serviceMethod:
   description: Бла бла бла .... преимущества и недостатки
   our_service:
     - title: 11Accept payments any country in this whole universe
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
+      description: Donec1 sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
       image: "/images/collaboration.png"
       list:
         - Supporting more than 119 country world
         - Open transaction with more than currencies
         - Customer Service with 79 languages
     - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+      description: Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
       video:
         thumbnail: "/images/intro-thumbnail.png"
         video_id: "g3-VxLQO7do"
       button:
-        label: Know About Us
-        link: "#"
+        label: Заказать
+        link: "#toTheForm"
         enable: true
 ---
 

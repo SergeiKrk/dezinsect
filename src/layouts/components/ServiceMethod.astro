@@ -9,7 +9,7 @@ const { title, description, our_service } = service;
 <section class="section services">
   <div class="container">
     <div class="mx-auto text-center lg:max-w-3xl">
-      <h2>Методы обработки помещения {title}:</h2>
+      <h2>Методы обработки помещения {title}</h2>
       <p class="mt-4">{description}</p>
     </div>
     {
@@ -52,7 +52,7 @@ const { title, description, our_service } = service;
               index % 2 === 0 ? "order-1" : "order-0"
             }`}
           >
-            <div class="text-container">
+            <div class={`${index % 2 === 0 ? "ml-4" : "mr-4"}`}>
               <h2 class="lg:text-4xl">{item.title}</h2>
               <p class="mt-4">{item.description}</p>
               {item.button && item.button.enable && (

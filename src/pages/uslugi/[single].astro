@@ -11,6 +11,7 @@ import { Image } from "@astrojs/image/components";
 import MyForm from "@components/MyForm.astro";
 import Advantages from "@components/uslugi/Advantages.astro";
 import ServiceMethod from "@components/ServiceMethod.astro";
+import StepByStep from "@components/about/StepByStep.astro";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const uslugipages = await getSinglePage("uslugi");
@@ -33,6 +34,7 @@ const page_data = {
   index_title: uslugiIndex.data.title,
   benifits: post.data.benifits,
   serviceMethod: post.data.serviceMethod,
+  steps: post.data.steps,
   description: post.data.description,
   minPric: post.data.minPric,
   imgBanner: post.data.imgBanner,
@@ -96,6 +98,9 @@ const page_data = {
   </section>
 
   <ServiceMethod service={page_data.serviceMethod} />
+
+  <StepByStep steps={page_data.steps} />
+
 
   <section class="section career-single pt-0">
     <div class="container">

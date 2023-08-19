@@ -15,27 +15,27 @@ benifits:
   description: Обрабатываем частные дома, квартиры и любые коммерческие помещения
   benifit_list:
     - title: Безопасно для детей и домашних животных
-      content: "Используются сертифицированные средства"
+      decript: "Используются сертифицированные средства"
       color: "#FDC528"
       icon: ph:baby-bold
     - title: Обработка действует уже через 30 минут
-      content: "Активные компоненты агрессивно воздействуют на вредителей практически сразу"
+      decript: "Активные компоненты агрессивно воздействуют на вредителей практически сразу"
       color: "#12E189"
       icon: mdi:clock-fast
     - title: Без аллергических реакций
-      content: "Используемые средства прошли сертификацию и не вызывают аллергии"
+      decript: "Используемые средства прошли сертификацию и не вызывают аллергии"
       color: "#E545FF"
       icon: mdi:allergy-outline
     - title: Средства без запаха
-      content: "После обработки комфортно находиться в помещении"
+      decript: "После обработки комфортно находиться в помещении"
       color: "#24A1FF"
       icon: mdi:odor-off
     - title: Через 2 часа можно находиться в помещении
-      content: "Достаточно протереть контактные поверхности влажной тряпкой"
+      decript: "Достаточно протереть контактные поверхности влажной тряпкой"
       color: "#7B5AFF"
       icon: mdi:home-clock-outline
     - title: Эффект до 40 дней
-      content: "Достаточно для уничтожения вылупившихся клопов"
+      decript: "Достаточно для уничтожения вылупившихся клопов"
       color: "#FF5874"
       icon: tabler:calendar-time
 
@@ -59,6 +59,26 @@ serviceMethod:
         label: Заказать
         link: "#toTheForm"
         enable: true
+
+steps:
+  title: The six core work <br /> drive everything do
+  button:
+    label: Заказать консультацию
+    link: "#toTheForm"
+    enable: true
+  step_list:
+    - title: Accessibility
+      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - title: Empowerement
+      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - title: Excellence
+      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - title: Innovation
+      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - title: Innovation
+      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - title: Innovation
+      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
 ---
 
 ### What Is the role?

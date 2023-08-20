@@ -12,6 +12,7 @@ import MyForm from "@components/MyForm.astro";
 import Advantages from "@components/uslugi/Advantages.astro";
 import ServiceMethod from "@components/ServiceMethod.astro";
 import StepByStep from "@components/about/StepByStep.astro";
+import Accordion from "@layouts/function-components/Accordion.jsx";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const uslugipages = await getSinglePage("uslugi");
@@ -101,6 +102,14 @@ const page_data = {
 
   <StepByStep steps={page_data.steps} />
 
+  <section class="my-8 mt-24">
+    <div class="container">
+      <div class="mx-auto text-center lg:max-w-3xl">
+        <h2>Почему выбирают именно нас</h2>
+        <p class="mt-4">Наши сотрудники ведут успешную борьбу с вредителями с 2012 года. Вот некоторые цифры, отражающие эффективность нашей команды:</p>
+      </div>
+    </div>
+  </section>
 
   <section class="section career-single pt-0">
     <div class="container">

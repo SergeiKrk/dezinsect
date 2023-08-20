@@ -79,6 +79,14 @@ steps:
       decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
     - title: Innovation
       decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+
+costServices:
+  title: Стоимость услуг
+  description:
+  cost_services_list:
+  - title: Стоимость обработки квартир и домов от клопов
+    img: 
+    scope_work: 
 ---
 
 ### What Is the role?

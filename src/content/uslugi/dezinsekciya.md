@@ -1,8 +1,8 @@
 ---
-title: "Уничтожение клопов в Москве и МО"
-description: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
+title_page: Уничтожение клопов в Москве и МО
+description: 12Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
 imgBanner: /images/sanepidemstanciya.webp
-serviceIcon: /images/logo.webp
+serviceIcon: /images/service-pages/bedbug_klop_200.webp
 altServiceIcon: "Борьба с клопами"
 minPric: "1500"
 location: San Francisco
@@ -81,11 +81,11 @@ steps:
       decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
 
 costServices:
-  title: Стоимость услуг
+  title: Стоимость обработки квартир и домов от клопов
   description:
   cost_services_list:
-  - title: Стоимость обработки квартир и домов от клопов
-    img: 
+  - title: 1 комната
+    img: /service-pages/bedbug_klop_200.webp
     scope_work: 
 ---
 

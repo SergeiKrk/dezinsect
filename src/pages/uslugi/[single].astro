@@ -12,7 +12,6 @@ import MyForm from "@components/MyForm.astro";
 import Advantages from "@components/uslugi/Advantages.astro";
 import ServiceMethod from "@components/ServiceMethod.astro";
 import StepByStep from "@components/about/StepByStep.astro";
-import Accordion from "@layouts/function-components/Accordion.jsx";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const uslugipages = await getSinglePage("uslugi");
@@ -41,7 +40,7 @@ const page_data = {
   imgBanner: post.data.imgBanner,
   serviceIcon: post.data.serviceIcon,
   altserviceIcon: post.data.altserviceIcon,
-  page_title: post.data.title,
+  title_page: post.data.title_page,
   slug: post.slug,
   ...about.data,
   content: about.body,

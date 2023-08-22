@@ -17,7 +17,7 @@ const { costServices } = Astro.props;
       <!-- <div class="row mt-14 grid grid-cols-1 gap-1 lg:grid-cols-3"> -->
       {
         costServices.cost_services_list.map((item: any, i: number) => (
-          <div class={`p-4 bg-${item.color}`} key={i}>
+          <div class={`p-4 shadow-md rounded-sm bg-${item.color}`} key={i}>
             <p class="text-xl text-primary">{item.method}</p>
             <p class="text-lg">
               {item.scope_work}: от{" "}

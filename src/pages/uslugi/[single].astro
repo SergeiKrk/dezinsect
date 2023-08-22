@@ -1,11 +1,9 @@
 ---
-import ServiceSidebar from "@components/uslugi/ServiceSidebar.astro";
 import ServicePageBanner from "@components/features/ServicePageBanner.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import CounterComponent from "@components/about/CounterComponent.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
-import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
 import { Image } from "@astrojs/image/components";
 import MyForm from "@components/MyForm.astro";
@@ -13,9 +11,9 @@ import Advantages from "@components/uslugi/Advantages.astro";
 import ServiceMethod from "@components/ServiceMethod.astro";
 import StepByStep from "@components/about/StepByStep.astro";
 import CostSwrvices from "@components/uslugi/CostSwrvices.astro";
+import Faq from "@layouts/function-components/Faq.jsx";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
-const uslugipages = await getSinglePage("uslugi");
 const about = await getEntryBySlug("about", "index");
 export async function getStaticPaths() {
   const uslugipages = await getSinglePage("uslugi");
@@ -29,11 +27,11 @@ export async function getStaticPaths() {
 }
 const { post } = Astro.props;
 const { Content } = await post.render();
-const similarPosts = similerItems(post, uslugipages, post.slug);
 const { counter } = about.data;
 const page_data = {
   index_title: uslugiIndex.data.title,
   benifits: post.data.benifits,
+  faq: post.data.faq,
   serviceMethod: post.data.serviceMethod,
   steps: post.data.steps,
   costServices: post.data.costServices,
@@ -113,6 +111,21 @@ const page_data = {
 
   <CostSwrvices costServices={page_data.costServices} />
 
+  <section id="toTheForm" class="px-4">
+    <div class="container my-8 rounded-xl bg-white p-14 text-center shadow-lg">
+      <p>
+        Звоните прямо сейчас <a
+          class="text-4xl text-primary"
+          href="tel:+79170504962">+7 917 050 4962</a
+        > или
+      </p>
+      <h2 class="text-2xl text-primary lg:text-4xl">Оформите онлайн-заявку:</h2>
+      <div class="flex justify-center">
+        <MyForm />
+      </div>
+    </div>
+  </section>
+
   <section class="section career-single pt-0">
     <div class="container">
       <div class="lg:gx-4 row">
@@ -123,10 +136,9 @@ const page_data = {
             <Content />
           </div>
         </div>
-        <ServiceSidebar
-          posts={similarPosts[0]}
-          sidebar_content={uslugiIndex.data.sidebar_content}
-        />
+        <div class="lg:col-4">
+          <Faq client:load data={uslugiIndex.data} />
+        </div>
       </div>
     </div>
   </section>

@@ -15,7 +15,7 @@ const Faq = ({ data }) => {
   // const FeatherIcon = Icon[humanize(service.icon)];
 
   return (
-    <div className="rounded-xl bg-white px-5 py-5 shadow-lg lg:px-10 lg:py-8 animate__animated animate__bounceIn">
+    <div className="rounded-xl bg-white px-5 pb-5 shadow-lg lg:px-10 lg:py-8">
       {data.key_services.service_list.map((item, i) => (
         <div
           className={`accordion border-b border-border ${

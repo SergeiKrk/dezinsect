@@ -12,15 +12,13 @@ const Faq = ({ data }) => {
   };
 
   return (
-    <section className="faqs section">
-      <div className="container max-w-[1230px]">
+    <section className="faqs">
+      <div className="container">
         <div className="row">
-          <div className="text-center lg:col-4 lg:text-start">
-            <h2>{data.faq.title}</h2>
-            <p className="mt-6 lg:max-w-[404px]">{data.faq.description}</p>
-          </div>
-          <div className="mt-8 lg:col-8 lg:mt-0">
+          <div className="mt-8 lg:mt-0">
             <div className="rounded-xl bg-white px-5 py-5 shadow-lg lg:px-10 lg:py-8">
+              <h3>{data.faq.title}</h3>
+              <p className="mt-6 lg:max-w-[404px]">{data.faq.description}</p>
               {data.faq.faq_list.map((item, i) => (
                 <div
                   className={`accordion border-b border-border ${
@@ -29,10 +27,7 @@ const Faq = ({ data }) => {
                   onClick={() => accordionHandler(i)}
                   key={`item-${i}`}
                 >
-                  <div
-                    className="accordion-header relative pl-6 text-lg font-semibold text-dark"
-                    
-                  >
+                  <div className="accordion-header relative pl-6 text-lg font-semibold text-dark">
                     {item.title}
                     <svg
                       className="accordion-icon absolute left-0 top-[22px]"

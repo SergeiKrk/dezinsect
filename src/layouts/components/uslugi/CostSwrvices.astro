@@ -3,54 +3,29 @@ import Image from "astro/components/Image.astro";
 const { costServices } = Astro.props;
 ---
 
-<section class="mb-8 mt-14">
+<section class="my-8 mt-24">
   <div class="container">
-    <div class="mx-auto text-center lg:max-w-3xl">
-      <h2>Почему выбирают именно нас</h2>
-      <p class="mt-4">Наши сотрудники ведут успешную борьбу с вредителями с 2012 года. Вот некоторые цифры, отражающие эффективность нашей команды:</p>
+    <div class="row">
+      <div class="mx-auto text-center lg:col-8">
+        <h2>{costServices.title}</h2>
+        <p class="mt-4">{costServices.description}</p>
+      </div>
+    </div>
+    <div
+      class={`row mt-14 grid grid-cols-1 gap-1 lg:grid-cols-${costServices.cols}`}
+    >
+      <!-- <div class="row mt-14 grid grid-cols-1 gap-1 lg:grid-cols-3"> -->
+      {
+        costServices.cost_services_list.map((item: any, i: number) => (
+          <div class={`p-4 bg-${item.color}`} key={i}>
+            <p class="text-xl text-primary">{item.method}</p>
+            <p class="text-lg">
+              {item.scope_work}: от{" "}
+              <span class="text-lg text-secondary">{item.cost} ₽</span>
+            </p>
+          </div>
+        ))
+      }
     </div>
   </div>
 </section>
-
-<section class="my-8 mt-24">
-    <div class="container">
-      <div class="row ">
-        <div class="mx-auto text-center lg:col-8">
-          <h2>{costServices.title}</h2>
-          <p class="mt-4">{costServices.description}</p>
-        </div>
-      </div>
-      <div class="row mt-14 text-center grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
-        {
-            costServices.cost_services_list.map((item: any, i: number) => (
-            <div class="py-4 rounded-xl bg-[#EDF7F3]" key={i}>
-                <div class="relative">
-                  <svg
-                    class={`mx-auto h-[90px] w-[100px]`}
-                    style={{
-                      fill: item.color,
-                      opacity: 0.1,
-                    }}
-                    viewBox="0 0 200 200"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.141 5A9.97 9.97 0 0 0 12 2C6.477 2 2 6.477 2 12a9.968 9.968 0 0 0 2.859 7M19.14 5A9.967 9.967 0 0 1 22 12c0 5.523-4.477 10-10 10a9.97 9.97 0 0 1-7.141-3M19.14 5L4.86 19"/>
-                  </svg>
-                  <span class="benifit-icon absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[28%]">
-                    <Image
-                        class="h-6 w-6 text-sky-100 duration-200 hover:scale-150"
-                        src={item.img}
-                        alt={item.title}
-                        width={50}
-                        height={50}
-                    />  
-                  </span>
-                </div>
-                <h3 class="h4 my-4">{item.title}</h3>
-                <p>{item.content}</p>
-              </div>
-            ))
-          }
-      </div>
-    </div>
-  </section>

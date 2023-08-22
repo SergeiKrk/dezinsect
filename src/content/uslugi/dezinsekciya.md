@@ -82,11 +82,69 @@ steps:
 
 costServices:
   title: Стоимость обработки квартир и домов от клопов
-  description:
+  description: Итоговая цена за услугу по уничтожению клопов изменяется в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
+  cols: 3
   cost_services_list:
-  - title: 1 комната
-    img: /service-pages/bedbug_klop_200.webp
-    scope_work: 
+    - scope_work: 1 комната
+      method: Холодный туман
+      cost: "4800"
+      color: "white"
+    - scope_work: 1 комната
+      method: Горячий туман
+      cost: "5000"
+      color: "white"
+    - scope_work: 1 комната
+      method: Комплексная обработка
+      cost: "5000"
+      color: "white"
+    - scope_work: 1-комнатная квартира
+      method: Холодный туман
+      cost: "4800"
+      color: "[#EDF7F3]"
+    - scope_work: 1-комнатная квартира
+      method: Горячий туман
+      cost: "5000"
+      color: "[#EDF7F3]"
+    - scope_work: 1-комнатная квартира
+      method: Комплексная обработка
+      cost: "6000"
+      color: "[#EDF7F3]"
+    - scope_work: 2-комнатная квартира
+      method: Холодный туман
+      cost: "5500"
+      color: "white"
+    - scope_work: 2-комнатная квартира
+      method: Горячий туман
+      cost: "6000"
+      color: "white"
+    - scope_work: 2-комнатная квартира
+      method: Комплексная обработка
+      cost: "7000"
+      color: "white"
+    - scope_work: 3-комнатная квартира
+      method: Холодный туман
+      cost: "6000"
+      color: "[#EDF7F3]"
+    - scope_work: 3-комнатная квартира
+      method: Горячий туман
+      cost: "7000"
+      color: "[#EDF7F3]"
+    - scope_work: 3-комнатная квартира
+      method: Комплексная обработка
+      cost: "8000"
+      color: "[#EDF7F3]"
+    - scope_work: 4-комнатная квартира
+      method: Холодный туман
+      cost: "7000"
+      color: "white"
+    - scope_work: 4-комнатная квартира
+      method: Горячий туман
+      cost: "8000"
+      color: "white"
+    - scope_work: 4-комнатная квартира
+      method: Комплексная обработка
+      cost: "9000"
+      color: "white"
 ---
 
 ### What Is the role?

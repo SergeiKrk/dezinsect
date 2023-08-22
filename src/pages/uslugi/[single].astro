@@ -12,6 +12,7 @@ import MyForm from "@components/MyForm.astro";
 import Advantages from "@components/uslugi/Advantages.astro";
 import ServiceMethod from "@components/ServiceMethod.astro";
 import StepByStep from "@components/about/StepByStep.astro";
+import CostSwrvices from "@components/uslugi/CostSwrvices.astro";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const uslugipages = await getSinglePage("uslugi");
@@ -35,6 +36,7 @@ const page_data = {
   benifits: post.data.benifits,
   serviceMethod: post.data.serviceMethod,
   steps: post.data.steps,
+  costServices: post.data.costServices,
   description: post.data.description,
   minPric: post.data.minPric,
   imgBanner: post.data.imgBanner,
@@ -56,17 +58,19 @@ const page_data = {
   <Shape />
   <ServicePageBanner page_data={page_data} />
   <section class="px-4">
-    <div class="container my-8 rounded-xl shadow-lg flex flex-col lg:flex-row justify-center bg-white">
+    <div
+      class="container my-8 flex flex-col justify-center rounded-xl bg-white shadow-lg lg:flex-row"
+    >
       <Image
-      class="w-[150px] object-contain animate__animated animate__fadeIn m-8"
-          alt="Роспотребнадзор"
-          src="/images/rospotrebnadzor.webp"
-          width={150}
-          height={150} 
+        class="animate__animated animate__fadeIn m-8 w-[150px] object-contain"
+        alt="Роспотребнадзор"
+        src="/images/rospotrebnadzor.webp"
+        width={150}
+        height={150}
       />
-      <div class="grid content-center p-4 mb-8 lg:mb-0">
+      <div class="mb-8 grid content-center p-4 lg:mb-0">
         <p>Все используемые при обработке препараты и средства</p>
-        <p class="text-primary text-2xl lg:text-4xl">
+        <p class="text-2xl text-primary lg:text-4xl">
           Одобрены Роспотребнадзором
         </p>
       </div>
@@ -76,11 +80,14 @@ const page_data = {
   <Advantages benifits={page_data.benifits} />
 
   <section id="toTheForm" class="px-4">
-    <div class="container my-8 p-14 rounded-xl shadow-lg text-center bg-white">
-      <p>Звоните прямо сейчас <a class="text-4xl text-primary" href="tel:+79170504962">+7 917 050 4962</a> или</p>
-        <h2 class="text-primary text-2xl lg:text-4xl">
-          Оформите онлайн-заявку:
-        </h2>
+    <div class="container my-8 rounded-xl bg-white p-14 text-center shadow-lg">
+      <p>
+        Звоните прямо сейчас <a
+          class="text-4xl text-primary"
+          href="tel:+79170504962">+7 917 050 4962</a
+        > или
+      </p>
+      <h2 class="text-2xl text-primary lg:text-4xl">Оформите онлайн-заявку:</h2>
       <div class="flex justify-center">
         <MyForm />
       </div>
@@ -91,7 +98,10 @@ const page_data = {
     <div class="container">
       <div class="mx-auto text-center lg:max-w-3xl">
         <h2>Почему выбирают именно нас</h2>
-        <p class="mt-4">Наши сотрудники ведут успешную борьбу с вредителями с 2012 года. Вот некоторые цифры, отражающие эффективность нашей команды:</p>
+        <p class="mt-4">
+          Наши сотрудники ведут успешную борьбу с вредителями с 2012 года. Вот
+          некоторые цифры, отражающие эффективность нашей команды:
+        </p>
       </div>
       <CounterComponent counter={counter} />
     </div>
@@ -101,14 +111,7 @@ const page_data = {
 
   <StepByStep steps={page_data.steps} />
 
-  <section class="my-8 mt-24">
-    <div class="container">
-      <div class="mx-auto text-center lg:max-w-3xl">
-        <h2>Почему выбирают именно нас</h2>
-        <p class="mt-4">Наши сотрудники ведут успешную борьбу с вредителями с 2012 года. Вот некоторые цифры, отражающие эффективность нашей команды:</p>
-      </div>
-    </div>
-  </section>
+  <CostSwrvices costServices={page_data.costServices} />
 
   <section class="section career-single pt-0">
     <div class="container">

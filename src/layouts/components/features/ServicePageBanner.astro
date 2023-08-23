@@ -2,41 +2,66 @@
 import MyForm from "@components/MyForm.astro";
 import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
 const { page_data } = Astro.props || {};
-const { title_page, imgBanner, serviceIcon, altserviceIcon, description, minPric, content } = page_data || {};
+const {
+  title_page,
+  imgBanner,
+  serviceIcon,
+  altserviceIcon,
+  description,
+  minPric,
+  content,
+} = page_data || {};
 ---
 
-<section class="section my-8 lg:mx-[10%] rounded-xl bg-[#EDF7F3] py-12">
+<section class="section my-8 rounded-xl bg-[#EDF7F3] py-12 lg:mx-[10%]">
   <div class="container">
     <div class="row">
       <div
         class="mb-14 text-center lg:col-6 lg:order-1 lg:mb-0 lg:mt-0 lg:text-left"
       >
-        <h1 set:html={markdownify(title_page)}  />
+        <h1 set:html={markdownify(title_page)} />
         <p class="mt-6" set:html={markdownify(content)} />
-        
+
         <div class="flex flex-row">
-          <div class="w-100 h-100 flex justify-center items-center text-red-500">
-            
-            <svg class="z-10" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><g transform="rotate(90 12 12)"><path fill="#ec6227" d="M20.94 11A8.994 8.994 0 0 0 13 3.06V2c0-.55-.45-1-1-1s-1 .45-1 1v1.06A8.994 8.994 0 0 0 3.06 11H2c-.55 0-1 .45-1 1s.45 1 1 1h1.06A8.994 8.994 0 0 0 11 20.94V22c0 .55.45 1 1 1s1-.45 1-1v-1.06A8.994 8.994 0 0 0 20.94 13H22c.55 0 1-.45 1-1s-.45-1-1-1h-1.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7s7 3.13 7 7s-3.13 7-7 7z"/></g></svg>
-            <img class="absolute w-100 h-100 object-cover" 
-            width={60}
-            height={60}
-            src={page_data.serviceIcon}
-            alt={page_data.altServiceIcon}>
+          <div
+            class="w-100 h-100 flex items-center justify-center text-red-500"
+          >
+            <svg
+              class="z-10"
+              xmlns="http://www.w3.org/2000/svg"
+              width="100"
+              height="100"
+              viewBox="0 0 24 24"
+              ><g transform="rotate(90 12 12)"
+                ><path
+                  fill="#ec6227"
+                  d="M20.94 11A8.994 8.994 0 0 0 13 3.06V2c0-.55-.45-1-1-1s-1 .45-1 1v1.06A8.994 8.994 0 0 0 3.06 11H2c-.55 0-1 .45-1 1s.45 1 1 1h1.06A8.994 8.994 0 0 0 11 20.94V22c0 .55.45 1 1 1s1-.45 1-1v-1.06A8.994 8.994 0 0 0 20.94 13H22c.55 0 1-.45 1-1s-.45-1-1-1h-1.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7s7 3.13 7 7s-3.13 7-7 7z"
+                ></path></g
+              ></svg
+            >
+            <img
+              alt={page_data.altServiceIcon}
+              class="w-100 h-100 absolute object-cover"
+              width={60}
+              height={60}
+              src={page_data.serviceIcon}
+            />
           </div>
-                
-        <p class="mt-6" set:html={markdownify(page_data.description)} />
+
+          <p class="mt-6" set:html={markdownify(page_data.description)} />
         </div>
-        <p class="text-2xl mt-4 lg:text-4xl text-[#1C6767]">от <span class="mt-6" set:html={markdownify(page_data.minPric)} /> ₽</p>
+        <p class="mt-4 text-2xl text-[#1C6767] lg:text-4xl">
+          от <span class="mt-6" set:html={markdownify(page_data.minPric)} /> ₽
+        </p>
         <MyForm />
       </div>
-      <div class="lg:col-6 lg:order-2 flex justify-center items-center">
+      <div class="flex items-center justify-center lg:col-6 lg:order-2">
         <img
           class="mx-auto"
           src={page_data.imgBanner}
           width={412}
           height={483}
-          alt={page_data.page_title}
+          alt={page_data.title_page}
         />
       </div>
     </div>

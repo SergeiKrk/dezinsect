@@ -68,7 +68,7 @@ const page_data = {
       />
       <div class="mb-8 grid content-center p-4 lg:mb-0">
         <p>Все используемые при обработке препараты и средства</p>
-        <p class="text-2xl text-primary lg:text-4xl">
+        <p class="text-[#1C6767 ] text-2xl lg:text-4xl">
           Одобрены Роспотребнадзором
         </p>
       </div>
@@ -81,11 +81,13 @@ const page_data = {
     <div class="container my-8 rounded-xl bg-white p-14 text-center shadow-lg">
       <p>
         Звоните прямо сейчас <a
-          class="text-4xl text-primary"
+          class="text-[#1C6767 ] text-4xl"
           href="tel:+79170504962">+7 917 050 4962</a
         > или
       </p>
-      <h2 class="text-2xl text-primary lg:text-4xl">Оформите онлайн-заявку:</h2>
+      <h2 class="text-[#1C6767 ] text-2xl lg:text-4xl">
+        Оформите онлайн-заявку:
+      </h2>
       <div class="flex justify-center">
         <MyForm />
       </div>
@@ -115,11 +117,13 @@ const page_data = {
     <div class="container my-8 rounded-xl bg-white p-14 text-center shadow-lg">
       <p>
         Звоните прямо сейчас <a
-          class="text-4xl text-primary"
+          class="text-[#1C6767 ] text-4xl"
           href="tel:+79170504962">+7 917 050 4962</a
         > или
       </p>
-      <h2 class="text-2xl text-primary lg:text-4xl">Оформите онлайн-заявку:</h2>
+      <h2 class="text-[#1C6767 ] text-2xl lg:text-4xl">
+        Оформите онлайн-заявку:
+      </h2>
       <div class="flex justify-center">
         <MyForm />
       </div>
@@ -138,12 +142,6 @@ const page_data = {
         </div>
         <div class="lg:col-4">
           <Faq client:load data={uslugiIndex.data} />
-          <div class="sticky top-24 rounded-xl bg-white mx-4 mt-8 p-4 shadow-lg lg:p-8">
-            <p>Заказать обработку {page_data.serviceMethod.title}</p>
-            <a class="z-10 mt-4 w-full flex justify-center items-center gap-x-3 text-center bg-primary hover:bg-primary border border-transparent text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-green-800 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
-              Заказать
-            </a>
-          </div>
         </div>
       </div>
     </div>

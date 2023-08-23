@@ -20,11 +20,10 @@ const {
         class="mb-14 text-center lg:col-6 lg:order-1 lg:mb-0 lg:mt-0 lg:text-left"
       >
         <h1 set:html={markdownify(title_page)} />
-        <p class="mt-6" set:html={markdownify(content)} />
 
-        <div class="flex flex-row">
+        <div class="mt-6 flex flex-col sm:flex-row lg:items-stretch">
           <div
-            class="w-100 h-100 flex items-center justify-center text-red-500"
+            class="w-100 h-100 flex items-center justify-center text-red-500 lg:mr-4"
           >
             <svg
               class="z-10"
@@ -48,7 +47,7 @@ const {
             />
           </div>
 
-          <p class="mt-6" set:html={markdownify(page_data.description)} />
+          <p set:html={markdownify(page_data.description)} />
         </div>
         <p class="mt-4 text-2xl text-[#1C6767] lg:text-4xl">
           от <span class="mt-6" set:html={markdownify(page_data.minPric)} /> ₽

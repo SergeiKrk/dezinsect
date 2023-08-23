@@ -45,7 +45,7 @@ const Faq = ({ data }) => {
                 __html: marked.parseInline(item.content),
               }}
             />
-            <div class="my-5  flex flex-wrap text-dark">
+            <div className="my-5  flex flex-wrap text-dark">
               {item.service &&
                 item.service.map((service) => {
                   const FeatherIcon = Icon[humanize(service.icon)];

@@ -7,9 +7,9 @@ const { counter } = Astro.props;
   <div class="row mx-0 rounded-[20px] bg-white px-10 shadow-lg lg:py-10">
     {
       counter.map((item: any) => (
-        <div class="border-border sm:col-6 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
+        <div class="border-border px-10 py-10 text-center sm:col-6 lg:col-3 lg:border-r lg:py-0 last:lg:border-none">
           <h2>
-            <span class="count" aria-valuenow={item.number}>
+            <span role="separator" class="count" aria-valuenow={item.number}>
               0
             </span>
             <span
@@ -18,7 +18,7 @@ const { counter } = Astro.props;
                 color: item.color,
               }}
             >
-            <Icon class="h-7 w-7 inline mb-2" name={item.icon} />  
+              <Icon class="mb-2 inline h-7 w-7" name={item.icon} />
             </span>
           </h2>
           <p>{item.name}</p>

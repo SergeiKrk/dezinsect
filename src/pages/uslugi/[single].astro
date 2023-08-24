@@ -35,14 +35,16 @@ const page_data = {
   serviceMethod: post.data.serviceMethod,
   steps: post.data.steps,
   costServices: post.data.costServices,
-  description: post.data.description,
-  minPric: post.data.minPric,
-  imgBanner: post.data.imgBanner,
-  serviceIcon: post.data.serviceIcon,
-  title_page: post.data.title_page,
-  altService: post.data.altService,
   slug: post.slug,
 };
+const pageBanner = {
+  title_page: post.data.title_page,
+  imgBanner: post.data.imgBanner,
+  serviceIcon: post.data.serviceIcon,
+  altService: post.data.altService,
+  description: post.data.description,
+  minPric: post.data.minPric,
+}
 ---
 
 <Base
@@ -52,7 +54,7 @@ const page_data = {
   image={post.data.image}
 >
   <Shape />
-  <ServicePageBanner page_data={page_data} />
+  <ServicePageBanner pageBanner={pageBanner} />
   <section class="px-4">
     <div
       class="container my-8 flex flex-col justify-center rounded-xl bg-white shadow-lg lg:flex-row"

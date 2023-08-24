@@ -1,7 +1,7 @@
 ---
 import MyForm from "@components/MyForm.astro";
 import { markdownify } from "@lib/utils/textConverter";
-const { page_data } = Astro.props || {};
+const { pageBanner } = Astro.props || {};
 const {
   title_page,
   imgBanner,
@@ -10,7 +10,7 @@ const {
   description,
   minPric,
   content,
-} = page_data || {};
+} = pageBanner || {};
 ---
 
 <section class="section my-8 rounded-xl bg-[#EDF7F3] py-12 lg:mx-[10%]">
@@ -43,24 +43,24 @@ const {
               class="w-100 h-100 absolute object-cover"
               width={60}
               height={60}
-              src={page_data.serviceIcon}
+              src={pageBanner.serviceIcon}
             />
           </div>
 
-          <p set:html={markdownify(page_data.description)} />
+          <p set:html={markdownify(pageBanner.description)} />
         </div>
         <p class="mt-4 text-2xl text-[#1C6767] lg:text-4xl">
-          от <span class="mt-6" set:html={markdownify(page_data.minPric)} /> ₽
+          от <span class="mt-6" set:html={markdownify(pageBanner.minPric)} /> ₽
         </p>
         <MyForm />
       </div>
       <div class="flex items-center justify-center lg:col-6 lg:order-2">
         <img
           class="mx-auto"
-          src={page_data.imgBanner}
+          src={pageBanner.imgBanner}
           width={412}
           height={483}
-          alt={page_data.title_page}
+          alt={pageBanner.title_page}
         />
       </div>
     </div>

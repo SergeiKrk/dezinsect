@@ -52,9 +52,7 @@ serviceMethod:
         - Customer Service with 79 languages
     - title: Accountability that works for you
       description: Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
-      video:
-        thumbnail: "/images/intro-thumbnail.png"
-        video_id: "g3-VxLQO7do"
+      image: "/images/collaboration.png"
       button:
         label: Заказать
         link: "#toTheForm"

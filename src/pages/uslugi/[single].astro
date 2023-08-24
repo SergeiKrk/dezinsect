@@ -10,7 +10,7 @@ import MyForm from "@components/MyForm.astro";
 import Advantages from "@components/uslugi/Advantages.astro";
 import ServiceMethod from "@components/ServiceMethod.astro";
 import StepByStep from "@components/about/StepByStep.astro";
-import CostSwrvices from "@components/uslugi/CostSwrvices.astro";
+import CostServices from "@components/uslugi/CostServices.astro";
 import Faq from "@layouts/function-components/Faq.jsx";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
@@ -109,7 +109,7 @@ const page_data = {
 
   <StepByStep steps={page_data.steps} />
 
-  <CostSwrvices costServices={page_data.costServices} />
+  <CostServices costServices={page_data.costServices} />
 
   <section id="toTheForm" class="px-4">
     <div class="container my-8 rounded-xl bg-white p-14 text-center shadow-lg">

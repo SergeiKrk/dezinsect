@@ -1,12 +1,12 @@
 ---
 import MyForm from "@components/MyForm.astro";
-import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
+import { markdownify } from "@lib/utils/textConverter";
 const { page_data } = Astro.props || {};
 const {
   title_page,
   imgBanner,
   serviceIcon,
-  altserviceIcon,
+  altService,
   description,
   minPric,
   content,
@@ -39,7 +39,7 @@ const {
               ></svg
             >
             <img
-              alt={page_data.location}
+              alt={altService}
               class="w-100 h-100 absolute object-cover"
               width={60}
               height={60}

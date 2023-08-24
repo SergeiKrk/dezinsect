@@ -19,12 +19,12 @@ const { copyright, location, email, phone, footer_description } = config.params;
         </p>
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Socials</h6>
+        <div class="text-lg font-bold">Socials</div>
 
         <Social source={social} className="social-icons mt-4 lg:mt-6" />
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Quick Links</h6>
+        <div class="text-lg font-bold">Quick Links</div>
         <ul>
           {
             footer.map((item, i) => (
@@ -38,7 +38,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
         </ul>
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Location & Contact</h6>
+        <div class="text-lg font-bold">Location & Contact</div>
         <ul>
           <li class="mb-2">{location}</li>
           <li class="mb-2">

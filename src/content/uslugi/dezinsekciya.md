@@ -43,13 +43,21 @@ serviceMethod:
   title: от клопов
   description: Бла бла бла .... преимущества и недостатки
   our_service:
-    - title: 11Accept payments any country in this whole universe
-      description: Donec1 sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
+    - title: Холодный туман в борьбе с клопами
+      description: Современные технологии помогают справиться с нашествием клопов. Одним из передовых методов стал генератор холодного тумана. Как он действует и почему он так популярен?
+      principle_operation: Генератор холодного тумана распыляет инсектицид в виде мельчайших аэрозольных частиц, создавая плотную стену ядовитого тумана. Этот туман опасен для клопов, уничтожая их хитиновый покров и дыхательные пути.
+      advantages_list:
+      - Высокая проникающая способность.
+      - Высокая эффективность.
+      - Длительное действие.
+      - Отсутствие следов.
+      - Безопасность.
+      disadvantages_list:
+      - Может быть дороже некоторых других методов борьбы с клопами.
+      - Необходимо оставить помещение под воздействием тумана на определенное время, что может вызвать неудобства для жильцов.
+      - Применение метода требует специалистов с опытом.
+      - Результат обработки может зависеть от качественной подготовки помещения.
       image: "/images/collaboration.png"
-      list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
     - title: Accountability that works for you
       description: Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
       image: "/images/collaboration.png"

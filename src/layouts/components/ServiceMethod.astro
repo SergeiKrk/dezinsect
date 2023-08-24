@@ -1,6 +1,6 @@
 ---
 import VideoComponent from "@layouts/function-components/VideoComponent";
-import { AiFillCheckCircle } from "react-icons/ai/index.js";
+import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai/index.js";
 import { Image } from "@astrojs/image/components";
 const { service } = Astro.props;
 const { title, description, our_service } = service;
@@ -15,7 +15,7 @@ const { title, description, our_service } = service;
     {
       our_service.map((item: any, index: number) => (
         <div class="gx-5 row mt-12 items-center lg:mt-0">
-          <div class={`lg:col-7 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
+          <div class={`lg:col-5 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
             {item.image && (
               <div class="relative">
                 <Image
@@ -48,13 +48,41 @@ const { title, description, our_service } = service;
             )}
           </div>
           <div
-            class={`mt-6 lg:col-5 lg:mt-0 ${
+            class={`mt-6 lg:col-7 lg:mt-0 ${
               index % 2 === 0 ? "order-1" : "order-0"
             }`}
           >
             <div class={`${index % 2 === 0 ? "ml-4" : "mr-4"}`}>
-              <h2 class="lg:text-4xl">{item.title}</h2>
-              <p class="mt-4">{item.description}</p>
+              <h2 class="lg:text-3xl mb-6">{item.title}</h2>
+              <p class="my-4">{item.description}</p>
+              {item.principle_operation && (
+                <p class="font-bold my-2">Принцип действия:</p>
+                <p>{item.principle_operation}</p>
+                )}
+              {item.advantages_list && (
+                <p class="my-3 font-bold">Преимущества метода:</p>
+                <ul class="text-dark lg:-ml-4">
+                  {item.advantages_list &&
+                  item.advantages_list.map((list: any) => (
+                    <li class="flex items-center rounded px-4">
+                      <AiFillPlusCircle className="mr-3 fill-primary text-white" />
+                      {list}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {item.disadvantages_list && (
+                <p class="my-3 font-bold">Недостатки метода:</p>
+                <ul class="text-dark lg:-ml-4">
+                  {item.disadvantages_list &&
+                  item.disadvantages_list.map((negativelist: any) => (
+                    <li class="flex items-center px-4">
+                      <span><AiFillMinusCircle className="mr-3 fill-secondary text-white" /></span>
+                      {negativelist}
+                    </li>
+                  ))}
+                </ul>
+              )}
               {item.button && item.button.enable && (
                 <a class="btn btn-white mt-6" href={item.button.link}>
                   {item.button.label}
@@ -64,7 +92,7 @@ const { title, description, our_service } = service;
                 {item.list &&
                   item.list.map((list: any) => (
                     <li class="mb-2 flex items-center rounded px-4">
-                      <AiFillCheckCircle className="mr-3 fill-primary text-white" />
+                      <AiFillPlusCircle className="mr-3 fill-primary text-white" />
                       {list}
                     </li>
                   ))}

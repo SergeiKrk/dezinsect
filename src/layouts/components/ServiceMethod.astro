@@ -8,14 +8,14 @@ const { title, description, our_service } = service;
 
 <section class="my-8 mt-24">
   <div class="container">
-    <div class="mx-auto text-center lg:max-w-3xl">
-      <h2>Методы обработки помещения {title}</h2>
+    <div class="mx-auto mb-8 text-center lg:max-w-3xl">
+      <h2>Методы обработки {title}</h2>
       <p class="mt-4">{description}</p>
     </div>
     {
       our_service.map((item: any, index: number) => (
-        <div class="gx-5 row mt-12 items-center lg:mt-0">
-          <div class={`lg:col-5 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
+        <div class="gx-5 row items-center lg:mt-0">
+          <div class={`lg:col-7 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
             {item.image && (
               <div class="relative">
                 <Image
@@ -24,13 +24,6 @@ const { title, description, our_service } = service;
                   width={667}
                   height={498}
                   src={item.image}
-                />
-                <Image
-                  class="absolute bottom-6 left-1/2 -z-[1] -translate-x-1/2"
-                  src="/images/shape-2.png"
-                  alt=""
-                  height={147}
-                  width={151}
                 />
               </div>
             )}
@@ -48,13 +41,13 @@ const { title, description, our_service } = service;
             )}
           </div>
           <div
-            class={`mt-6 lg:col-7 lg:mt-0 ${
+            class={`mt-6 lg:col-5 lg:mt-0 ${
               index % 2 === 0 ? "order-1" : "order-0"
             }`}
           >
             <div class={`${index % 2 === 0 ? "ml-4" : "mr-4"}`}>
-              <h2 class="lg:text-3xl mb-6">{item.title}</h2>
-              <p class="my-4">{item.description}</p>
+              <h2 class="lg:text-2xl lg:mt-8 mb-6">{item.title}</h2>
+              {item.description && <p class="my-4">{item.description}</p>}
               {item.principle_operation && (
                 <p class="font-bold my-2">Принцип действия:</p>
                 <p>{item.principle_operation}</p>
@@ -65,7 +58,7 @@ const { title, description, our_service } = service;
                   {item.advantages_list &&
                   item.advantages_list.map((list: any) => (
                     <li class="flex items-center rounded px-4">
-                      <AiFillPlusCircle className="mr-3 fill-primary text-white" />
+                      <AiFillPlusCircle className="text-xl mr-3 fill-primary text-white" />
                       {list}
                     </li>
                   ))}
@@ -76,8 +69,8 @@ const { title, description, our_service } = service;
                 <ul class="text-dark lg:-ml-4">
                   {item.disadvantages_list &&
                   item.disadvantages_list.map((negativelist: any) => (
-                    <li class="flex items-center px-4">
-                      <span><AiFillMinusCircle className="mr-3 fill-secondary text-white" /></span>
+                    <li class="flex px-4">
+                      <span><AiFillMinusCircle className="text-xl mr-3 mt-1 fill-secondary text-white" /></span>
                       {negativelist}
                     </li>
                   ))}

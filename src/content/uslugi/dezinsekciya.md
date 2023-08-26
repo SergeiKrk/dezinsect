@@ -87,18 +87,12 @@ steps:
     link: "#toTheForm"
     enable: true
   step_list:
-    - title: Accessibility
-      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Empowerement
-      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Excellence
-      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      decript: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - title: Заявка или звоник
+    - title: Согласовываем выезд специалиста
+    - title: Осмотр объекта
+    - title: Заключение договора
+    - title: Обработка объекта
+    - title: Готово!
 
 costServices:
   title: Примерная стоимость обработки квартиры или дома от клопов

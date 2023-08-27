@@ -26,15 +26,15 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
                   } btn btn-sm cursor-pointer`}
                   onClick={() => setTab("")}
                 >
-                  All Categories
+                  Все услуги
                 </span>
               </li>
               {categories.map((category, i) => (
                 <li key={`category-${i}`} onClick={() => setTab(category)}>
                   <span
                     className={`filter-btn ${
-                      tab === category ? "filter-btn-active" : undefined
-                    } btn btn-sm cursor-pointer`}
+                      tab === category ? "filter-btn-active bg-white" : undefined
+                    } btn btn-sm bg-[#EDF7F3] cursor-pointer`}
                   >
                     {humanize(category)}
                   </span>

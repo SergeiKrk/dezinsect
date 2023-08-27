@@ -45,7 +45,7 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
         <div className="row mt-12">
           {filterPost.map((post, i) => (
             <div className="mb-8 md:col-6 lg:col-4" key={`post-${i}`}>
-              <a href={`/uslugi/${post.slug}`} rel="prefetch-intent" className="flex rounded-xl bg-white p-5 shadow-lg lg:p-6 hover:bg-[#EDF7F3] hover:shadow-xl">
+              <a href={`/uslugi/${post.slug}`} rel="prefetch-intent" className="flex rounded-xl bg-white p-5 shadow-lg grayscale lg:p-6 hover:bg-[#EDF7F3] hover:shadow-xl hover:grayscale-0">
 
                 <div
                   className="w-30 h-30 flex items-center justify-center text-red-500 lg:mr-4"

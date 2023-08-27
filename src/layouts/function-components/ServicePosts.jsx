@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { humanize } from "@lib/utils/textConverter";
 import { marked } from "marked";
-import { AiOutlineArrowRight } from "react-icons/ai/index.js";
 const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
   const [tab, setTab] = useState("");
   const filterPost = !tab
@@ -45,24 +44,39 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
         </div>
         <div className="row mt-12">
           {filterPost.map((post, i) => (
-            <div className="mb-8 md:col-6" key={`post-${i}`}>
-              <div className="rounded-xl bg-white p-5 shadow-lg lg:p-10">
-                <h3 className="h4">{post.data.title}</h3>
-                <p className="mt-6">{post.data.excerpt}</p>
-                <ul className="mt-6 flex flex-wrap items-center text-dark">
-                  
-                  <li className="my-1 mr-8">
-                    <a
-                      className="inline-flex items-center font-semibold text-primary"
-                      rel="prefetch-intent"
-                      href={`/uslugi/${post.slug}`}
-                    >
-                      {post.data.page_name}
-                      <AiOutlineArrowRight className="ml-1.5 text-xl font-bold" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <div className="mb-8 md:col-6 lg:col-4" key={`post-${i}`}>
+              <a href={`/uslugi/${post.slug}`} rel="prefetch-intent" className="flex rounded-xl bg-white p-5 shadow-lg lg:p-6 hover:bg-[#EDF7F3] hover:shadow-xl">
+
+                <div
+                  className="w-30 h-30 flex items-center justify-center text-red-500 lg:mr-4"
+                >
+                  <svg
+                    className="z-10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="100"
+                    height="100"
+                    viewBox="0 0 24 24"
+                    ><g transform="rotate(90 12 12)"
+                      ><path
+                        fill="#ec6227"
+                        d="M20.94 11A8.994 8.994 0 0 0 13 3.06V2c0-.55-.45-1-1-1s-1 .45-1 1v1.06A8.994 8.994 0 0 0 3.06 11H2c-.55 0-1 .45-1 1s.45 1 1 1h1.06A8.994 8.994 0 0 0 11 20.94V22c0 .55.45 1 1 1s1-.45 1-1v-1.06A8.994 8.994 0 0 0 20.94 13H22c.55 0 1-.45 1-1s-.45-1-1-1h-1.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7s7 3.13 7 7s-3.13 7-7 7z"
+                      ></path></g
+                    ></svg
+                  >
+                  <img
+                    alt={post.data.altService}
+                    className="w-100 h-100 absolute object-cover"
+                    width={60}
+                    height={60}
+                    src={post.data.serviceIcon}
+                  />
+                </div>
+                <div
+                  className="inline-flex items-center font-semibold text-primary text-xl"
+                >
+                  {post.data.page_name}
+                </div>
+              </a>
             </div>
           ))}
         </div>

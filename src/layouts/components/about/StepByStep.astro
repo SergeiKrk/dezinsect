@@ -24,7 +24,7 @@ const { title, button, step_list } = steps;
       {
         step_list.map((item: any, i: number) => (
           <div class="mb-8 sm:col-6 lg:col-4">
-            <div class="flex flex-row items-center rounded-xl bg-white p-6">
+            <div class="flex flex-row items-center rounded-xl shadow-lg bg-white p-6">
               <div class="gradient-number min-w-[90px] relative inline-block mr-3">
                 <span class="bg-gradient absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                   {i > 8 ? i + 1 : `0${i + 1}`}

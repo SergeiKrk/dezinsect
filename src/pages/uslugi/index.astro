@@ -3,13 +3,11 @@ import PageHeader from "@components/PageHeader.astro";
 import Base from "@layouts/Base.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
-import { Image } from "@astrojs/image/components";
-import CareerBenifits from "@layouts/function-components/CareerBenifits";
 import ServicePosts from "@layouts/function-components/ServicePosts";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { getTaxonomy } from "@lib/taxonomyParser.astro";
 const uslugiIndex = await getEntryBySlug<any, string>("uslugi", "-index");
-const { benifits, career, image } = uslugiIndex.data;
+const { career, image } = uslugiIndex.data;
 const categories = await getTaxonomy("uslugi", "categories");
 const serviceposts = await getSinglePage("uslugi");
 const page_data = {
@@ -30,32 +28,31 @@ const page_data = {
       <PageHeader page_data={page_data} />
       <div class="col-12 mt-14">
         <div class="relative">
-          <Image
+          <img
             src={image}
-            alt=""
+            alt="Профессиональная дезинсекция"
             height={532}
             width={1044}
             class="w-full rounded"
           />
-          <Image
-            class="absolute -left-[8%] bottom-[12%] z-[-1] h-20 w-20 -rotate-90 lg:-left-8 lg:bottom-4 lg:h-[150px] lg:w-[150px]"
-            src="/images/shape.png"
-            height={130}
-            width={130}
-            alt=""
+          <img
+            class="absolute -left-[8%] bottom-[12%] z-[-1] h-20 w-20 lg:-left-28 lg:-bottom-0 lg:h-[150px] lg:w-[150px]"
+            src="/images/obrabotka-ot-vreditelej.webp"
+            alt="Санитарная обработка помещений"
+            height={100}
+            width={100}
           />
-          <Image
-            class="absolute -bottom-4 -right-4 z-[-1] h-16 w-16 -rotate-90"
-            src="/images/shape.png"
-            alt=""
-            height={64}
-            width={64}
+          <img
+            class="absolute -bottom-4 -right-16 z-[-1] h-[134px] w-[80px]"
+            src="/images/protivogaz.webp"
+            width={80}
+            height={134}
+            alt="услуги санэпидемстанции"
           />
         </div>
       </div>
     </div>
   </section>
-  <CareerBenifits benifits={benifits} client:load />
   <ServicePosts
     client:load
     categories={categories}

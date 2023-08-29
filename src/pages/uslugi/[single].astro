@@ -45,7 +45,7 @@ const pageBanner = {
   altService: post.data.altService,
   description: post.data.description,
   minPric: post.data.minPric,
-}
+};
 ---
 
 <Base
@@ -69,7 +69,7 @@ const pageBanner = {
       />
       <div class="mb-8 grid content-center p-4 lg:mb-0">
         <p>Все используемые при обработке препараты и средства</p>
-        <p class="text-[#1C6767 ] text-2xl lg:text-4xl">
+        <p class="text-[#1C6767] text-2xl lg:text-4xl">
           Одобрены Роспотребнадзором
         </p>
       </div>
@@ -80,14 +80,14 @@ const pageBanner = {
 
   <section id="toTheForm" class="px-4">
     <div class="container my-8 rounded-xl bg-white p-14 text-center shadow-lg">
-      <h2 class="mb-6 text-xl lg:text-3xl font-medium">{page_data.keyword1}</h2>
+      <h2 class="mb-6 text-xl font-medium lg:text-3xl">{page_data.keyword1}</h2>
       <p>
         Звоните прямо сейчас <a
-          class="text-[#1C6767] text-xl lg:text-4xl block lg:inline"
+          class="block text-xl text-[#1C6767] lg:inline lg:text-4xl"
           href="tel:+79170504962">+7 917 050 4962</a
         > или
       </p>
-      <h2 class="text-[#1C6767 ] text-lg lg:text-4xl">
+      <h2 class="text-lg text-[#1C6767] lg:text-4xl">
         Оформите онлайн-заявку:
       </h2>
       <div class="flex justify-center">
@@ -143,11 +143,13 @@ const pageBanner = {
           </div>
         </div>
         <div class="lg:col-4">
-          <Faq client:load data={uslugiIndex.data} />
+          <Faq client:load data={post.data} />
           <div
             class="sticky top-24 mt-8 rounded-xl bg-white p-4 shadow-lg lg:p-8"
           >
-            <p class="text-xl font-semibold text-center">Заказать обработку {page_data.serviceMethod.title}</p>
+            <p class="text-center text-xl font-semibold">
+              Заказать обработку {page_data.serviceMethod.title}
+            </p>
             <a
               class="z-10 mt-4 flex w-full items-center justify-center gap-x-3 rounded-lg bg-primary px-4 py-3 text-center font-medium text-white transition hover:bg-secondary hover:shadow-lg"
               href="#"

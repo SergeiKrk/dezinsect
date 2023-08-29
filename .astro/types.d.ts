@@ -569,9 +569,16 @@ declare module 'astro:content' {
   collection: "uslugi";
   data: any
 } & { render(): Render[".mdx"] };
-"dezinsekciya.md": {
-	id: "dezinsekciya.md";
-  slug: "dezinsekciya";
+"obrabotka-ot-pedikuleza.md": {
+	id: "obrabotka-ot-pedikuleza.md";
+  slug: "obrabotka-ot-pedikuleza";
+  body: string;
+  collection: "uslugi";
+  data: any
+} & { render(): Render[".md"] };
+"unichtozhenie-klopov.md": {
+	id: "unichtozhenie-klopov.md";
+  slug: "unichtozhenie-klopov";
   body: string;
   collection: "uslugi";
   data: any

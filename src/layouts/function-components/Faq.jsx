@@ -16,7 +16,9 @@ const Faq = ({ data }) => {
       <div className="mt-8 lg:mt-0">
         <div className="rounded-xl bg-white px-5 py-5 shadow-lg lg:px-8 lg:py-8">
           <div className="text-2xl font-semibold">{data.faq.title}</div>
-          {data.faq.description && <p className="mt-6 lg:max-w-[404px]">{data.faq.description}</p>}
+          {data.faq.description && (
+            <p className="mt-6 lg:max-w-[404px]">{data.faq.description}</p>
+          )}
           {data.faq.faq_list.map((item, i) => (
             <div
               className={`accordion border-b border-border ${
@@ -26,9 +28,11 @@ const Faq = ({ data }) => {
               key={`item-${i}`}
             >
               <div className="accordion-header relative pl-6">
-                <h2 className="text-sm font-semibold text-dark">{item.title}</h2>
+                <h2 className="text-sm font-semibold text-dark">
+                  {item.title}
+                </h2>
                 <svg
-                  className="accordion-icon text-sm absolute left-0 top-[22px]"
+                  className="accordion-icon absolute left-0 top-[22px] text-sm"
                   x="0px"
                   y="0px"
                   viewBox="0 0 512 512"
@@ -40,7 +44,7 @@ const Faq = ({ data }) => {
                   ></path>
                 </svg>
               </div>
-              <div className="accordion-content pl-6">
+              <div className="accordion-content pl-6 text-sm">
                 <p
                   dangerouslySetInnerHTML={{
                     __html: marked.parseInline(item.content),

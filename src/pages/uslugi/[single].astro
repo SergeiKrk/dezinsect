@@ -39,6 +39,7 @@ const page_data = {
   keyword1: post.data.keyword1,
 };
 const pageBanner = {
+  title_meta: post.data.title_meta,
   title_page: post.data.title_page,
   imgBanner: post.data.imgBanner,
   serviceIcon: post.data.serviceIcon,
@@ -49,7 +50,7 @@ const pageBanner = {
 ---
 
 <Base
-  title={post.data.title_page}
+  title={post.data.title_meta}
   meta_title={post.data.meta_title}
   description={post.data.description}
   image={post.data.image}

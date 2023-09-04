@@ -583,6 +583,13 @@ declare module 'astro:content' {
   collection: "uslugi";
   data: any
 } & { render(): Render[".md"] };
+"unichtozhenie-paukov.md": {
+	id: "unichtozhenie-paukov.md";
+  slug: "unichtozhenie-paukov";
+  body: string;
+  collection: "uslugi";
+  data: any
+} & { render(): Render[".md"] };
 "unichtozhenie-tarakanov.md": {
 	id: "unichtozhenie-tarakanov.md";
   slug: "unichtozhenie-tarakanov";

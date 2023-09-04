@@ -107,8 +107,12 @@ steps:
 costServices:
   title: Примерная стоимость обработки квартиры или дома от тараканов
   description: Итоговая цена за услугу по уничтожению тараканов изменяется в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
-  cols: 3
+  cols: 4
   cost_services_list:
+    - scope_work: 1 комната
+      method: Ловчие домики (длительное действие)
+      cost: "3000"
+      color: "white"
     - scope_work: 1 комната
       method: Холодный туман
       cost: "4800"
@@ -121,6 +125,10 @@ costServices:
       method: Комплексная обработка
       cost: "5000"
       color: "white"
+    - scope_work: 1-комнатная квартира
+      method: Ловчие домики (длительное действие)
+      cost: "3000"
+      color: "[#EDF7F3]"
     - scope_work: 1-комнатная квартира
       method: Холодный туман
       cost: "4800"
@@ -133,6 +141,10 @@ costServices:
       method: Комплексная обработка
       cost: "6000"
       color: "[#EDF7F3]"
+    - scope_work: 2-комнатная квартира
+      method: Ловчие домики (длительное действие)
+      cost: "3300"
+      color: "white"
     - scope_work: 2-комнатная квартира
       method: Холодный туман
       cost: "5500"
@@ -146,6 +158,10 @@ costServices:
       cost: "7000"
       color: "white"
     - scope_work: 3-комнатная квартира
+      method: Ловчие домики (длительное действие)
+      cost: "3600"
+      color: "[#EDF7F3]"
+    - scope_work: 3-комнатная квартира
       method: Холодный туман
       cost: "6000"
       color: "[#EDF7F3]"
@@ -157,6 +173,10 @@ costServices:
       method: Комплексная обработка
       cost: "8000"
       color: "[#EDF7F3]"
+    - scope_work: 4-комнатная квартира
+      method: Ловчие домики (длительное действие)
+      cost: "4200"
+      color: "white"
     - scope_work: 4-комнатная квартира
       method: Холодный туман
       cost: "7000"

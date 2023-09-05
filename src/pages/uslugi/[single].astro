@@ -37,6 +37,7 @@ const page_data = {
   costServices: post.data.costServices,
   slug: post.slug,
   keyword1: post.data.keyword1,
+  keyword2: post.data.keyword2,
 };
 const pageBanner = {
   title_meta: post.data.title_meta,
@@ -70,7 +71,7 @@ const pageBanner = {
       />
       <div class="mb-8 grid content-center p-4 lg:mb-0">
         <p>Все используемые при обработке препараты и средства</p>
-        <p class="text-[#1C6767] text-2xl lg:text-4xl">
+        <p class="text-2xl text-[#1C6767] lg:text-4xl">
           Одобрены Роспотребнадзором
         </p>
       </div>
@@ -118,9 +119,10 @@ const pageBanner = {
 
   <section id="toTheForm" class="px-4">
     <div class="container my-8 rounded-xl bg-white p-14 text-center shadow-lg">
+      <h2 class="mb-6 text-xl font-medium lg:text-3xl">{page_data.keyword2}</h2>
       <p>
         Звоните прямо сейчас <a
-          class="text-[#1C6767] text-4xl"
+          class="text-4xl text-[#1C6767]"
           href="tel:+79170504962">+7 917 050 4962</a
         > или
       </p>

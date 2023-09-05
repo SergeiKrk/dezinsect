@@ -11,8 +11,9 @@ const { costServices } = Astro.props;
         <p class="mt-4">{costServices.description}</p>
       </div>
     </div>
-    <div class={`row mt-14 grid grid-cols-1 gap-1 lg:grid-cols-${costServices.cols}`}>
-      <!-- <div class="row mt-14 grid grid-cols-1 gap-1 lg:grid-cols-3"> -->
+    <div
+      class={`row mt-14 grid gap-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-${costServices.cols} xl:grid-cols-${costServices.cols} 2xl:grid-cols-${costServices.cols}`}
+    >
       {
         costServices.cost_services_list.map((item: any) => (
           <div class={`rounded-sm p-4 bg-${item.color}`}>

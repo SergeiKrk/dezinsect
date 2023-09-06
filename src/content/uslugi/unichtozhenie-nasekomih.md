@@ -2,7 +2,7 @@
 title_meta: "Дезинсекция в Москве: обработка от насекомых квартир, домов и земельных участков"
 title_page: Уничтожение насекомых в Москве и МО
 page_name: Уничтожение насекомых
-description: Наша служба СЭС поможет избавиться от насекомых с гарантией. ⚡ Дезинсекция в квартире, доме, на участке и в Москве
+description: Наша служба СЭС поможет избавиться от насекомых с гарантией. ⚡ Дезинсекция в квартире, доме и на участке
 imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
 serviceIcon: /images/service-pages/insects_nasekomye_200.webp
 altService: Борьба с насекомыми
@@ -12,6 +12,47 @@ keyword2: Вызвать службу от насекомых
 categories: ["Дезинсекция"]
 date: 2021-07-11
 draft: false
+
+place:
+  title: Помощь СЭС в профессиональной обработке от насекомых
+  description: комплекс мероприятий по борьбе с насекомыми на любом объекте
+  place_list:
+    - title: в частном доме
+      icon: tabler:home
+    - title: в квартире
+      icon: ic:round-apartment
+    - title: на даче
+      icon: iconoir:farm
+    - title: на участке
+      icon: uil:trees
+    - title: в кафе
+      icon: carbon:cafe
+    - title: в столовой
+      icon: grommet-icons:cafeteria
+    - title: в ресторане
+      icon: grommet-icons:restaurant
+    - title: в магазине
+      icon: uil:shop
+    - title: в торговом центре
+      icon: ic:outline-local-mall
+    - title: на складе
+      icon: ic:outline-warehouse
+    - title: в подвале
+      icon: tabler:ladder
+    - title: в гостинице и отеле
+      icon: carbon:hotel
+    - title: на базе отдыха
+      icon: mdi:grill-outline
+    - title: в детском саду
+      icon: cil:child
+    - title: в школе
+      icon: la:school
+    - title: в учебном заведении
+      icon: ic:outline-school
+    - title: в больнице
+      icon: ri:hospital-line
+    - title: в медицинском учреждении
+      icon: mdi:hospital
 
 benifits:
   title: Обработка от насекомых в Москве

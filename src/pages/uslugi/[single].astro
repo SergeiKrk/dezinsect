@@ -12,6 +12,7 @@ import ServiceMethod from "@components/ServiceMethod.astro";
 import StepByStep from "@components/about/StepByStep.astro";
 import CostServices from "@components/uslugi/CostServices.astro";
 import Faq from "@layouts/function-components/Faq.jsx";
+import PlacesWork from "@components/PlacesWork.astro";
 
 const uslugiIndex: any = await getEntryBySlug("uslugi", "-index");
 const about = await getEntryBySlug("about", "index");
@@ -30,6 +31,7 @@ const { Content } = await post.render();
 const { counter } = about.data;
 const page_data = {
   index_title: uslugiIndex.data.title,
+  place: post.data.place,
   benifits: post.data.benifits,
   faq: post.data.faq,
   serviceMethod: post.data.serviceMethod,
@@ -58,6 +60,7 @@ const pageBanner = {
 >
   <Shape />
   <ServicePageBanner pageBanner={pageBanner} />
+  <PlacesWork place={page_data.place} />
   <section class="px-4">
     <div
       class="container my-8 flex flex-col justify-center rounded-xl bg-white shadow-lg lg:flex-row"

@@ -60,7 +60,7 @@ const pageBanner = {
 >
   <Shape />
   <ServicePageBanner pageBanner={pageBanner} />
-  <PlacesWork place={page_data.place} />
+  {page_data.place && <PlacesWork place={page_data.place} />}
   <section class="px-4">
     <div
       class="container my-8 flex flex-col justify-center rounded-xl bg-white shadow-lg lg:flex-row"

@@ -16,12 +16,12 @@ const { title, description, place_list } = place;
         </div>
         <div class="m-1 mb-24 mt-14">
           {place_list.map((item: any) => (
-            <div class="m-2 inline-block rounded-xl bg-white px-4 py-2 shadow-lg">
+            <div class="m-1 inline-block rounded-xl bg-white px-4 py-2 shadow-lg lg:m-2">
               <div class="flex items-center space-x-2">
                 <div class="icon rounded-full bg-[#EDF7F3] px-2 py-1">
                   <Icon class="inline h-5 w-5" name={item.icon} />
                 </div>
-                <h3 class="text-lg">{item.title}</h3>
+                <h3 class="text-sm lg:text-lg">{item.title}</h3>
               </div>
             </div>
           ))}

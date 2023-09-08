@@ -13,6 +13,47 @@ categories: ["Дезинсекция"]
 date: 2021-07-11
 draft: false
 
+place:
+  title: Помощь СЭС в профессиональной обработке от тараканов
+  description: комплекс мероприятий по борьбе с насекомыми на любом объекте
+  place_list:
+    - title: в частном доме
+      icon: tabler:home
+    - title: в квартире
+      icon: ic:round-apartment
+    - title: на даче
+      icon: iconoir:farm
+    - title: на участке
+      icon: uil:trees
+    - title: в кафе
+      icon: carbon:cafe
+    - title: в столовой
+      icon: grommet-icons:cafeteria
+    - title: в ресторане
+      icon: grommet-icons:restaurant
+    - title: в магазине
+      icon: uil:shop
+    - title: в торговом центре
+      icon: ic:outline-local-mall
+    - title: на складе
+      icon: ic:outline-warehouse
+    - title: в подвале
+      icon: tabler:ladder
+    - title: в гостинице и отеле
+      icon: carbon:hotel
+    - title: на базе отдыха
+      icon: mdi:grill-outline
+    - title: в детском саду
+      icon: cil:child
+    - title: в школе
+      icon: la:school
+    - title: в учебном заведении
+      icon: ic:outline-school
+    - title: в больнице
+      icon: ri:hospital-line
+    - title: в медицинском учреждении
+      icon: mdi:hospital
+
 benifits:
   title: Обработка от тараканов в Москве
   description: Обрабатываем частные дома, квартиры и любые коммерческие помещения
@@ -89,7 +130,7 @@ serviceMethod:
       image: "/images/service-pages/goryachyj-tuman-2.webp"
     - title: Барьерная защита и обработка
       description: Барьерная обработка — не просто "дополнительная услуга" после дезинсекции, а эффективный метод защиты от вредителей. Она создает преграду, блокируя доступ паразитов в ваш дом. Это полезно как при активном заражении, так и для профилактики.
-      advantages_list:
+      list:
         - Механический барьер;
         - Отпугивающий барьер;
         - Истребительный барьер.

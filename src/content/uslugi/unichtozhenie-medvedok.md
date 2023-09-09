@@ -22,7 +22,7 @@ place:
     - title: на участке
       icon: uil:trees
     - title: в огороде
-      icon: carbon:cafe
+      icon: maki:wetland
 
 benifits:
   title: Обработка от медведки в Москве

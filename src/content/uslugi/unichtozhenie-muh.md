@@ -33,22 +33,8 @@ place:
       icon: grommet-icons:restaurant
     - title: в магазине
       icon: uil:shop
-    - title: в торговом центре
-      icon: ic:outline-local-mall
-    - title: в гостинице и отеле
-      icon: carbon:hotel
     - title: на базе отдыха
       icon: mdi:grill-outline
-    - title: в детском саду
-      icon: cil:child
-    - title: в школе
-      icon: la:school
-    - title: в учебном заведении
-      icon: ic:outline-school
-    - title: в больнице
-      icon: ri:hospital-line
-    - title: в медицинском учреждении
-      icon: mdi:hospital
 
 benifits:
   title: Обработка от мух в Москве

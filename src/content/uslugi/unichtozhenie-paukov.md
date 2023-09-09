@@ -13,6 +13,51 @@ categories: ["Дезинсекция"]
 date: 2021-07-11
 draft: false
 
+place:
+  title: Помощь СЭС в профессиональной обработке от пауков
+  description: комплекс мероприятий по борьбе с насекомыми на любом объекте
+  place_list:
+    - title: в частном доме
+      icon: tabler:home
+    - title: в квартире
+      icon: ic:round-apartment
+    - title: на даче
+      icon: iconoir:farm
+    - title: в огороде
+      icon: maki:wetland
+    - title: на участке
+      icon: uil:trees
+    - title: в кафе
+      icon: carbon:cafe
+    - title: в столовой
+      icon: grommet-icons:cafeteria
+    - title: в ресторане
+      icon: grommet-icons:restaurant
+    - title: в магазине
+      icon: uil:shop
+    - title: в торговом центре
+      icon: ic:outline-local-mall
+    - title: на складе
+      icon: ic:outline-warehouse
+    - title: в подвале
+      icon: tabler:ladder
+    - title: в гостинице и отеле
+      icon: carbon:hotel
+    - title: на базе отдыха
+      icon: mdi:grill-outline
+    - title: в детском саду
+      icon: cil:child
+    - title: в школе
+      icon: la:school
+    - title: в учебном заведении
+      icon: ic:outline-school
+    - title: в больнице
+      icon: ri:hospital-line
+    - title: в медицинском учреждении
+      icon: mdi:hospital
+    - title: в бытовке или вагончике
+      icon: la:warehouse
+
 benifits:
   title: Обработка от пауков в Москве
   description: Обрабатываем частные дома, квартиры и любые коммерческие помещения

@@ -13,6 +13,35 @@ categories: ["Дезинсекция"]
 date: 2021-07-11
 draft: false
 
+place:
+  title: Помощь СЭС в профессиональной обработке от вшей
+  description: комплекс мероприятий по борьбе с педикулезом на любом объекте
+  place_list:
+    - title: в частном доме
+      icon: tabler:home
+    - title: в квартире
+      icon: ic:round-apartment
+    - title: в бытовке или вагончике
+      icon: la:warehouse
+    - title: на даче
+      icon: iconoir:farm
+    - title: в подвале
+      icon: tabler:ladder
+    - title: в гостинице и отеле
+      icon: carbon:hotel
+    - title: на базе отдыха
+      icon: mdi:grill-outline
+    - title: в детском саду
+      icon: cil:child
+    - title: в школе
+      icon: la:school
+    - title: в учебном заведении
+      icon: ic:outline-school
+    - title: в больнице
+      icon: ri:hospital-line
+    - title: в медицинском учреждении
+      icon: mdi:hospital
+
 benifits:
   title: Обработка помещений при педикулезе
   description: Обрабатываем частные дома, квартиры и любые коммерческие помещения

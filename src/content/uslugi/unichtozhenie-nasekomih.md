@@ -27,6 +27,8 @@ place:
       icon: maki:wetland
     - title: на участке
       icon: uil:trees
+    - title: в саду
+      icon: healthicons:forest-outline
     - title: в кафе
       icon: carbon:cafe
     - title: в столовой

@@ -667,6 +667,13 @@ declare module 'astro:content' {
   collection: "uslugi";
   data: any
 } & { render(): Render[".md"] };
+"unichtozhenie-zhuka-kozheeda.md": {
+	id: "unichtozhenie-zhuka-kozheeda.md";
+  slug: "unichtozhenie-zhuka-kozheeda";
+  body: string;
+  collection: "uslugi";
+  data: any
+} & { render(): Render[".md"] };
 };
 
 	};

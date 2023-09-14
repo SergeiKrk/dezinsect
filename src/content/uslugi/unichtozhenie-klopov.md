@@ -3,7 +3,7 @@ title_meta: Обработка от клопов в Москве и МО
 title_page: Уничтожение клопов в Москве и МО
 page_name: Уничтожение клопов
 description: Мы знаем как избавиться от домашних клопов и каждый день помогаем людям бороться с постельными паразитами. Для их уничтожения, используем самые эффективные и безопасные средства.
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/bedbug_klop_200.webp
 altService: Борьба с клопами
 minPric: "4800"

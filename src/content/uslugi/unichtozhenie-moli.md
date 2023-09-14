@@ -3,7 +3,7 @@ title_meta: "Уничтожение моли в Москве: обработка
 title_page: Уничтожение моли в Москве и МО
 page_name: Уничтожение моли
 description: Наша служба СЭС поможет избавиться от моли с гарантией. ⚡ Дезинфекция (Дезинсекция) от моли в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/mol_200.webp
 altService: Борьба с молью
 minPric: "4800"

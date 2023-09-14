@@ -3,7 +3,7 @@ title_meta: "Уничтожение ос и осиных гнезд: обраб�
 title_page: Обработка от ос в Москве и МО
 page_name: Уничтожение ос
 description: Наша служба СЭС поможет избавиться от ос с гарантией. ⚡ Дезинфекция (Дезинсекция) от ос в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/wasp_osa_200.webp
 altService: Борьба с осами
 minPric: "4800"

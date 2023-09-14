@@ -3,7 +3,7 @@ title_meta: "Обработка от клещей в Москве: на учас
 title_page: Уничтожение клещей в Москве и МО
 page_name: Уничтожение клещей
 description: Наша служба СЭС поможет избавиться от клещей с гарантией. ⚡ Дезинфекция (Дезинсекция) от клещей в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/mite_klesch_200.webp
 altService: Борьба с клещами
 minPric: "4800"

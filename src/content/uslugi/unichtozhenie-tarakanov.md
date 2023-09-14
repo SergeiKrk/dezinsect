@@ -3,7 +3,7 @@ title_meta: "Уничтожение Тараканов в Москве: обра
 title_page: Уничтожение тараканов в Москве и МО
 page_name: Уничтожение тараканов
 description: Наша служба СЭС поможет избавиться от тараканов с гарантией. ⚡ Дезинфекция (Дезинсекция) от тараканов в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/cockroach_tarakan_200.webp
 altService: Борьба с тараканами
 minPric: "4800"

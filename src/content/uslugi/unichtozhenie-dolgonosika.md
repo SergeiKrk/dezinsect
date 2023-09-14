@@ -3,7 +3,7 @@ title_meta: "Обработка от Долгоносика: борьба с ж�
 title_page: Уничтожение Долгоносика в Москве и МО
 page_name: Уничтожение Долгоносика
 description: Наша служба СЭС поможет избавиться от насекомых с гарантией. ⚡ Дезинсекция в квартире, доме и на участке
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/weevil_dolgonosik_200.webp
 altService: Борьба с насекомыми
 minPric: "4800"

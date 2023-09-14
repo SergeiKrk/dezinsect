@@ -3,7 +3,7 @@ title_meta: "Уничтожение мух в Москве: обработка �
 title_page: Уничтожение мух в Москве и МО
 page_name: Уничтожение мух
 description: Наша служба СЭС поможет избавиться от мух с гарантией. ⚡ Дезинфекция (Дезинсекция) от мух в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/fly_muha_200.webp
 altService: Борьба с мухами
 minPric: "4800"

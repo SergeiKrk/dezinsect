@@ -3,7 +3,7 @@ title_meta: "Дезинсекция в Москве: обработка от н�
 title_page: Уничтожение насекомых в Москве и МО
 page_name: Уничтожение насекомых
 description: Наша служба СЭС поможет избавиться от насекомых с гарантией. ⚡ Дезинсекция в квартире, доме и на участке
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/insects_nasekomye_200.webp
 altService: Борьба с насекомыми
 minPric: "4800"

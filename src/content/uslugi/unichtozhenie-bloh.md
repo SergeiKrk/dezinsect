@@ -3,7 +3,7 @@ title_meta: "Уничтожение блох в Москве: обработка
 title_page: Уничтожение блох в Москве и МО
 page_name: Уничтожение блох
 description: Наша служба СЭС поможет избавиться от блох с гарантией. ⚡ Дезинфекция (Дезинсекция) от блох в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/flea_bloha_200.webp
 altService: Борьба с блохами
 minPric: "4800"

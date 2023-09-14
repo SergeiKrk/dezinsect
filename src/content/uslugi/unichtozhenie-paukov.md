@@ -3,7 +3,7 @@ title_meta: "Уничтожение пауков в Москве: обработ
 title_page: Уничтожение пауков в Москве и МО
 page_name: Уничтожение пауков
 description: Наша служба СЭС поможет избавиться от пауков с гарантией. ⚡ Дезинфекция (Дезинсекция) от пауков в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/spider_pauk_200.webp
 altService: Борьба с пауками
 minPric: "4800"

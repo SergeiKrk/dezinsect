@@ -3,7 +3,7 @@ title_meta: "Уничтожение шершней и их гнезд: обра�
 title_page: Обработка от шершней в Москве и МО
 page_name: Уничтожение шершней
 description: Наша служба СЭС поможет избавиться от шершней и улья с гарантией. ⚡ Дезинфекция (Дезинсекция) от шершней в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/hornet_200.webp
 altService: Борьба с шершнями
 minPric: "4800"

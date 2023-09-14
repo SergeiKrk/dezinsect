@@ -3,7 +3,7 @@ title_meta: "Обработка от Короеда: борьба с жуком 
 title_page: Уничтожение жука Короеда в Москве и МО
 page_name: Уничтожение Короеда
 description: Наша служба СЭС поможет избавиться от насекомых с гарантией. ⚡ Дезинсекция в квартире, доме и на участке
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/bark_beetle_200.webp
 altService: Борьба с насекомыми
 minPric: "4800"

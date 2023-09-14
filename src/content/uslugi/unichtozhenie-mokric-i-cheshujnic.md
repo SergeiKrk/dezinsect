@@ -3,7 +3,7 @@ title_meta: "Уничтожение мокриц и чешуйниц в Моск
 title_page: Уничтожение мокриц и чешуйниц в Москве и МО
 page_name: Уничтожение мокриц
 description: Наша служба СЭС поможет избавиться от мокриц с гарантией. ⚡ Дезинфекция (Дезинсекция) от мокриц в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/mokrica_200.webp
 altService: Борьба с мокрицами
 minPric: "4800"

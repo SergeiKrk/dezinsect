@@ -3,7 +3,7 @@ title_meta: "Уничтожение медведки в Москве: обраб
 title_page: Уничтожение медведки в Москве и МО
 page_name: Уничтожение медведки
 description: Наша служба СЭС поможет избавиться от медведки с гарантией. ⚡ Дезинфекция (Дезинсекция) от медведки участков в Москве
-imgBanner: /images/service-pages/unichtozhenie-klopov-kleshchej.webp
+imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/medvedka_200.webp
 altService: Борьба с медведкой
 minPric: "4800"

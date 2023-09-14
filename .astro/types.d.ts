@@ -590,16 +590,16 @@ declare module 'astro:content' {
   collection: "uslugi";
   data: any
 } & { render(): Render[".md"] };
-"unichtozhenie-deratizaciya.md": {
-	id: "unichtozhenie-deratizaciya.md";
-  slug: "unichtozhenie-deratizaciya";
+"unichtozhenie-dolgonosika.md": {
+	id: "unichtozhenie-dolgonosika.md";
+  slug: "unichtozhenie-dolgonosika";
   body: string;
   collection: "uslugi";
   data: any
 } & { render(): Render[".md"] };
-"unichtozhenie-dolgonosika.md": {
-	id: "unichtozhenie-dolgonosika.md";
-  slug: "unichtozhenie-dolgonosika";
+"unichtozhenie-grizunov.md": {
+	id: "unichtozhenie-grizunov.md";
+  slug: "unichtozhenie-grizunov";
   body: string;
   collection: "uslugi";
   data: any
@@ -698,13 +698,6 @@ declare module 'astro:content' {
 "unichtozhenie-tarakanov.md": {
 	id: "unichtozhenie-tarakanov.md";
   slug: "unichtozhenie-tarakanov";
-  body: string;
-  collection: "uslugi";
-  data: any
-} & { render(): Render[".md"] };
-"unichtozhenie-zhuka-kozheeda.md": {
-	id: "unichtozhenie-zhuka-kozheeda.md";
-  slug: "unichtozhenie-zhuka-kozheeda";
   body: string;
   collection: "uslugi";
   data: any

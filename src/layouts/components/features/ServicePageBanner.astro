@@ -21,15 +21,15 @@ const {
       >
         <h1 set:html={markdownify(title_page)} />
 
-        <div class="mt-6 flex flex-col sm:flex-row lg:items-stretch">
+        <div class="mt-6 flex flex-col sm:flex-row lg:items-center">
           <div
-            class="w-100 h-100 flex items-center justify-center text-red-500 lg:mr-4"
+            class="w-180 h-180 flex items-center justify-center text-red-500 lg:mr-4"
           >
             <svg
               class="z-10"
               xmlns="http://www.w3.org/2000/svg"
-              width="100"
-              height="100"
+              width="180"
+              height="180"
               viewBox="0 0 24 24"
               ><g transform="rotate(90 12 12)"
                 ><path
@@ -41,17 +41,23 @@ const {
             <img
               alt={altService}
               class="w-100 h-100 absolute object-cover"
-              width={60}
-              height={60}
+              width={100}
+              height={100}
               src={pageBanner.serviceIcon}
             />
           </div>
 
-          <p set:html={markdownify(pageBanner.description)} />
+          <div>
+            <div set:html={markdownify(pageBanner.description)} />
+            <p class="mt-4 text-2xl text-[#1C6767] lg:text-4xl">
+              от <span
+                class="mt-6"
+                set:html={markdownify(pageBanner.minPric)}
+              /> ₽
+            </p>
+          </div>
         </div>
-        <p class="mt-4 text-2xl text-[#1C6767] lg:text-4xl">
-          от <span class="mt-6" set:html={markdownify(pageBanner.minPric)} /> ₽
-        </p>
+
         <MyForm />
       </div>
       <div class="flex items-center justify-center lg:col-6 lg:order-2">

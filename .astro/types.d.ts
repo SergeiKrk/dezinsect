@@ -213,175 +213,175 @@ declare module 'astro:content' {
   slug: "-index";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "post-1.mdx": {
 	id: "post-1.mdx";
   slug: "post-1";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-10.mdx": {
 	id: "post-10.mdx";
   slug: "post-10";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-11.mdx": {
 	id: "post-11.mdx";
   slug: "post-11";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-12.mdx": {
 	id: "post-12.mdx";
   slug: "post-12";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-13.mdx": {
 	id: "post-13.mdx";
   slug: "post-13";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-14.mdx": {
 	id: "post-14.mdx";
   slug: "post-14";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-15.mdx": {
 	id: "post-15.mdx";
   slug: "post-15";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-16.mdx": {
 	id: "post-16.mdx";
   slug: "post-16";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-17.mdx": {
 	id: "post-17.mdx";
   slug: "post-17";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-18.mdx": {
 	id: "post-18.mdx";
   slug: "post-18";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-19.mdx": {
 	id: "post-19.mdx";
   slug: "post-19";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-2.mdx": {
 	id: "post-2.mdx";
   slug: "post-2";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-20.mdx": {
 	id: "post-20.mdx";
   slug: "post-20";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-21.mdx": {
 	id: "post-21.mdx";
   slug: "post-21";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-22.mdx": {
 	id: "post-22.mdx";
   slug: "post-22";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-23.mdx": {
 	id: "post-23.mdx";
   slug: "post-23";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-24.mdx": {
 	id: "post-24.mdx";
   slug: "post-24";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-3.mdx": {
 	id: "post-3.mdx";
   slug: "post-3";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-4.mdx": {
 	id: "post-4.mdx";
   slug: "post-4";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-5.mdx": {
 	id: "post-5.mdx";
   slug: "post-5";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-6.mdx": {
 	id: "post-6.mdx";
   slug: "post-6";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-7.mdx": {
 	id: "post-7.mdx";
   slug: "post-7";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-8.mdx": {
 	id: "post-8.mdx";
   slug: "post-8";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 "post-9.mdx": {
 	id: "post-9.mdx";
   slug: "post-9";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
 };
 "careers": {
@@ -535,21 +535,21 @@ declare module 'astro:content' {
   slug: "404";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".md"] };
 "elements.mdx": {
 	id: "elements.mdx";
   slug: "elements";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".mdx"] };
 "terms-and-conditions.md": {
 	id: "terms-and-conditions.md";
   slug: "terms-and-conditions";
   body: string;
   collection: "pages";
-  data: any
+  data: InferEntrySchema<"pages">
 } & { render(): Render[".md"] };
 };
 "pricing": {
@@ -740,5 +740,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = never;
+	type ContentConfig = typeof import("../src/content/config");
 }

@@ -9,8 +9,7 @@ altService: Борьба с клещами
 minPric: "590"
 keyword1: Служба по уничтожению клещей
 keyword2: Вызвать службу от клещей
-categories: ["Дезинсекция"]
-date: 2021-07-11
+categories: ["Дезинсекция", "На участке"]
 draft: false
 
 place:

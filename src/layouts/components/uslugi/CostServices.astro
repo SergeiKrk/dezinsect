@@ -7,8 +7,8 @@ const { place_list } = place;
 <section class="my-8 mt-24">
   <div class="container">
     <div class="row">
-      <div class="mx-auto text-center lg:col-8">
-        <h2>{costServices.title}</h2>
+      <div class="mx-auto text-center">
+        <h2 class="mx-auto max-w-4xl lg:mb-8">{costServices.title}</h2>
         {
           place_list.map((item: any) => (
             <div class="m-1 inline-block rounded-full bg-white py-2 pl-2 pr-4 lg:m-2">
@@ -21,7 +21,7 @@ const { place_list } = place;
             </div>
           ))
         }
-        <p class="mt-4">{costServices.description}</p>
+        <p class="mx-auto mt-4 max-w-4xl">{costServices.description}</p>
       </div>
     </div>
     <div

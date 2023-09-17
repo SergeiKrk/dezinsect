@@ -9,7 +9,7 @@ altService: Борьба с насекомыми
 minPric: "4800"
 keyword1: Служба по уничтожению насекомых
 keyword2: Вызвать службу от насекомых
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "На участке"]
 date: 2023-07-11
 draft: false
 
@@ -19,8 +19,6 @@ place:
   place_list:
     - title: в частном доме
       icon: tabler:home
-    - title: в квартире
-      icon: ic:round-apartment
     - title: на даче
       icon: iconoir:farm
     - title: в огороде
@@ -29,36 +27,8 @@ place:
       icon: uil:trees
     - title: в саду
       icon: healthicons:forest-outline
-    - title: в кафе
-      icon: carbon:cafe
-    - title: в столовой
-      icon: grommet-icons:cafeteria
-    - title: в ресторане
-      icon: grommet-icons:restaurant
-    - title: в магазине
-      icon: uil:shop
-    - title: в торговом центре
-      icon: ic:outline-local-mall
-    - title: на складе
-      icon: ic:outline-warehouse
-    - title: в подвале
-      icon: tabler:ladder
-    - title: в гостинице и отеле
-      icon: carbon:hotel
     - title: на базе отдыха
       icon: mdi:grill-outline
-    - title: в детском саду
-      icon: cil:child
-    - title: в школе
-      icon: la:school
-    - title: в учебном заведении
-      icon: ic:outline-school
-    - title: в больнице
-      icon: ri:hospital-line
-    - title: в медицинском учреждении
-      icon: mdi:hospital
-    - title: в бытовке или вагончике
-      icon: la:warehouse
 
 benifits:
   title: Обработка от насекомых в Москве

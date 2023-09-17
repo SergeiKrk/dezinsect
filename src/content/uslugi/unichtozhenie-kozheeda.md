@@ -10,7 +10,6 @@ minPric: "4800"
 keyword1: Служба по уничтожению кожеедов
 keyword2: Вызвать службу от кожеедов
 categories: ["Дезинсекция"]
-date: 2023-07-11
 draft: false
 
 place:

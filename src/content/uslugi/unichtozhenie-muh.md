@@ -9,7 +9,7 @@ altService: Борьба с мухами
 minPric: "4800"
 keyword1: Служба по уничтожению мух
 keyword2: Вызвать службу от мух
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "На участке"]
 date: 2021-07-11
 draft: false
 

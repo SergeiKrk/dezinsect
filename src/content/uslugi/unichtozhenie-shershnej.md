@@ -9,7 +9,7 @@ altService: Борьба с шершнями
 minPric: "4800"
 keyword1: Служба по уничтожению шершней
 keyword2: Вызвать службу от шершней
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "На участке"]
 date: 2021-07-11
 draft: false
 

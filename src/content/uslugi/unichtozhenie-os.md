@@ -9,7 +9,7 @@ altService: Борьба с осами
 minPric: "4800"
 keyword1: Служба по уничтожению ос
 keyword2: Вызвать службу от ос
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "На участке"]
 date: 2021-07-11
 draft: false
 

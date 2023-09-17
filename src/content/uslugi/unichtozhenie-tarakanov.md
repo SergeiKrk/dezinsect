@@ -21,6 +21,8 @@ place:
       icon: tabler:home
     - title: в квартире
       icon: ic:round-apartment
+    - title: на кухне
+      icon: mdi:kitchen-counter-outline
     - title: в бытовке или вагончике
       icon: la:warehouse
     - title: на даче

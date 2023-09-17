@@ -9,7 +9,7 @@ altService: Борьба с медведкой
 minPric: "4800"
 keyword1: Служба по уничтожению медведки
 keyword2: Вызвать службу от медведки
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "На участке"]
 date: 2021-07-11
 draft: false
 

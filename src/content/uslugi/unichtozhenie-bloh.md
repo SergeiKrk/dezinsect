@@ -9,8 +9,7 @@ altService: Борьба с блохами
 minPric: "4800"
 keyword1: Служба по уничтожению блох
 keyword2: Вызвать службу от блох
-categories: ["Дезинсекция"]
-date: 2021-07-11
+categories: ["Дезинсекция", "На участке"]
 draft: false
 
 place:

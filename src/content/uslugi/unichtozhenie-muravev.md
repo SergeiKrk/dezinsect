@@ -9,7 +9,7 @@ altService: Борьба с муравьями
 minPric: "4800"
 keyword1: Служба по уничтожению муравьев
 keyword2: Вызвать службу от муравьев
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "На участке"]
 date: 2021-07-11
 draft: false
 
@@ -21,6 +21,8 @@ place:
       icon: tabler:home
     - title: в квартире
       icon: ic:round-apartment
+    - title: на кухне
+      icon: mdi:kitchen-counter-outline
     - title: на даче
       icon: iconoir:farm
     - title: в огороде

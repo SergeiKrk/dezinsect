@@ -1,6 +1,7 @@
 ---
-import Image from "astro/components/Image.astro";
-const { costServices } = Astro.props;
+import { Icon } from "astro-icon";
+const { costServices, place } = Astro.props;
+const { place_list } = place;
 ---
 
 <section class="my-8 mt-24">
@@ -8,6 +9,18 @@ const { costServices } = Astro.props;
     <div class="row">
       <div class="mx-auto text-center lg:col-8">
         <h2>{costServices.title}</h2>
+        {
+          place_list.map((item: any) => (
+            <div class="m-1 inline-block rounded-full bg-white py-2 pl-2 pr-4 lg:m-2">
+              <div class="flex items-center space-x-1">
+                <div class="icon rounded-full bg-[#EDF7F3] px-1">
+                  <Icon class="inline h-4 w-4" name="wpf:geo-fence" />
+                </div>
+                <h3 class="text-sm lg:text-lg">{item.title}</h3>
+              </div>
+            </div>
+          ))
+        }
         <p class="mt-4">{costServices.description}</p>
       </div>
     </div>

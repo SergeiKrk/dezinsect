@@ -14,7 +14,7 @@ const { title, description, our_service } = service;
     </div>
     {
       our_service.map((item: any, index: number) => (
-        <div class="gx-5 row items-center lg:mt-0">
+        <div class="gx-5 my-5 row items-center lg:mt-0">
           <div class={`lg:col-7 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
             {item.image && (
               <div class="relative">

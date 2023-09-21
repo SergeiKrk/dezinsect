@@ -468,11 +468,11 @@ select:invalid {
 }
 
 .filter-btn {
-  @apply m-3 rounded-3xl border border-[#A9A9A9] text-dark;
+  @apply m-3 rounded-3xl border-white bg-white text-dark shadow-xl hover:shadow-lg;
 
   &-active,
   &.active {
-    @apply border-white bg-white text-dark shadow-[0px_15px_34px_rgba(0,0,0,0.1)];
+    @apply border-[#EDF7F3] bg-[#EDF7F3] text-dark shadow-sm hover:shadow-sm;
   }
 }
 

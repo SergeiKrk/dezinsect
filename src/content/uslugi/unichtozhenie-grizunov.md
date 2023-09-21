@@ -10,7 +10,6 @@ minPric: "4800"
 keyword1: Служба по уничтожению грызунов
 keyword2: Вызвать службу от грызунов
 categories: ["Дератизация", "На участке", "В помещении"]
-date: 2023-07-11
 draft: false
 
 place:
@@ -92,6 +91,17 @@ benifits:
       decript: "Достаточно для уничтожения вылупившихся грызунов"
       color: "#FF5874"
       icon: tabler:calendar-time
+
+categoryCards:
+  - page_name: Уничтожение крыс
+    serviceIcon: /images/service-pages/rat_200.webp
+    url_page: /uslugi/unichtozhenie-krys
+  - page_name: Уничтожение мышей
+    serviceIcon: /images/service-pages/mouse_mish_200.webp
+    url_page: /uslugi/unichtozhenie-myshej
+  - page_name: Уничтожение кротов
+    serviceIcon: /images/service-pages/krot_200.webp
+    url_page: /uslugi/unichtozhenie-krotov
 
 serviceMethod:
   title: помещений и участков от грызунов

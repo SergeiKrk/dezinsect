@@ -32,10 +32,8 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
                 <li key={`category-${i}`} onClick={() => setTab(category)}>
                   <span
                     className={`filter-btn ${
-                      tab === category
-                        ? "filter-btn-active bg-white"
-                        : undefined
-                    } btn btn-sm cursor-pointer bg-[#EDF7F3]`}
+                      tab === category ? "filter-btn-active" : undefined
+                    } btn btn-sm cursor-pointer`}
                   >
                     {humanize(category)}
                   </span>
@@ -50,7 +48,7 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
               <a
                 href={`/uslugi/${post.slug}`}
                 rel="prefetch-intent"
-                className="flex rounded-xl bg-white p-3 shadow-lg grayscale hover:bg-[#EDF7F3] hover:shadow-xl hover:grayscale-0 lg:p-4"
+                className="flex rounded-xl bg-white p-3 shadow-lg hover:bg-[#EDF7F3] hover:shadow-xl hover:grayscale-0 lg:p-4 lg:grayscale"
               >
                 <div className="w-30 h-30 flex items-center justify-center text-red-500 lg:mr-4">
                   <svg

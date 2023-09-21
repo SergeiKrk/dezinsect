@@ -1,7 +1,7 @@
 ---
-title_meta: "Дератизация: обработка от грызунов и их уничтожение в Москве"
+title_meta: "Дератизация: обработка от крыс и их уничтожение в Москве"
 title_page: Борьба с грызунами в Москве и МО
-page_name: Уничтожение грызунов
+page_name: Уничтожение крыс
 description: Наша служба СЭС поможет избавиться от насекомых с гарантией. ⚡ Дезинсекция в квартире, доме и на участке
 imgBanner: /images/service-pages/deratizaciya.webp
 serviceIcon: /images/service-pages/rat_200.webp

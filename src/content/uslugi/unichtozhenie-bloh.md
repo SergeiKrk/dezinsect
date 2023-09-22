@@ -1,7 +1,7 @@
 ---
-title_meta: "Уничтожение блох в Москве: обработка домов и квартир"
-title_page: Уничтожение блох в Москве и МО
-page_name: Уничтожение блох
+title_meta: "Уничтожение Блох в Москве: обработка домов и квартир"
+title_page: Уничтожение Блох в Москве и МО
+page_name: Уничтожение Блох
 description: Наша служба СЭС поможет избавиться от блох с гарантией. ⚡ Дезинфекция (Дезинсекция) от блох в Москве
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/flea_bloha_200.webp

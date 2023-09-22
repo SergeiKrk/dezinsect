@@ -13,6 +13,56 @@ categories: ["Дезинсекция", "На участке"]
 date: 2023-07-11
 draft: false
 
+categoryCards:
+  - page_name: Уничтожение Тараканов
+    serviceIcon: /images/service-pages/cockroach_tarakan_200.webp
+    url_page: /uslugi/unichtozhenie-tarakanov
+  - page_name: Уничтожение Клопов
+    serviceIcon: /images/service-pages/bedbug_klop_200.webp
+    url_page: /uslugi/unichtozhenie-klopov
+  - page_name: Уничтожение Муравьев
+    serviceIcon: /images/service-pages/ant_muravei_200.webp
+    url_page: /uslugi/unichtozhenie-muravev
+  - page_name: Уничтожение Клещей
+    serviceIcon: /images/service-pages/mite_klesch_200.webp
+    url_page: /uslugi/unichtozhenie-kleshchej
+  - page_name: Уничтожение Шершней
+    serviceIcon: /images/service-pages/hornet_200.webp
+    url_page: /uslugi/unichtozhenie-shershnej
+  - page_name: Уничтожение Ос
+    serviceIcon: /images/service-pages/wasp_osa_200.webp
+    url_page: /uslugi/unichtozhenie-os
+  - page_name: Уничтожение Блох
+    serviceIcon: /images/service-pages/flea_bloha_200.webp
+    url_page: /uslugi/unichtozhenie-bloh
+  - page_name: Уничтожение Вшей и Гнид
+    serviceIcon: /images/service-pages/lice_vshi_200.webp
+    url_page: /uslugi/obrabotka-ot-pedikuleza
+  - page_name: Уничтожение Долгоносика
+    serviceIcon: /images/service-pages/weevil_dolgonosik_200.webp
+    url_page: /uslugi/unichtozhenie-dolgonosika
+  - page_name: Уничтожение Короеда
+    serviceIcon: /images/service-pages/bark_beetle_200.webp
+    url_page: /uslugi/unichtozhenie-koroeda
+  - page_name: Уничтожение Медведки
+    serviceIcon: /images/service-pages/medvedka_200.webp
+    url_page: /uslugi/unichtozhenie-medvedok
+  - page_name: Уничтожение Моли
+    serviceIcon: /images/service-pages/mol_200.webp
+    url_page: /uslugi/unichtozhenie-moli
+  - page_name: Уничтожение Мокриц
+    serviceIcon: /images/service-pages/mokrica_200.webp
+    url_page: /uslugi/unichtozhenie-mokric-i-cheshujnic
+  - page_name: Уничтожение Мух
+    serviceIcon: /images/service-pages/fly_muha_200.webp
+    url_page: /uslugi/unichtozhenie-muh
+  - page_name: Уничтожение Кожееда
+    serviceIcon: /images/service-pages/zhuk-kozheed_200.webp
+    url_page: /uslugi/unichtozhenie-kozheeda
+  - page_name: Уничтожение Пауков
+    serviceIcon: /images/service-pages/spider_pauk_200.webp
+    url_page: /uslugi/unichtozhenie-paukov
+
 place:
   title: Помощь СЭС в профессиональной обработке от насекомых
   description: комплекс мероприятий по борьбе с насекомыми на любом объекте

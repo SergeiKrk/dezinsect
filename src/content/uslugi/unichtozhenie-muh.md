@@ -1,7 +1,7 @@
 ---
-title_meta: "Уничтожение мух в Москве: обработка домов и квартир"
-title_page: Уничтожение мух в Москве и МО
-page_name: Уничтожение мух
+title_meta: "Уничтожение Мух в Москве: обработка домов и квартир"
+title_page: Уничтожение Мух в Москве и МО
+page_name: Уничтожение Мух
 description: Наша служба СЭС поможет избавиться от мух с гарантией. ⚡ Дезинфекция (Дезинсекция) от мух в Москве
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/fly_muha_200.webp

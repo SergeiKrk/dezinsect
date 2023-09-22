@@ -1,7 +1,7 @@
 ---
-title_meta: "Уничтожение ос и осиных гнезд: обработка участка, дома и квартиры"
-title_page: Обработка от ос в Москве и МО
-page_name: Уничтожение ос
+title_meta: "Уничтожение Ос и осиных гнезд: обработка участка, дома и квартиры"
+title_page: Обработка от Ос в Москве и МО
+page_name: Уничтожение Ос
 description: Наша служба СЭС поможет избавиться от ос с гарантией. ⚡ Дезинфекция (Дезинсекция) от ос в Москве
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/wasp_osa_200.webp

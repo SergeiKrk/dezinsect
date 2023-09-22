@@ -1,7 +1,7 @@
 ---
-title_meta: "Уничтожение пауков в Москве: обработка домов и квартир"
-title_page: Уничтожение пауков в Москве и МО
-page_name: Уничтожение пауков
+title_meta: "Уничтожение Пауков в Москве: обработка домов и квартир"
+title_page: Уничтожение Пауков в Москве и МО
+page_name: Уничтожение Пауков
 description: Наша служба СЭС поможет избавиться от пауков с гарантией. ⚡ Дезинфекция (Дезинсекция) от пауков в Москве
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/spider_pauk_200.webp

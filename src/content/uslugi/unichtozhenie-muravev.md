@@ -1,7 +1,7 @@
 ---
-title_meta: "Уничтожение муравьев в Москве: обработка домов и квартир"
-title_page: Уничтожение муравьев в Москве и МО
-page_name: Уничтожение муравьев
+title_meta: "Уничтожение Муравьев в Москве: обработка домов и квартир"
+title_page: Уничтожение Муравьев в Москве и МО
+page_name: Уничтожение Муравьев
 description: Наша служба СЭС поможет избавиться от муравьев с гарантией. ⚡ Дезинфекция (Дезинсекция) от муравьев в Москве
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/ant_muravei_200.webp

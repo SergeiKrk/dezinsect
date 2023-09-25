@@ -1,8 +1,8 @@
 ---
-title_meta: "Дезинсекция в Москве: обработка от насекомых квартир, домов и земельных участков"
-title_page: Уничтожение насекомых в Москве и МО
-page_name: Уничтожение насекомых
-description: Наша служба СЭС поможет избавиться от насекомых с гарантией. ⚡ Дезинсекция в квартире, доме и на участке
+title_meta: "Обрезка и удаление деревьев в Москве и Московской области"
+title_page: Обрезка и удаление деревьев в Москве и МО
+page_name: Обрезка деревьев
+description: "Осуществляем Обрезку, Спил, Рубку деревьев в Москве и Московской области. ⚡ Звоните и узнайте цену."
 imgBanner: /images/service-pages/obrabotka-derevev.webp
 serviceIcon: /images/service-pages/spil_derevev.webp
 altService: Борьба с насекомыми
@@ -17,10 +17,8 @@ place:
   title: Помощь СЭС в профессиональной обработке от насекомых
   description: комплекс мероприятий по борьбе с насекомыми на любом объекте
   place_list:
-    - title: в частном доме
-      icon: tabler:home
-    - title: в квартире
-      icon: ic:round-apartment
+    - title: в парке
+      icon: healthicons:forest-outline
     - title: на даче
       icon: iconoir:farm
     - title: в огороде
@@ -29,63 +27,29 @@ place:
       icon: uil:trees
     - title: в саду
       icon: healthicons:forest-outline
-    - title: в кафе
-      icon: carbon:cafe
-    - title: в столовой
-      icon: grommet-icons:cafeteria
-    - title: в ресторане
-      icon: grommet-icons:restaurant
-    - title: в магазине
-      icon: uil:shop
-    - title: в торговом центре
-      icon: ic:outline-local-mall
-    - title: на складе
-      icon: ic:outline-warehouse
-    - title: в подвале
-      icon: tabler:ladder
-    - title: в гостинице и отеле
-      icon: carbon:hotel
-    - title: на базе отдыха
-      icon: mdi:grill-outline
-    - title: в детском саду
-      icon: cil:child
-    - title: в школе
-      icon: la:school
-    - title: в учебном заведении
-      icon: ic:outline-school
-    - title: в больнице
-      icon: ri:hospital-line
-    - title: в медицинском учреждении
-      icon: mdi:hospital
-    - title: в бытовке или вагончике
-      icon: la:warehouse
+
+rospotreb: empty
 
 benifits:
-  title: Обработка от насекомых в Москве
-  description: Обрабатываем частные дома, квартиры, коммерческие помещения и земельные участки
+  title: Обрезка деревьев в Москве без хлопот
+  description: С нами удобно работать
   benifit_list:
-    - title: Безопасно для детей и домашних животных
-      decript: "Используются сертифицированные средства"
+    - title: Профессиональное оборудование
       color: "#FDC528"
-      icon: ph:baby-bold
-    - title: Обработка действует уже через 30 минут
-      decript: "Активные компоненты агрессивно воздействуют на вредителей практически сразу"
+      icon: mdi:saw-blade
+    - title: Работаем на сложных объектах
       color: "#12E189"
-      icon: mdi:clock-fast
-    - title: Без аллергических реакций
-      decript: "Используемые средства прошли сертификацию и не вызывают аллергии"
+      icon: uil:trees
+    - title: Стаж специалистов от 4 лет
       color: "#E545FF"
-      icon: mdi:allergy-outline
+      icon: ri:team-line
     - title: Средства без запаха
-      decript: "После обработки комфортно находиться в помещении"
       color: "#24A1FF"
       icon: mdi:odor-off
     - title: Через 2 часа можно находиться в помещении
-      decript: "Достаточно протереть контактные поверхности влажной тряпкой"
       color: "#7B5AFF"
       icon: mdi:home-clock-outline
     - title: Эффект до 40 дней
-      decript: "Достаточно для уничтожения вылупившихся насекомых"
       color: "#FF5874"
       icon: tabler:calendar-time
 

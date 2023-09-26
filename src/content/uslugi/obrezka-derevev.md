@@ -7,15 +7,15 @@ imgBanner: /images/service-pages/obrabotka-derevev.webp
 serviceIcon: /images/service-pages/spil_derevev.webp
 altService: Борьба с насекомыми
 minPric: "4800"
-keyword1: Служба по уничтожению насекомых
+keyword1: Служба по спилу деревьев
 keyword2: Вызвать службу от насекомых
 categories: ["Обработка деревьев"]
 date: 2023-07-11
 draft: false
 
 place:
-  title: Помощь СЭС в профессиональной обработке от насекомых
-  description: комплекс мероприятий по борьбе с насекомыми на любом объекте
+  title: Удаление аварийных деревьев
+  description: Осуществляем спил, обрезку и вывоз деревьев в Москве и области без ущерба имуществу
   place_list:
     - title: в парке
       icon: healthicons:forest-outline
@@ -31,31 +31,31 @@ place:
 rospotreb: empty
 
 benifits:
-  title: Обрезка деревьев в Москве без хлопот
-  description: С нами удобно работать
+  title: Обрезка деревьев без хлопот
+  description: Наши преимущества
   benifit_list:
     - title: Профессиональное оборудование
       color: "#FDC528"
-      icon: mdi:saw-blade
+      icon: mdi:hand-saw
     - title: Работаем на сложных объектах
       color: "#12E189"
       icon: uil:trees
     - title: Стаж специалистов от 4 лет
       color: "#E545FF"
       icon: ri:team-line
-    - title: Средства без запаха
+    - title: Лицензии и допуски
       color: "#24A1FF"
-      icon: mdi:odor-off
-    - title: Через 2 часа можно находиться в помещении
+      icon: mdi:license
+    - title: Работаем с физ. и юр. лицами
       color: "#7B5AFF"
-      icon: mdi:home-clock-outline
-    - title: Эффект до 40 дней
+      icon: ph:handshake-bold
+    - title: Безопасное удаление аварийных деревьев
       color: "#FF5874"
-      icon: tabler:calendar-time
+      icon: mdi:like-outline
 
 serviceMethod:
-  title: помещения от насекомых
-  description: Эффективная химическая обработка помещений для полного уничтожения насекомых и других вредителей. Безопасно для интерьера, быстро и надежно.
+  title: деревьев
+  description: Наши услуги по арбористике
   our_service:
     - title: Холодный туман в борьбе с насекомыми
       description: Современные технологии помогают справиться с нашествием насекомых. Одним из передовых методов стал генератор холодного тумана. Как он действует и почему он так популярен?

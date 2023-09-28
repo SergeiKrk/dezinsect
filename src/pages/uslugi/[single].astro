@@ -40,6 +40,7 @@ const page_data = {
   serviceMethod: post.data.serviceMethod,
   steps: post.data.steps,
   costServices: post.data.costServices,
+  costServicesTwo: post.data.costServicesTwo,
   slug: post.slug,
   keyword1: post.data.keyword1,
   keyword2: post.data.keyword2,
@@ -136,7 +137,7 @@ const pageBanner = {
 
   <StepByStep steps={page_data.steps} />
 
-  <CostServices costServices={page_data.costServices} place={page_data.place} />
+  <CostServices costServices={page_data.costServices} costServicesTwo={page_data.costServicesTwo} place={page_data.place} />
 
   <section id="toTheForm" class="px-4">
     <div class="container my-8 rounded-xl bg-white p-14 text-center shadow-lg">

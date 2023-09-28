@@ -1,6 +1,6 @@
 ---
 import { Icon } from "astro-icon";
-const { costServices, place } = Astro.props;
+const { costServices, costServicesTwo, place } = Astro.props;
 const { place_list } = place;
 ---
 
@@ -32,7 +32,7 @@ const { place_list } = place;
           <div class={`rounded-sm p-4 bg-${item.color}`}>
             <p class="text-xl font-semibold text-primary">{item.method}</p>
             <p class="text-lg font-semibold">
-              {item.scope_work}: от{" "}
+              {item.scope_work}: {costServices.prefix ? " " : "от "}
               <span class="text-xl font-bold text-secondary">
                 {item.cost} ₽
               </span>
@@ -41,5 +41,24 @@ const { place_list } = place;
         ))
       }
     </div>
+    {
+      costServicesTwo && (
+        <div
+          class={`row mt-14 grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-${costServices.cols} xl:grid-cols-${costServices.cols} 2xl:grid-cols-${costServices.cols}`}
+        >
+          {costServices.cost_services_list.map((item: any) => (
+            <div class={`rounded-sm p-4 bg-${item.color}`}>
+              <p class="text-xl font-semibold text-primary">{item.method}</p>
+              <p class="text-lg font-semibold">
+                {item.scope_work}: {costServices.prefix ? " " : "от "}
+                <span class="text-xl font-bold text-secondary">
+                  {item.cost} ₽
+                </span>
+              </p>
+            </div>
+          ))}
+        </div>
+      )
+    }
   </div>
 </section>

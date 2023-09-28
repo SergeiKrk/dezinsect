@@ -6,9 +6,9 @@ description: "Осуществляем Обрезку, Спил, Рубку де
 imgBanner: /images/service-pages/obrabotka-derevev.webp
 serviceIcon: /images/service-pages/spil_derevev.webp
 altService: Борьба с насекомыми
-minPric: "700"
+minPric: "1000"
 keyword1: Служба по спилу деревьев
-keyword2: Вызвать службу от насекомых
+keyword2: Вызвать службу по обрезке и удалению деревьев
 categories: ["Обработка деревьев"]
 date: 2023-07-11
 draft: false
@@ -55,15 +55,15 @@ benifits:
 
 serviceMethod:
   title: деревьев
-  description: Наши услуги по арбористике
+  description: Методы удаления деревьев, которые мы применяем
   our_service:
     - title: Стандартная валка деревьев (с земли)
       description: Валка деревьев с земли - метод, используемый при естественном наклоне дерева или возможности его целостного спила без ущерба для окружающих построек. Этот метод наиболее экономичен и дешев.
       list:
         - Есть возможность спилить дерево целиком;
         - Если дерево имеет наклон;
-      price: от 700 ₽ за дерево
-      image: "/images/service-pages/barernaya_zaschita_ot_nasekomih.webp"
+      price: от 1000 ₽ за дерево
+      image: "/images/service-pages/standartnaya-valka-derevev-s-zemli.webp"
 
     - title: Валка деревьев (с оттяжкой)
       description: Валка дерева целиком в заданном направлении с оттяжкой является надежным методом, применяемым при наличии сектора для валки шириной не менее 30 градусов. Процесс начинается с крепления веревки непосредственно выше 2/3 высоты дерева альпинистом. Затем на земле альпинист закрепляет оттяжку и натягивает ее с использованием блока или лебедки. После этого выполняется запил в заданном направлении с небольшим недопилом, и альпинист начинает усиленно тянуть за оттяжку.
@@ -71,7 +71,7 @@ serviceMethod:
         - Применяется при секторе для валки не менее 30 градусов;
         - Применяется, если есть возможность уронить дерево целиком.
       price: от 1500 ₽ за дерево
-      image: "/images/service-pages/barernaya_zaschita_ot_nasekomih.webp"
+      image: "/images/service-pages/valka-derevev-s-ottyazhkoj.webp"
 
     - title: Спил дерева крупными частями со свободным сбросом
       description: Метод применяется, когда вблизи спиливаемого дерева есть свободное пространство, но также есть постройки и другие деревья. Сперва отпиливают ветки, которые сбрасывают вниз. Затем оставшаяся часть ствола распиливается на крупные части длиной 2-4 метра и также свободно сбрасываются вниз.
@@ -79,7 +79,7 @@ serviceMethod:
         - Вблизи есть строения;
         - Под деревом достаточно места для сброса крупных частей ствола.
       price: от 2000 ₽ за дерево
-      image: "/images/service-pages/barernaya_zaschita_ot_nasekomih.webp"
+      image: "/images/service-pages/spil-dereva-krupnymi-chastyami-so-svobodnym-sbrosom.webp"
 
     - title: Спил дерева мелкими частями со свободным сбросом
       description: Метод применяется при ограниченном пространстве под деревом. Ветки и части ствола пилятся на небольшие куски, которые вручную сбрасываются в нужную зону. Ствол распиливается на части до 1 метра и сбрасывается в свободную зону.
@@ -87,7 +87,7 @@ serviceMethod:
         - Вблизи есть строения;
         - Под деревом мало места для сброса крупных частей ствола.
       price: от 2500 ₽ за дерево
-      image: "/images/service-pages/barernaya_zaschita_ot_nasekomih.webp"
+      image: "/images/service-pages/spil-dereva-melkimi-chastyami-so-svobodnym-sbrosom.webp"
 
     - title: Удаление деревьев по частям (с частичным завешиванием)
       description: "Верхушка ствола и ветки отпиливаются и спускаются на веревках. Ствол пилится мелкими частями и сбрасывается в небольшой сектор (1,5 x 1,5 метра). Для выполнения этого метода необходимо минимум два человека: один альпинист и один помощник."
@@ -96,7 +96,7 @@ serviceMethod:
         - Вблизи есть строения;
         - Под деревом очень мало места для сброса частей ствола (свободн площадь порядка 1,5 на 1,5 метра).
       price: от 3000 ₽ за дерево
-      image: "/images/service-pages/barernaya_zaschita_ot_nasekomih.webp"
+      image: "/images/service-pages/udalenie-derevev-po-chastyam-s-chastichnym-zaveshivaniem.webp"
 
     - title: Удаление деревьев по частям (с завешиванием)
       description: "Метод подразумевает спуск всех частей дерева на веревках. Этот метод часто используется, например, при удалении деревьев на кладбище, чтобы избежать повреждения памятников и захоронений. Для выполнения этого метода требуется минимум два человека."
@@ -104,7 +104,7 @@ serviceMethod:
         - Требуется 2 специалиста;
         - Для сброса частей дерева нет места.
       price: от 4000 ₽ за дерево
-      image: "/images/service-pages/barernaya_zaschita_ot_nasekomih.webp"
+      image: "/images/service-pages/udalenie-derevev-po-chastyam-s-zaveshivaniem.webp"
 
 steps:
   title: Арбористы в Москве
@@ -122,41 +122,257 @@ steps:
     - title: Готово!
 
 costServices:
-  title: Цена на обрезку и удаление деревьев
-  description: Итоговая цена за услугу изменяется в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
-  cols: 4
+  title: Цена на удаление одноствольных прямых деревьев
+  description: (сосна, береза, ель, осина)
+  cols: 5
+  prefix: true
   cost_services_list:
-    - scope_work: 1 комната
-      method: Ловчие домики (длительное действие)
+    - scope_work: Валка деревьев с земли
+      method: d ствола до 20 см.
+      cost: "1000"
+      color: "white"
+    - scope_work: Валка деревьев с земли
+      method: d ствола до 40 см.
+      cost: "1500"
+      color: "white"
+    - scope_work: Валка деревьев с земли
+      method: d ствола до 60 см.
+      cost: "2500"
+      color: "white"
+    - scope_work: Валка деревьев с земли
+      method: d ствола до 80 см.
+      cost: "от 3500"
+      color: "white"
+    - scope_work: Валка деревьев с земли
+      method: d ствола > 80 см.
+      cost: "от 4000"
+      color: "white"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 20 см.
+      cost: "1500"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 40 см.
+      cost: "2000"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 60 см.
       cost: "3000"
-      color: "white"
-    - scope_work: 1 комната
-      method: Холодный туман
-      cost: "4800"
-      color: "white"
-    - scope_work: 1 комната
-      method: Горячий туман
-      cost: "5000"
-      color: "white"
-    - scope_work: 1 комната
-      method: Комплексная обработка
-      cost: "5000"
-      color: "white"
-    - scope_work: 1-комнатная квартира
-      method: Ловчие домики (длительное действие)
-      cost: "3000"
       color: "[#EDF7F3]"
-    - scope_work: 1-комнатная квартира
-      method: Холодный туман
-      cost: "4800"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 80 см.
+      cost: "от 3500"
       color: "[#EDF7F3]"
-    - scope_work: 1-комнатная квартира
-      method: Горячий туман
-      cost: "5000"
+    - scope_work: Валка с оттяжкой
+      method: d ствола > 80 см.
+      cost: "от 4000"
       color: "[#EDF7F3]"
-    - scope_work: 1-комнатная квартира
-      method: Комплексная обработка
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола до 20 см.
+      cost: "2000"
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола до 40 см.
+      cost: "4000"
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола до 60 см.
       cost: "6000"
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола до 80 см.
+      cost: "8000"
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола > 80 см.
+      cost: "от 8000"
+      color: "white"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 20 см.
+      cost: "2500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 40 см.
+      cost: "4500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 60 см.
+      cost: "6500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 80 см.
+      cost: "8500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола > 80 см.
+      cost: "от 8500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 20 см.
+      cost: "3000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 40 см.
+      cost: "5000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 60 см.
+      cost: "7000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 80 см.
+      cost: "9000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола > 80 см.
+      cost: "от 9000"
+      color: "white"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола до 20 см.
+      cost: "4000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола до 40 см.
+      cost: "7500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола до 60 см.
+      cost: "9000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола до 80 см.
+      cost: "15000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола > 80 см.
+      cost: "от 15000"
+      color: "[#EDF7F3]"
+
+costServicesTwo:
+  title: Цена на удаление раскидистых деревьев
+  description: (дуб, тополь, ива)
+  cols: 5
+  prefix: true
+  cost_services_list:
+    - scope_work: Валка деревьев с земли
+      method: d ствола до 20 см.
+      cost: "1000"
+      color: "white"
+    - scope_work: Валка деревьев с земли
+      method: d ствола до 40 см.
+      cost: "1500"
+      color: "white"
+    - scope_work: Валка деревьев с земли
+      method: d ствола до 60 см.
+      cost: "2500"
+      color: "white"
+    - scope_work: Валка деревьев с земли
+      method: d ствола до 80 см.
+      cost: "от 3500"
+      color: "white"
+    - scope_work: Валка деревьев с земли
+      method: d ствола > 80 см.
+      cost: "от 4000"
+      color: "white"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 20 см.
+      cost: "1500"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 40 см.
+      cost: "2000"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 60 см.
+      cost: "3000"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 80 см.
+      cost: "от 3500"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола > 80 см.
+      cost: "от 4000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола до 20 см.
+      cost: "2000"
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола до 40 см.
+      cost: "4000"
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола до 60 см.
+      cost: "6000"
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола до 80 см.
+      cost: "8000"
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
+      method: d ствола > 80 см.
+      cost: "от 8000"
+      color: "white"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 20 см.
+      cost: "2500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 40 см.
+      cost: "4500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 60 см.
+      cost: "6500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 80 см.
+      cost: "8500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола > 80 см.
+      cost: "от 8500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 20 см.
+      cost: "3000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 40 см.
+      cost: "5000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 60 см.
+      cost: "7000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 80 см.
+      cost: "9000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола > 80 см.
+      cost: "от 9000"
+      color: "white"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола до 20 см.
+      cost: "4000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола до 40 см.
+      cost: "7500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола до 60 см.
+      cost: "9000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола до 80 см.
+      cost: "15000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с завешиванием
+      method: d ствола > 80 см.
+      cost: "от 15000"
       color: "[#EDF7F3]"
 
 faq:

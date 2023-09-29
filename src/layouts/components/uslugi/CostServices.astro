@@ -41,16 +41,34 @@ const { place_list } = place;
         ))
       }
     </div>
-    {
-      costServicesTwo && (
+  </div>
+  {
+    costServicesTwo && (
+      <div class="container mt-16">
+        <div class="row">
+          <div class="mx-auto text-center">
+            <h2 class="mx-auto max-w-4xl lg:mb-8">{costServicesTwo.title}</h2>
+            {place_list.map((item: any) => (
+              <div class="m-1 inline-block rounded-full bg-white py-2 pl-2 pr-4 lg:m-2">
+                <div class="flex items-center space-x-1">
+                  <div class="icon rounded-full bg-[#EDF7F3] px-1">
+                    <Icon class="inline h-4 w-4" name="wpf:geo-fence" />
+                  </div>
+                  <h3 class="text-sm lg:text-lg">{item.title}</h3>
+                </div>
+              </div>
+            ))}
+            <p class="mx-auto mt-4 max-w-4xl">{costServicesTwo.description}</p>
+          </div>
+        </div>
         <div
-          class={`row mt-14 grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5`}
+          class={`row mt-14 grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-${costServicesTwo.cols} xl:grid-cols-${costServicesTwo.cols} 2xl:grid-cols-${costServicesTwo.cols}`}
         >
-          {costServices.cost_services_list.map((item: any) => (
+          {costServicesTwo.cost_services_list.map((item: any) => (
             <div class={`rounded-sm p-4 bg-${item.color}`}>
               <p class="text-xl font-semibold text-primary">{item.method}</p>
               <p class="text-lg font-semibold">
-                {item.scope_work}: {costServices.prefix ? " " : "от "}
+                {item.scope_work}: {costServicesTwo.prefix ? " " : "от "}
                 <span class="text-xl font-bold text-secondary">
                   {item.cost} ₽
                 </span>
@@ -58,7 +76,7 @@ const { place_list } = place;
             </div>
           ))}
         </div>
-      )
-    }
-  </div>
+      </div>
+    )
+  }
 </section>

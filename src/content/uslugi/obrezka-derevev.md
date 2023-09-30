@@ -124,7 +124,7 @@ steps:
 costServices:
   title: Цена на удаление одноствольных прямых деревьев
   description: (сосна, береза, ель, осина)
-  cols: 5
+  cols: "md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5"
   prefix: true
   cost_services_list:
     - scope_work: Валка деревьев с земли
@@ -251,128 +251,128 @@ costServices:
 costServicesTwo:
   title: Цена на удаление раскидистых деревьев
   description: (дуб, тополь, ива)
-  cols: 5
+  cols: "md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5"
   prefix: true
   cost_services_list:
     - scope_work: Валка деревьев с земли
       method: d ствола до 20 см.
-      cost: "1000"
-      color: "white"
-    - scope_work: Валка деревьев с земли
-      method: d ствола до 40 см.
       cost: "1500"
       color: "white"
     - scope_work: Валка деревьев с земли
+      method: d ствола до 40 см.
+      cost: "2000"
+      color: "white"
+    - scope_work: Валка деревьев с земли
       method: d ствола до 60 см.
-      cost: "2500"
+      cost: "3500"
       color: "white"
     - scope_work: Валка деревьев с земли
       method: d ствола до 80 см.
-      cost: "от 3500"
-      color: "white"
-    - scope_work: Валка деревьев с земли
-      method: d ствола > 80 см.
-      cost: "от 4000"
-      color: "white"
-    - scope_work: Валка с оттяжкой
-      method: d ствола до 20 см.
-      cost: "1500"
-      color: "[#EDF7F3]"
-    - scope_work: Валка с оттяжкой
-      method: d ствола до 40 см.
-      cost: "2000"
-      color: "[#EDF7F3]"
-    - scope_work: Валка с оттяжкой
-      method: d ствола до 60 см.
-      cost: "3000"
-      color: "[#EDF7F3]"
-    - scope_work: Валка с оттяжкой
-      method: d ствола до 80 см.
-      cost: "от 3500"
-      color: "[#EDF7F3]"
-    - scope_work: Валка с оттяжкой
-      method: d ствола > 80 см.
-      cost: "от 4000"
-      color: "[#EDF7F3]"
-    - scope_work: Удаление крупными частями со сбросом
-      method: d ствола до 20 см.
-      cost: "2000"
-      color: "white"
-    - scope_work: Удаление крупными частями со сбросом
-      method: d ствола до 40 см.
       cost: "4000"
       color: "white"
-    - scope_work: Удаление крупными частями со сбросом
-      method: d ствола до 60 см.
-      cost: "6000"
-      color: "white"
-    - scope_work: Удаление крупными частями со сбросом
-      method: d ствола до 80 см.
-      cost: "8000"
-      color: "white"
-    - scope_work: Удаление крупными частями со сбросом
+    - scope_work: Валка деревьев с земли
       method: d ствола > 80 см.
-      cost: "от 8000"
+      cost: "от 4000"
       color: "white"
-    - scope_work: Удаление мелкими частями со сбросом
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 20 см.
+      cost: "2200"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 40 см.
+      cost: "2800"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 60 см.
+      cost: "4000"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола до 80 см.
+      cost: "5500"
+      color: "[#EDF7F3]"
+    - scope_work: Валка с оттяжкой
+      method: d ствола > 80 см.
+      cost: "от 5500"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление крупными частями со сбросом
       method: d ствола до 20 см.
       cost: "2500"
-      color: "[#EDF7F3]"
-    - scope_work: Удаление мелкими частями со сбросом
+      color: "white"
+    - scope_work: Удаление крупными частями со сбросом
       method: d ствола до 40 см.
       cost: "4500"
-      color: "[#EDF7F3]"
-    - scope_work: Удаление мелкими частями со сбросом
-      method: d ствола до 60 см.
-      cost: "6500"
-      color: "[#EDF7F3]"
-    - scope_work: Удаление мелкими частями со сбросом
-      method: d ствола до 80 см.
-      cost: "8500"
-      color: "[#EDF7F3]"
-    - scope_work: Удаление мелкими частями со сбросом
-      method: d ствола > 80 см.
-      cost: "от 8500"
-      color: "[#EDF7F3]"
-    - scope_work: Удаление по частям с частич. завеш.
-      method: d ствола до 20 см.
-      cost: "3000"
       color: "white"
-    - scope_work: Удаление по частям с частич. завеш.
-      method: d ствола до 40 см.
-      cost: "5000"
-      color: "white"
-    - scope_work: Удаление по частям с частич. завеш.
+    - scope_work: Удаление крупными частями со сбросом
       method: d ствола до 60 см.
       cost: "7000"
       color: "white"
-    - scope_work: Удаление по частям с частич. завеш.
+    - scope_work: Удаление крупными частями со сбросом
       method: d ствола до 80 см.
       cost: "9000"
       color: "white"
-    - scope_work: Удаление по частям с частич. завеш.
+    - scope_work: Удаление крупными частями со сбросом
       method: d ствола > 80 см.
       cost: "от 9000"
       color: "white"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 20 см.
+      cost: "3000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 40 см.
+      cost: "5000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 60 см.
+      cost: "8000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола до 80 см.
+      cost: "10000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление мелкими частями со сбросом
+      method: d ствола > 80 см.
+      cost: "от 10000"
+      color: "[#EDF7F3]"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 20 см.
+      cost: "3500"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 40 см.
+      cost: "6000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 60 см.
+      cost: "9000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола до 80 см.
+      cost: "14000"
+      color: "white"
+    - scope_work: Удаление по частям с частич. завеш.
+      method: d ствола > 80 см.
+      cost: "от 14000"
+      color: "white"
     - scope_work: Удаление по частям с завешиванием
       method: d ствола до 20 см.
-      cost: "4000"
+      cost: "5000"
       color: "[#EDF7F3]"
     - scope_work: Удаление по частям с завешиванием
       method: d ствола до 40 см.
-      cost: "7500"
+      cost: "8000"
       color: "[#EDF7F3]"
     - scope_work: Удаление по частям с завешиванием
       method: d ствола до 60 см.
-      cost: "9000"
+      cost: "14000"
       color: "[#EDF7F3]"
     - scope_work: Удаление по частям с завешиванием
       method: d ствола до 80 см.
-      cost: "15000"
+      cost: "18000"
       color: "[#EDF7F3]"
     - scope_work: Удаление по частям с завешиванием
       method: d ствола > 80 см.
-      cost: "от 15000"
+      cost: "от 18000"
       color: "[#EDF7F3]"
 
 faq:

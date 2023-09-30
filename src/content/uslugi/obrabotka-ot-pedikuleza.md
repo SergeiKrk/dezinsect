@@ -127,7 +127,7 @@ steps:
 costServices:
   title: Примерная стоимость обработки квартиры или дома от вшей и гнид
   description: Итоговая цена за услугу может меняться в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
-  cols: 3
+  cols: "md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
   cost_services_list:
     - scope_work: 1 комната
       method: Холодный туман

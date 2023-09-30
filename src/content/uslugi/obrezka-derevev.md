@@ -375,6 +375,33 @@ costServicesTwo:
       cost: "от 18000"
       color: "[#EDF7F3]"
 
+costServicesThree:
+  title: Цена на обрезку веток деревьев
+  description: Удаляем от 10 веток. Итоговая цена за услугу может меняться в зависимости от сложности конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
+  cols: "md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5"
+  prefix: true
+  cost_services_list:
+    - scope_work: Цена
+      method: Спил и сброс сухих веток
+      cost: "от 1500"
+      color: "white"
+    - scope_work: Цена
+      method: Обрезка веток с завешиванием
+      cost: "от 4500"
+      color: "white"
+    - scope_work: Цена
+      method: Удаление веток с завешиванием
+      cost: "от 5500"
+      color: "white"
+    - scope_work: Цена
+      method: Омолаживающая обрезка дерева (консервация спила)
+      cost: "от 6000"
+      color: "white"
+    - scope_work: Цена
+      method: Опиловка боковых стволов (толще 20 см.)
+      cost: "от 6000"
+      color: "white"
+
 faq:
   title: Часто задаваемые вопросы
   description:

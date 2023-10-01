@@ -1,26 +1,22 @@
 ---
-title_meta: "Дезинсекция в Москве: обработка от насекомых квартир, домов и земельных участков"
-title_page: Уничтожение насекомых в Москве и МО
-page_name: Уничтожение насекомых
-description: Наша служба СЭС поможет избавиться от насекомых с гарантией. ⚡ Дезинсекция в квартире, доме и на участке
+title_meta: "Стволовые инъекции для деревьев. Уколы дереву от вредителей."
+title_page: Стволовые инъекции для деревьев в Москве и МО
+page_name: Стволовые инъекции деревьям
+description: Наша служба поможет защитить деревья от насекомых и инфекций. ⚡ Стволовые инъекции - это действенный метод лечения деревьев
 imgBanner: /images/service-pages/obrabotka-derevev.webp
 serviceIcon: /images/service-pages/stem_injections_200.webp
-altService: Борьба с насекомыми
 minPric: "4800"
 keyword1: Служба по уничтожению насекомых
 keyword2: Вызвать службу от насекомых
 categories: ["Обработка деревьев"]
-date: 2023-07-11
 draft: false
 
 place:
-  title: Помощь СЭС в профессиональной обработке от насекомых
-  description: комплекс мероприятий по борьбе с насекомыми на любом объекте
+  title: Помощь в профессиональной обработке, лечении и восстановлении деревьев
+  description: Комплекс мероприятий по борьбе с насекомыми и инфекциями с помощью стволовых инъекций
   place_list:
-    - title: в частном доме
-      icon: tabler:home
-    - title: в квартире
-      icon: ic:round-apartment
+    - title: в парке
+      icon: healthicons:forest-outline
     - title: на даче
       icon: iconoir:farm
     - title: в огороде
@@ -29,36 +25,6 @@ place:
       icon: uil:trees
     - title: в саду
       icon: healthicons:forest-outline
-    - title: в кафе
-      icon: carbon:cafe
-    - title: в столовой
-      icon: grommet-icons:cafeteria
-    - title: в ресторане
-      icon: grommet-icons:restaurant
-    - title: в магазине
-      icon: uil:shop
-    - title: в торговом центре
-      icon: ic:outline-local-mall
-    - title: на складе
-      icon: ic:outline-warehouse
-    - title: в подвале
-      icon: tabler:ladder
-    - title: в гостинице и отеле
-      icon: carbon:hotel
-    - title: на базе отдыха
-      icon: mdi:grill-outline
-    - title: в детском саду
-      icon: cil:child
-    - title: в школе
-      icon: la:school
-    - title: в учебном заведении
-      icon: ic:outline-school
-    - title: в больнице
-      icon: ri:hospital-line
-    - title: в медицинском учреждении
-      icon: mdi:hospital
-    - title: в бытовке или вагончике
-      icon: la:warehouse
 
 benifits:
   title: Обработка от насекомых в Москве

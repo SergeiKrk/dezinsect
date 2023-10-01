@@ -569,13 +569,6 @@ declare module 'astro:content' {
   collection: "uslugi";
   data: any
 } & { render(): Render[".mdx"] };
-"obrabotka-derevev.md": {
-	id: "obrabotka-derevev.md";
-  slug: "obrabotka-derevev";
-  body: string;
-  collection: "uslugi";
-  data: any
-} & { render(): Render[".md"] };
 "obrabotka-ot-pedikuleza.md": {
 	id: "obrabotka-ot-pedikuleza.md";
   slug: "obrabotka-ot-pedikuleza";
@@ -586,6 +579,13 @@ declare module 'astro:content' {
 "obrezka-derevev.md": {
 	id: "obrezka-derevev.md";
   slug: "obrezka-derevev";
+  body: string;
+  collection: "uslugi";
+  data: any
+} & { render(): Render[".md"] };
+"stvolovye-inekcii.md": {
+	id: "stvolovye-inekcii.md";
+  slug: "stvolovye-inekcii";
   body: string;
   collection: "uslugi";
   data: any

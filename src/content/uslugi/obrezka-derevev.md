@@ -3,7 +3,7 @@ title_meta: "Обрезка и удаление деревьев в Москве
 title_page: Обрезка и удаление деревьев в Москве и МО
 page_name: Обрезка деревьев
 description: "Осуществляем Обрезку, Спил, Рубку деревьев в Москве и Московской области. ⚡ Звоните и узнайте цену."
-imgBanner: /images/service-pages/obrezka-i-idalenie-derevev.webp
+imgBanner: /images/service-pages/obrezka-i-udalenie-derevev.webp
 serviceIcon: /images/service-pages/spil_derevev.webp
 altService: Борьба с насекомыми
 minPric: "1000"

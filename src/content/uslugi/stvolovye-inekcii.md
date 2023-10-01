@@ -2,7 +2,7 @@
 title_meta: "Стволовые инъекции для деревьев. Уколы дереву от вредителей."
 title_page: Стволовые инъекции для деревьев в Москве и МО
 page_name: Стволовые инъекции деревьям
-description: Наша служба поможет защитить деревья от насекомых и инфекций. ⚡ Стволовые инъекции - это действенный метод лечения деревьев
+description: Наша служба поможет защитить деревья от инфекци и насекомых. ⚡ Стволовые инъекции - это действенный метод лечения деревьев
 imgBanner: /images/service-pages/obrabotka-derevev.webp
 serviceIcon: /images/service-pages/stem_injections_200.webp
 minPric: "4800"
@@ -27,33 +27,27 @@ place:
       icon: healthicons:forest-outline
 
 benifits:
-  title: Обработка от насекомых в Москве
-  description: Обрабатываем частные дома, квартиры, коммерческие помещения и земельные участки
+  title: Обработка деревьев от болезней и вредителей
+  description: Обрабатываем деревья профессиональными препаратами методом стволовых инъекций
   benifit_list:
-    - title: Безопасно для детей и домашних животных
-      decript: "Используются сертифицированные средства"
+    - title: Защита деревьев от инфекции
       color: "#FDC528"
-      icon: ph:baby-bold
-    - title: Обработка действует уже через 30 минут
-      decript: "Активные компоненты агрессивно воздействуют на вредителей практически сразу"
+      icon: icon-park-outline:protection
+    - title: Восстановление после пересадки
       color: "#12E189"
-      icon: mdi:clock-fast
-    - title: Без аллергических реакций
-      decript: "Используемые средства прошли сертификацию и не вызывают аллергии"
+      icon: mdi:transfer
+    - title: Лечение деревьев
       color: "#E545FF"
-      icon: mdi:allergy-outline
-    - title: Средства без запаха
-      decript: "После обработки комфортно находиться в помещении"
+      icon: ph:leaf
+    - title: Лечение и защита от насекомых
       color: "#24A1FF"
-      icon: mdi:odor-off
-    - title: Через 2 часа можно находиться в помещении
-      decript: "Достаточно протереть контактные поверхности влажной тряпкой"
+      icon: healthicons:synergist-insecticide-bioassays
+    - title: Подкормка деревьев
       color: "#7B5AFF"
-      icon: mdi:home-clock-outline
-    - title: Эффект до 40 дней
-      decript: "Достаточно для уничтожения вылупившихся насекомых"
+      icon: entypo:tree
+    - title: Эффект от 7 дней
       color: "#FF5874"
-      icon: tabler:calendar-time
+      icon: bi:calendar2-week
 
 serviceMethod:
   title: помещения от насекомых

@@ -5,22 +5,6 @@
       "url": "/"
     },
     {
-      "name": "О нас",
-      "url": "/about"
-    },
-    {
-      "name": "Статьи",
-      "url": "/blog"
-    },
-    {
-      "name": "УслугиИ",
-      "url": "/features"
-    },
-    {
-      "name": "Как мы работаем",
-      "url": "/how-it-works"
-    },
-    {
       "name": "Дезинсекция",
       "url": "",
       "hasChildren": true,
@@ -112,8 +96,41 @@
       ]
     },
     {
-      "name": "Услуги",
+      "name": "Дератизация",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Кроты",
+          "url": "/uslugi/unichtozhenie-krotov"
+        },
+
+        {
+          "name": "Крысы",
+          "url": "/uslugi/unichtozhenie-krys"
+        },
+
+        {
+          "name": "Мыши",
+          "url": "/uslugi/unichtozhenie-myshej"
+        }
+      ]
+    },
+    {
+      "name": "Все услуги",
       "url": "/uslugi"
+    },
+    {
+      "name": "О нас",
+      "url": "/about"
+    },
+    {
+      "name": "Статьи",
+      "url": "/blog"
+    },
+    {
+      "name": "Как мы работаем",
+      "url": "/how-it-works"
     }
   ],
 

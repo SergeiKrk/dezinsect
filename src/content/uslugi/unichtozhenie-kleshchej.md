@@ -139,7 +139,7 @@ steps:
 costServices:
   title: Цена обработки от клещей
   description: Итоговая цена за услугу по уничтожению клещей изменяется в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
-  cols: 4
+  cols: "md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
   cost_services_list:
     - scope_work: за сотку
       method: "Площадь участка: 1 сотка"

@@ -21,37 +21,93 @@
       "url": "/how-it-works"
     },
     {
-      "name": "Pages",
+      "name": "Дезинсекция",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Career",
-          "url": "/career"
+          "name": "Насекомые",
+          "url": "/uslugi/unichtozhenie-nasekomih"
         },
 
         {
-          "name": "Contact",
-          "url": "/contact"
+          "name": "Тараканы",
+          "url": "/uslugi/unichtozhenie-tarakanov"
         },
 
         {
-          "name": "Integrations",
-          "url": "/integrations"
+          "name": "Клопы",
+          "url": "/uslugi/unichtozhenie-klopov"
         },
 
         {
-          "name": "Pricing",
-          "url": "/pricing"
+          "name": "Клещи",
+          "url": "/uslugi/unichtozhenie-kleshchej"
         },
 
         {
-          "name": "Elements",
-          "url": "/elements"
+          "name": "Муравьи",
+          "url": "/uslugi/unichtozhenie-muravev"
         },
+
         {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
+          "name": "Шершни",
+          "url": "/uslugi/unichtozhenie-shershnej"
+        },
+
+        {
+          "name": "Осы",
+          "url": "/uslugi/unichtozhenie-os"
+        },
+
+        {
+          "name": "Блохи",
+          "url": "/uslugi/unichtozhenie-bloh"
+        },
+
+        {
+          "name": "Вши и Гниды",
+          "url": "/uslugi/obrabotka-ot-pedikuleza"
+        },
+
+        {
+          "name": "Долгоносики",
+          "url": "/uslugi/unichtozhenie-dolgonosika"
+        },
+
+        {
+          "name": "Короеды",
+          "url": "/uslugi/unichtozhenie-koroeda"
+        },
+
+        {
+          "name": "Медведки",
+          "url": "/uslugi/unichtozhenie-medvedok"
+        },
+
+        {
+          "name": "Моль",
+          "url": "/uslugi/unichtozhenie-moli"
+        },
+
+        {
+          "name": "Мокрицы и чешуйницы",
+          "url": "/uslugi/unichtozhenie-mokric-i-cheshujnic"
+        },
+
+        {
+          "name": "Мухи",
+          "url": "/uslugi/unichtozhenie-muh"
+        },
+
+        {
+          "name": "Кожееды",
+          "url": "/uslugi/unichtozhenie-kozheeda"
+        },
+
+        {
+          "name": "Пауки",
+          "url": "/uslugi/unichtozhenie-paukov"
         }
       ]
     },

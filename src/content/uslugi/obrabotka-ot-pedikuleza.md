@@ -6,7 +6,7 @@ description: Мы поможем вывести вшей и гнид. Обраб
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/lice_vshi_200.webp
 altService: вши дезинфекция
-minPric: "4800"
+minPric: "1500"
 keyword1: Санобработка от вшей
 keyword2: Вызвать службу от вшей
 categories: ["Дезинсекция"]
@@ -89,8 +89,8 @@ serviceMethod:
         - Низкая концентрация действующего вещества.
       image: "/images/service-pages/holodnyj-tuman.webp"
     - title: Уничтожение вшей с помощью горячего тумана
-      description: Горячий туман – метод химической обработки помещений и открытых зон с целью уничтожения вредных насекомых и паразитов.
-      principle_operation: Метод основан на термической обработке. Разогретый дым с препаратом распространяется по всей поверхности, проникая даже в труднодоступные места. Горячий туман эффективен против различных вредителей, включая вшей и гнид. Облако тумана медленно опускается в течение 2-3 часов, достигая скрытых участков и уничтожая насекомых.
+      description: Холодн. туман – метод химической обработки помещений и открытых зон с целью уничтожения вредных насекомых и паразитов.
+      principle_operation: Метод основан на термической обработке. Разогретый дым с препаратом распространяется по всей поверхности, проникая даже в труднодоступные места. Холодн. туман эффективен против различных вредителей, включая вшей и гнид. Облако тумана медленно опускается в течение 2-3 часов, достигая скрытых участков и уничтожая насекомых.
       image: "/images/service-pages/goryachyj-tuman.webp"
       button:
         label: Заказать
@@ -127,68 +127,88 @@ steps:
 costServices:
   title: Примерная стоимость обработки квартиры или дома от вшей и гнид
   description: Итоговая цена за услугу может меняться в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
-  cols: "md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
+  cols: "md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
   cost_services_list:
-    - scope_work: 1 комната
+    - scope_work: комната
       method: Холодный туман
-      cost: "4800"
+      additional_method:
+      cost: "1500"
       color: "white"
-    - scope_work: 1 комната
-      method: Горячий туман
-      cost: "5000"
+    - scope_work: комната
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
+      cost: "3000"
       color: "white"
-    - scope_work: 1 комната
+    - scope_work: комната
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "3500"
+      color: "white"
+    - scope_work: комната
       method: Комплексная обработка
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
       cost: "5000"
       color: "white"
     - scope_work: 1-комнатная квартира
       method: Холодный туман
-      cost: "4800"
+      additional_method:
+      cost: "1800"
       color: "[#EDF7F3]"
     - scope_work: 1-комнатная квартира
-      method: Горячий туман
-      cost: "5000"
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
+      cost: "2700"
+      color: "[#EDF7F3]"
+    - scope_work: 1-комнатная квартира
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "4500"
       color: "[#EDF7F3]"
     - scope_work: 1-комнатная квартира
       method: Комплексная обработка
-      cost: "6000"
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
+      cost: "6200"
       color: "[#EDF7F3]"
     - scope_work: 2-комнатная квартира
       method: Холодный туман
-      cost: "5500"
+      additional_method:
+      cost: "2100"
       color: "white"
     - scope_work: 2-комнатная квартира
-      method: Горячий туман
-      cost: "6000"
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
+      cost: "3000"
+      color: "white"
+    - scope_work: 2-комнатная квартира
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "4700"
       color: "white"
     - scope_work: 2-комнатная квартира
       method: Комплексная обработка
-      cost: "7000"
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
+      cost: "6600"
       color: "white"
     - scope_work: 3-комнатная квартира
       method: Холодный туман
-      cost: "6000"
+      additional_method:
+      cost: "2300"
       color: "[#EDF7F3]"
     - scope_work: 3-комнатная квартира
-      method: Горячий туман
-      cost: "7000"
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
+      cost: "3200"
+      color: "[#EDF7F3]"
+    - scope_work: 3-комнатная квартира
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "4900"
       color: "[#EDF7F3]"
     - scope_work: 3-комнатная квартира
       method: Комплексная обработка
-      cost: "8000"
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
+      cost: "6900"
       color: "[#EDF7F3]"
-    - scope_work: 4-комнатная квартира
-      method: Холодный туман
-      cost: "7000"
-      color: "white"
-    - scope_work: 4-комнатная квартира
-      method: Горячий туман
-      cost: "8000"
-      color: "white"
-    - scope_work: 4-комнатная квартира
-      method: Комплексная обработка
-      cost: "9000"
-      color: "white"
 
 faq:
   title: Часто задаваемые вопросы

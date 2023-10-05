@@ -62,7 +62,7 @@ const { place_list } = place;
             <p class="mx-auto mt-4 max-w-4xl">{costServicesTwo.description}</p>
           </div>
         </div>
-        <div class={`row mt-14 grid grid-cols-1 gap-1 ${costServices.cols}`}>
+        <div class={`row mt-14 grid grid-cols-1 gap-1 ${costServicesTwo.cols}`}>
           {costServicesTwo.cost_services_list.map((item: any) => (
             <div class={`rounded-sm p-4 bg-${item.color}`}>
               <p class="text-xl font-semibold text-primary">{item.method}</p>
@@ -103,7 +103,7 @@ const { place_list } = place;
             </p>
           </div>
         </div>
-        <div class={`row mt-14 grid grid-cols-1 gap-1 ${costServices.cols}`}>
+        <div class={`row mt-14 grid grid-cols-1 gap-1 ${costServicesTwo.cols}`}>
           {costServicesThree.cost_services_list.map((item: any) => (
             <div class={`rounded-sm p-4 bg-${item.color}`}>
               <p class="text-xl font-semibold text-primary">{item.method}</p>

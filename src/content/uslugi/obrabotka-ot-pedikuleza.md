@@ -125,7 +125,7 @@ steps:
     - title: Готово!
 
 costServices:
-  title: Примерная стоимость обработки квартиры или дома от вшей и гнид
+  title: Примерная стоимость обработки от вшей и гнид
   description: Итоговая цена за услугу может меняться в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
   cols: "md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
   cost_services_list:
@@ -208,6 +208,72 @@ costServices:
       method: Комплексная обработка
       additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
       cost: "6900"
+      color: "[#EDF7F3]"
+    - scope_work: 4-комнатная квартира
+      method: Холодный туман
+      additional_method:
+      cost: "2500"
+      color: "white"
+    - scope_work: 4-комнатная квартира
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
+      cost: "4100"
+      color: "white"
+    - scope_work: 4-комнатная квартира
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "6100"
+      color: "white"
+    - scope_work: 4-комнатная квартира
+      method: Комплексная обработка
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
+      cost: "7200"
+      color: "white"
+
+costServicesTwo:
+  title: Цена обработки помещения от вшей и гнид для юридических лиц
+  description: Итоговая цена за услугу может меняться в зависимости от конкретного объекта. Окончательную стоимость можно уточнить после визита специалиста.
+  cols: "md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2"
+  cost_services_list:
+    - scope_work: Площадь 50-100 кв.м
+      method: Разовая обработка
+      additional_method:
+      cost: "2400"
+      color: "white"
+    - scope_work: Площадь 50-100 кв.м
+      method: Обслуживание
+      additional_method:
+      cost: "2000"
+      color: "white"
+    - scope_work: Площадь 100-300 кв.м
+      method: Разовая обработка
+      additional_method:
+      cost: "30 (за 1 кв.м)"
+      color: "[#EDF7F3]"
+    - scope_work: Площадь 100-300 кв.м
+      method: Обслуживание
+      additional_method:
+      cost: "25 (за 1 кв.м)"
+      color: "[#EDF7F3]"
+    - scope_work: Площадь 300-600 кв.м
+      method: Разовая обработка
+      additional_method:
+      cost: "27 (за 1 кв.м)"
+      color: "white"
+    - scope_work: Площадь 300-600 кв.м
+      method: Обслуживание
+      additional_method:
+      cost: "21 (за 1 кв.м)"
+      color: "white"
+    - scope_work: Площадь 600-1000 кв.м
+      method: Разовая обработка
+      additional_method:
+      cost: "20 (за 1 кв.м)"
+      color: "[#EDF7F3]"
+    - scope_work: Площадь 600-1000 кв.м
+      method: Обслуживание
+      additional_method:
+      cost: "18 (за 1 кв.м)"
       color: "[#EDF7F3]"
 
 faq:

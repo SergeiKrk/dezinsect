@@ -10,7 +10,6 @@ minPric: "1500"
 keyword1: Санобработка от вшей
 keyword2: Вызвать службу от вшей
 categories: ["Дезинсекция"]
-date: 2021-07-11
 draft: false
 
 place:
@@ -125,7 +124,7 @@ steps:
     - title: Готово!
 
 costServices:
-  title: Примерная стоимость обработки от вшей и гнид
+  title: Цена обработки от вшей и гнид
   description: Итоговая цена за услугу может меняться в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
   cols: "md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
   cost_services_list:

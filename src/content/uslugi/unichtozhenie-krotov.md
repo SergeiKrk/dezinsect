@@ -10,7 +10,6 @@ minPric: "4800"
 keyword1: Служба по уничтожению кротов
 keyword2: Вызвать службу от кротов
 categories: ["Дератизация", "На участке"]
-date: 2023-07-11
 draft: false
 
 place:

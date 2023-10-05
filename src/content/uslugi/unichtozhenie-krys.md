@@ -9,8 +9,7 @@ altService: Борьба с крысами
 minPric: "4800"
 keyword1: Служба по уничтожению крыс
 keyword2: Вызвать службу от крыс
-categories: ["Дератизация"]
-date: 2023-07-11
+categories: ["Дератизация", "На участке"]
 draft: false
 
 place:

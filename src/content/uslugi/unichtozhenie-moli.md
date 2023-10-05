@@ -10,7 +10,6 @@ minPric: "4800"
 keyword1: Служба по уничтожению моли
 keyword2: Вызвать службу от моли
 categories: ["Дезинсекция"]
-date: 2021-07-11
 draft: false
 
 place:
@@ -128,90 +127,156 @@ steps:
     - title: Готово!
 
 costServices:
-  title: Примерная стоимость обработки квартиры или дома от моли
+  title: Цена обработки от моли
   description: Итоговая цена за услугу по уничтожению моли изменяется в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
-  cols: "md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
+  cols: "md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
   cost_services_list:
-    - scope_work: 1 комната
-      method: Ловчие домики (длительное действие)
+    - scope_work: комната
+      method: Холодный туман
+      additional_method:
+      cost: "1500"
+      color: "white"
+    - scope_work: комната
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
       cost: "3000"
       color: "white"
-    - scope_work: 1 комната
-      method: Холодный туман
-      cost: "4800"
+    - scope_work: комната
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "3500"
       color: "white"
-    - scope_work: 1 комната
-      method: Горячий туман
-      cost: "5000"
-      color: "white"
-    - scope_work: 1 комната
+    - scope_work: комната
       method: Комплексная обработка
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
       cost: "5000"
       color: "white"
     - scope_work: 1-комнатная квартира
-      method: Ловчие домики (длительное действие)
+      method: Холодный туман
+      additional_method:
+      cost: "1800"
+      color: "[#EDF7F3]"
+    - scope_work: 1-комнатная квартира
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
+      cost: "2700"
+      color: "[#EDF7F3]"
+    - scope_work: 1-комнатная квартира
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "4500"
+      color: "[#EDF7F3]"
+    - scope_work: 1-комнатная квартира
+      method: Комплексная обработка
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
+      cost: "6200"
+      color: "[#EDF7F3]"
+    - scope_work: 2-комнатная квартира
+      method: Холодный туман
+      additional_method:
+      cost: "2100"
+      color: "white"
+    - scope_work: 2-комнатная квартира
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
       cost: "3000"
-      color: "[#EDF7F3]"
-    - scope_work: 1-комнатная квартира
-      method: Холодный туман
-      cost: "4800"
-      color: "[#EDF7F3]"
-    - scope_work: 1-комнатная квартира
-      method: Горячий туман
-      cost: "5000"
-      color: "[#EDF7F3]"
-    - scope_work: 1-комнатная квартира
-      method: Комплексная обработка
-      cost: "6000"
-      color: "[#EDF7F3]"
-    - scope_work: 2-комнатная квартира
-      method: Ловчие домики (длительное действие)
-      cost: "3300"
       color: "white"
     - scope_work: 2-комнатная квартира
-      method: Холодный туман
-      cost: "5500"
-      color: "white"
-    - scope_work: 2-комнатная квартира
-      method: Горячий туман
-      cost: "6000"
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "4700"
       color: "white"
     - scope_work: 2-комнатная квартира
       method: Комплексная обработка
-      cost: "7000"
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
+      cost: "6600"
       color: "white"
     - scope_work: 3-комнатная квартира
-      method: Ловчие домики (длительное действие)
-      cost: "3600"
-      color: "[#EDF7F3]"
-    - scope_work: 3-комнатная квартира
       method: Холодный туман
-      cost: "6000"
+      additional_method:
+      cost: "2300"
       color: "[#EDF7F3]"
     - scope_work: 3-комнатная квартира
-      method: Горячий туман
-      cost: "7000"
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
+      cost: "3200"
+      color: "[#EDF7F3]"
+    - scope_work: 3-комнатная квартира
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "4900"
       color: "[#EDF7F3]"
     - scope_work: 3-комнатная квартира
       method: Комплексная обработка
-      cost: "8000"
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
+      cost: "6900"
       color: "[#EDF7F3]"
     - scope_work: 4-комнатная квартира
-      method: Ловчие домики (длительное действие)
-      cost: "4200"
-      color: "white"
-    - scope_work: 4-комнатная квартира
       method: Холодный туман
-      cost: "7000"
+      additional_method:
+      cost: "2500"
       color: "white"
     - scope_work: 4-комнатная квартира
-      method: Горячий туман
-      cost: "8000"
+      method: Холодный туман +
+      additional_method: "+ барьерн. защита"
+      cost: "4100"
+      color: "white"
+    - scope_work: 4-комнатная квартира
+      method: Горячий туман +
+      additional_method: "+ Барьерн. защита"
+      cost: "6100"
       color: "white"
     - scope_work: 4-комнатная квартира
       method: Комплексная обработка
-      cost: "9000"
+      additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
+      cost: "7200"
       color: "white"
+
+costServicesTwo:
+  title: Цена обработки помещения от моли для юридических лиц
+  description: Итоговая цена за услугу может меняться в зависимости от конкретного объекта. Окончательную стоимость можно уточнить после визита специалиста.
+  cols: "md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2"
+  cost_services_list:
+    - scope_work: Площадь 50-100 кв.м
+      method: Разовая обработка
+      additional_method:
+      cost: "2400"
+      color: "white"
+    - scope_work: Площадь 50-100 кв.м
+      method: Обслуживание
+      additional_method:
+      cost: "2000"
+      color: "white"
+    - scope_work: Площадь 100-300 кв.м
+      method: Разовая обработка
+      additional_method:
+      cost: "30 (за 1 кв.м)"
+      color: "[#EDF7F3]"
+    - scope_work: Площадь 100-300 кв.м
+      method: Обслуживание
+      additional_method:
+      cost: "25 (за 1 кв.м)"
+      color: "[#EDF7F3]"
+    - scope_work: Площадь 300-600 кв.м
+      method: Разовая обработка
+      additional_method:
+      cost: "27 (за 1 кв.м)"
+      color: "white"
+    - scope_work: Площадь 300-600 кв.м
+      method: Обслуживание
+      additional_method:
+      cost: "21 (за 1 кв.м)"
+      color: "white"
+    - scope_work: Площадь 600-1000 кв.м
+      method: Разовая обработка
+      additional_method:
+      cost: "20 (за 1 кв.м)"
+      color: "[#EDF7F3]"
+    - scope_work: Площадь 600-1000 кв.м
+      method: Обслуживание
+      additional_method:
+      cost: "18 (за 1 кв.м)"
+      color: "[#EDF7F3]"
 
 faq:
   title: Часто задаваемые вопросы

@@ -146,31 +146,31 @@ costServices:
       cost: "590"
       color: "white"
     - scope_work: за сотку
-      method: "Площадь участка: до 10 соток"
+      method: "Площадь до 10 соток"
       cost: "540"
       color: "white"
     - scope_work: за сотку
-      method: "Площадь участка: до 20 соток"
+      method: "Площадь до 20 соток"
       cost: "490"
       color: "white"
     - scope_work: за сотку
-      method: "Площадь участка: до 30 соток"
+      method: "Площадь до 30 соток"
       cost: "440"
       color: "white"
     - scope_work: за сотку
-      method: "Площадь участка: до 40 соток"
+      method: "Площадь до 40 соток"
       cost: "390"
       color: "[#EDF7F3]"
     - scope_work: за сотку
-      method: "Площадь участка: до 50 соток"
+      method: "Площадь до 50 соток"
       cost: "340"
       color: "[#EDF7F3]"
     - scope_work: за сотку
-      method: "Площадь участка: до 100 соток"
+      method: "Площадь до 100 соток"
       cost: "290"
       color: "[#EDF7F3]"
     - scope_work: за сотку
-      method: "Площадь участка: до 3 Га"
+      method: "Площадь до 3 Га"
       cost: "240"
       color: "[#EDF7F3]"
 

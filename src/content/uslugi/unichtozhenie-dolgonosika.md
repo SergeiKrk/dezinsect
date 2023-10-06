@@ -2,11 +2,11 @@
 title_meta: "Обработка от Долгоносика: борьба с жуком долгоносиком в Москве"
 title_page: Уничтожение Долгоносика в Москве и МО
 page_name: Уничтожение Долгоносика
-description: Наша служба СЭС поможет избавиться от долгоносика с гарантией. ⚡ Дезинсекция на участке
+description: Наша служба СЭС поможет избавиться от долгоносика с гарантией. ⚡ Дезинсекция на участке и в помещении
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/weevil_dolgonosik_200.webp
 altService: Борьба с долгоносиком
-minPric: "4800"
+minPric: "1500"
 keyword1: Служба по уничтожению жука долгоносика
 keyword2: Вызвать службу от жука долгоносика
 categories: ["Дезинсекция", "На участке"]
@@ -278,6 +278,42 @@ costServicesTwo:
       method: Обслуживание
       additional_method:
       cost: "18 (за 1 кв.м)"
+      color: "[#EDF7F3]"
+
+costServicesThree:
+  title: Цена обработки участка от долгоносика
+  description: Итоговая цена за услугу может меняться в зависимости от конкретного участка. Окончательную стоимость можно уточнить после визита специалиста.
+  cols: "md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
+  cost_services_list:
+    - scope_work: Цена за сотку
+      method: Площадь до 10 соток
+      additional_method:
+      cost: "280"
+      color: "white"
+    - scope_work: Цена за сотку
+      method: Площадь до 15 соток
+      additional_method:
+      cost: "250"
+      color: "[#EDF7F3]"
+    - scope_work: Цена за сотку
+      method: Площадь до 30 соток
+      additional_method:
+      cost: "220"
+      color: "white"
+    - scope_work: Цена за сотку
+      method: Площадь до 50 соток
+      additional_method:
+      cost: "170"
+      color: "[#EDF7F3]"
+    - scope_work: Цена за сотку
+      method: Площадь до 80 соток
+      additional_method:
+      cost: "120"
+      color: "white"
+    - scope_work: Цена за сотку
+      method: Площадь до 100 соток
+      additional_method:
+      cost: "110"
       color: "[#EDF7F3]"
 
 faq:

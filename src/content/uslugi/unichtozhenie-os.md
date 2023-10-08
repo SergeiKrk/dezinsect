@@ -2,11 +2,11 @@
 title_meta: "Уничтожение Ос и осиных гнезд: обработка участка, дома и квартиры"
 title_page: Обработка от Ос в Москве и МО
 page_name: Уничтожение Ос
-description: Наша служба СЭС поможет избавиться от ос с гарантией. ⚡ Дезинфекция (Дезинсекция) от ос в Москве
+description: Наша служба СЭС поможет избавиться от ос с гарантией. ⚡ Дезинсекция от Ос в Москве
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/wasp_osa_200.webp
 altService: Борьба с осами
-minPric: "4800"
+minPric: "3000"
 keyword1: Служба по уничтожению ос
 keyword2: Вызвать службу от ос
 categories: ["Дезинсекция", "На участке"]
@@ -117,67 +117,57 @@ steps:
 costServices:
   title: Цена обработки от ос
   description: Итоговая цена за услугу по уничтожению ос изменяется в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
-  cols: "md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
+  cols: "md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
   cost_services_list:
-    - scope_work: 1 комната
-      method: Холодный туман
-      cost: "4800"
+    - scope_work: за сотку
+      method: "Площадь участка: 1 сотка"
+      cost: "590"
       color: "white"
-    - scope_work: 1 комната
-      method: Горячий туман
-      cost: "5000"
+    - scope_work: за сотку
+      method: "Площадь до 10 соток"
+      cost: "540"
       color: "white"
-    - scope_work: 1 комната
-      method: Комплексная обработка
-      cost: "5000"
+    - scope_work: за сотку
+      method: "Площадь до 20 соток"
+      cost: "490"
       color: "white"
-    - scope_work: 1-комнатная квартира
-      method: Холодный туман
-      cost: "4800"
+    - scope_work: за сотку
+      method: "Площадь до 30 соток"
+      cost: "440"
+      color: "white"
+    - scope_work: за сотку
+      method: "Площадь до 40 соток"
+      cost: "390"
       color: "[#EDF7F3]"
-    - scope_work: 1-комнатная квартира
-      method: Горячий туман
-      cost: "5000"
+    - scope_work: за сотку
+      method: "Площадь до 50 соток"
+      cost: "340"
       color: "[#EDF7F3]"
-    - scope_work: 1-комнатная квартира
-      method: Комплексная обработка
-      cost: "6000"
+    - scope_work: за сотку
+      method: "Площадь до 100 соток"
+      cost: "290"
       color: "[#EDF7F3]"
-    - scope_work: 2-комнатная квартира
-      method: Холодный туман
-      cost: "5500"
-      color: "white"
-    - scope_work: 2-комнатная квартира
-      method: Горячий туман
-      cost: "6000"
-      color: "white"
-    - scope_work: 2-комнатная квартира
-      method: Комплексная обработка
-      cost: "7000"
-      color: "white"
-    - scope_work: 3-комнатная квартира
-      method: Холодный туман
-      cost: "6000"
+    - scope_work: за сотку
+      method: "Площадь до 3 Га"
+      cost: "240"
       color: "[#EDF7F3]"
-    - scope_work: 3-комнатная квартира
-      method: Горячий туман
-      cost: "7000"
-      color: "[#EDF7F3]"
-    - scope_work: 3-комнатная квартира
-      method: Комплексная обработка
-      cost: "8000"
-      color: "[#EDF7F3]"
-    - scope_work: 4-комнатная квартира
-      method: Холодный туман
-      cost: "7000"
+
+costServicesTwo:
+  title: Цены на уничтожение осиных гнезд
+  description: Итоговая цена может меняться в зависимости от конкретного объекта.
+  cols: "md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
+  cost_services_list:
+    - scope_work: за улей
+      method: "Количество ульев"
+      cost: "2500"
       color: "white"
-    - scope_work: 4-комнатная квартира
-      method: Горячий туман
-      cost: "8000"
+    - scope_work: за улей
+      method: "Количество ульев"
+      cost: "3500"
       color: "white"
-    - scope_work: 4-комнатная квартира
-      method: Комплексная обработка
-      cost: "9000"
+    - scope_work: за улей
+      method: "Количество ульев"
+      cost: "4000"
       color: "white"
 
 faq:

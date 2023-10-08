@@ -6,7 +6,7 @@ description: Наша служба СЭС поможет избавиться о
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/fly_muha_200.webp
 altService: Борьба с мухами
-minPric: "4800"
+minPric: "1500"
 keyword1: Служба по уничтожению мух
 keyword2: Вызвать службу от мух
 categories: ["Дезинсекция", "На участке"]

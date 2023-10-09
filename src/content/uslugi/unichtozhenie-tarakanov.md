@@ -9,7 +9,7 @@ altService: Борьба с тараканами
 minPric: "1500"
 keyword1: Служба по уничтожению тараканов
 keyword2: Вызвать службу от тараканов
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "В помещении"]
 draft: false
 
 place:

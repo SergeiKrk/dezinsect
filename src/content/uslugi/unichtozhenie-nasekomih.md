@@ -9,7 +9,7 @@ altService: Борьба с насекомыми
 minPric: "1500"
 keyword1: Служба по уничтожению насекомых
 keyword2: Вызвать службу от насекомых
-categories: ["Дезинсекция", "На участке"]
+categories: ["Дезинсекция"]
 draft: false
 
 categoryCards:
@@ -361,37 +361,39 @@ costServicesTwo:
 costServicesThree:
   title: Цена обработки участка от насекомых
   description: Итоговая цена за услугу может меняться в зависимости от конкретного участка и вида насекомых. Окончательную стоимость можно уточнить после визита специалиста.
-  cols: "md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
+  cols: "md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
   cost_services_list:
-    - scope_work: Цена за сотку
-      method: Площадь до 10 соток
-      additional_method:
-      cost: "280"
+    - scope_work: за сотку
+      method: "Площадь участка: 1 сотка"
+      cost: "590"
       color: "white"
-    - scope_work: Цена за сотку
-      method: Площадь до 15 соток
-      additional_method:
-      cost: "250"
+    - scope_work: за сотку
+      method: "Площадь до 10 соток"
+      cost: "540"
+      color: "white"
+    - scope_work: за сотку
+      method: "Площадь до 20 соток"
+      cost: "490"
+      color: "white"
+    - scope_work: за сотку
+      method: "Площадь до 30 соток"
+      cost: "440"
+      color: "white"
+    - scope_work: за сотку
+      method: "Площадь до 40 соток"
+      cost: "390"
       color: "[#EDF7F3]"
-    - scope_work: Цена за сотку
-      method: Площадь до 30 соток
-      additional_method:
-      cost: "220"
-      color: "white"
-    - scope_work: Цена за сотку
-      method: Площадь до 50 соток
-      additional_method:
-      cost: "170"
+    - scope_work: за сотку
+      method: "Площадь до 50 соток"
+      cost: "340"
       color: "[#EDF7F3]"
-    - scope_work: Цена за сотку
-      method: Площадь до 80 соток
-      additional_method:
-      cost: "120"
-      color: "white"
-    - scope_work: Цена за сотку
-      method: Площадь до 100 соток
-      additional_method:
-      cost: "110"
+    - scope_work: за сотку
+      method: "Площадь до 100 соток"
+      cost: "290"
+      color: "[#EDF7F3]"
+    - scope_work: за сотку
+      method: "Площадь до 3 Га"
+      cost: "240"
       color: "[#EDF7F3]"
 
 faq:

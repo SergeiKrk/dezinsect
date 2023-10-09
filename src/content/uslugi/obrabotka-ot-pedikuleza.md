@@ -9,7 +9,7 @@ altService: вши дезинфекция
 minPric: "1500"
 keyword1: Санобработка от вшей
 keyword2: Вызвать службу от вшей
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "В помещении"]
 draft: false
 
 place:

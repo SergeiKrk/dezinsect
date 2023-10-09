@@ -9,7 +9,7 @@ altService: Борьба с мокрицами
 minPric: "4800"
 keyword1: Служба по уничтожению мокриц
 keyword2: Вызвать службу от мокриц
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "В помещении"]
 draft: false
 
 place:

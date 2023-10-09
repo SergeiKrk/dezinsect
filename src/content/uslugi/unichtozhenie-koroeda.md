@@ -6,10 +6,10 @@ description: Наша служба СЭС поможет избавиться о
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/bark_beetle_200.webp
 altService: Борьба с жуком короедом
-minPric: "4800"
+minPric: "1500"
 keyword1: Служба по уничтожению короедов
 keyword2: Вызвать службу от короедов
-categories: ["Дезинсекция", "На участке"]
+categories: ["Дезинсекция", "На участке", "В помещении"]
 draft: false
 
 place:
@@ -231,6 +231,44 @@ costServices:
       additional_method: Холодн. туман + Горяч. туман + Барьерн. защита
       cost: "7200"
       color: "white"
+
+costServicesTwo:
+  title: Цена обработки участка от короедов
+  description: Итоговая цена за услугу изменяется в зависимости от конкретного объекта. Окончательную стоимость можно будет уточнить после визита специалиста.
+  cols: "md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
+  cost_services_list:
+    - scope_work: за сотку
+      method: "Площадь участка: 1 сотка"
+      cost: "590"
+      color: "white"
+    - scope_work: за сотку
+      method: "Площадь до 10 соток"
+      cost: "540"
+      color: "white"
+    - scope_work: за сотку
+      method: "Площадь до 20 соток"
+      cost: "490"
+      color: "white"
+    - scope_work: за сотку
+      method: "Площадь до 30 соток"
+      cost: "440"
+      color: "white"
+    - scope_work: за сотку
+      method: "Площадь до 40 соток"
+      cost: "390"
+      color: "[#EDF7F3]"
+    - scope_work: за сотку
+      method: "Площадь до 50 соток"
+      cost: "340"
+      color: "[#EDF7F3]"
+    - scope_work: за сотку
+      method: "Площадь до 100 соток"
+      cost: "290"
+      color: "[#EDF7F3]"
+    - scope_work: за сотку
+      method: "Площадь до 3 Га"
+      cost: "240"
+      color: "[#EDF7F3]"
 
 faq:
   title: Часто задаваемые вопросы

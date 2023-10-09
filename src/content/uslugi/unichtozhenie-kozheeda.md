@@ -9,7 +9,7 @@ altService: Борьба с кожеедом
 minPric: "4800"
 keyword1: Служба по уничтожению кожеедов
 keyword2: Вызвать службу от кожеедов
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "В помещении"]
 draft: false
 
 place:

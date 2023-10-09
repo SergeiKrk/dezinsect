@@ -9,7 +9,7 @@ altService: Борьба с грызунами
 minPric: "4800"
 keyword1: Служба по уничтожению грызунов
 keyword2: Вызвать службу от грызунов
-categories: ["Дератизация", "На участке", "В помещении"]
+categories: ["Дератизация"]
 draft: false
 
 place:

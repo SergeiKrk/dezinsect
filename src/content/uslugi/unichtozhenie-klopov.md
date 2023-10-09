@@ -9,7 +9,7 @@ altService: Борьба с клопами
 minPric: "1500"
 keyword1: Служба по уничтожению клопов
 keyword2: Вызвать службу от клопов
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "В помещении"]
 draft: false
 
 place:

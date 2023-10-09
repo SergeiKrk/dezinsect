@@ -6,10 +6,10 @@ description: Наша служба СЭС поможет избавиться о
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/mol_200.webp
 altService: Борьба с молью
-minPric: "4800"
+minPric: "1500"
 keyword1: Служба по уничтожению моли
 keyword2: Вызвать службу от моли
-categories: ["Дезинсекция"]
+categories: ["Дезинсекция", "В помещении"]
 draft: false
 
 place:

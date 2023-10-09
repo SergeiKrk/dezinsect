@@ -6,7 +6,7 @@ description: Наша служба СЭС поможет избавиться о
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/insects_nasekomye_200.webp
 altService: Борьба с насекомыми
-minPric: "4800"
+minPric: "1500"
 keyword1: Служба по уничтожению насекомых
 keyword2: Вызвать службу от насекомых
 categories: ["Дезинсекция", "На участке"]

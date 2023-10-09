@@ -6,7 +6,7 @@ description: Мы знаем как избавиться от домашних �
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/bedbug_klop_200.webp
 altService: Борьба с клопами
-minPric: "4800"
+minPric: "1500"
 keyword1: Служба по уничтожению клопов
 keyword2: Вызвать службу от клопов
 categories: ["Дезинсекция"]

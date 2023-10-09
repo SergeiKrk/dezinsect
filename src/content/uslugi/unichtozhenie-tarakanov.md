@@ -6,7 +6,7 @@ description: Наша служба СЭС поможет избавиться о
 imgBanner: /images/service-pages/dezinsekciya.webp
 serviceIcon: /images/service-pages/cockroach_tarakan_200.webp
 altService: Борьба с тараканами
-minPric: "4800"
+minPric: "1500"
 keyword1: Служба по уничтожению тараканов
 keyword2: Вызвать службу от тараканов
 categories: ["Дезинсекция"]

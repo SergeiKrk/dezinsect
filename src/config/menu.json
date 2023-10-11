@@ -1,8 +1,8 @@
 {
   "main": [
     {
-      "name": "Главная",
-      "url": "/"
+      "name": "Услуги",
+      "url": "/uslugi"
     },
     {
       "name": "Дезинсекция",
@@ -131,10 +131,6 @@
           "url": "/uslugi/stvolovye-inekcii"
         }
       ]
-    },
-    {
-      "name": "Все услуги",
-      "url": "/uslugi"
     },
     {
       "name": "О нас",

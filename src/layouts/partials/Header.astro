@@ -6,7 +6,6 @@ import {
   MenuIcon,
   Dropdown,
   DropdownItems,
-  DropdownSubmenu,
 } from "astro-navbar";
 import menu from "@config/menu.json";
 
@@ -35,8 +34,8 @@ const { pathname } = Astro.url;
           <MenuIcon class="h-10 w-10 text-primary" />
         </div>
       </div>
-      <div class="flex items-center gap-6 sm:order-last">
-        <div class="hidden sm:block">
+      <div class="flex items-center gap-6 lg:order-last">
+        <div class="hidden lg:block">
           <ul class="flex items-center gap-6">
             <li>
               <a class="text-md font-bold" href="tel:+79161593744">
@@ -71,7 +70,7 @@ const { pathname } = Astro.url;
             <li>
               <a href="https://wa.me/79161593744">
                 <svg
-                  viewBox="0 0 256 259"
+                  viewBox="0 0 256 256"
                   class="h-10"
                   astro-icon="logos:whatsapp"
                   ><path

@@ -6,7 +6,7 @@ description: Наша служба СЭС поможет избавиться о
 imgBanner: /images/service-pages/deratizaciya.webp
 serviceIcon: /images/service-pages/rodents_grizuni_200.webp
 altService: Борьба с грызунами
-minPric: "4800"
+minPric: "3000"
 keyword1: Служба по уничтожению грызунов
 keyword2: Вызвать службу от грызунов
 categories: ["Дератизация"]

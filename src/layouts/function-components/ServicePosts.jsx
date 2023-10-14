@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { humanize } from "@lib/utils/textConverter";
 import { marked } from "marked";
-const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
+const JobPosts = ({ posts, categories, our_services: { title, subtitle } }) => {
   const [tab, setTab] = useState("");
   const filterPost = !tab
     ? posts
@@ -44,13 +44,16 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
         </div>
         <div className="row mt-12">
           {filterPost.map((post, i) => (
-            <div className="mb-8 md:col-6 lg:col-4 xl:col-3" key={`post-${i}`}>
+            <div
+              className="mb-2 md:col-6 lg:col-4 xl:col-3 lg:mb-8"
+              key={`post-${i}`}
+            >
               <a
                 href={`/uslugi/${post.slug}`}
                 rel="prefetch-intent"
                 className="flex rounded-xl bg-white p-3 shadow-lg hover:bg-[#EDF7F3] hover:shadow-xl hover:grayscale-0 lg:p-4 lg:grayscale"
               >
-                <div className="w-30 h-30 flex items-center justify-center text-red-500 lg:mr-4">
+                <div className="h-25 w-25 lg:w-30 lg:h-30 flex items-center justify-center text-red-500 lg:mr-4">
                   <svg
                     className="z-10"
                     xmlns="http://www.w3.org/2000/svg"

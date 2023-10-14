@@ -1,7 +1,7 @@
 ---
 title_meta: "Борьба с крысами: обработка от крыс и их уничтожение в Москве и области"
 title_page: Уничтожение крыс в Москве и МО
-page_name: Уничтожение крыс
+page_name: Уничтожение Крыс
 description: Наша служба СЭС поможет избавиться от крыс с гарантией. ⚡ Обработка от крыс в доме и на участке
 imgBanner: /images/service-pages/deratizaciya.webp
 serviceIcon: /images/service-pages/rat_200.webp

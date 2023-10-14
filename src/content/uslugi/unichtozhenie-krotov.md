@@ -5,7 +5,7 @@ page_name: Уничтожение Кротов
 description: Мы знаем, как избавиться от крота на дачном участке. ⚡ Наша служба СЭ поможет вам с гарантией
 imgBanner: /images/service-pages/deratizaciya.webp
 serviceIcon: /images/service-pages/krot_200.webp
-altService: Борьба с насекомыми
+altService: Борьба с кротами
 minPric: "2000"
 keyword1: Служба по уничтожению кротов
 keyword2: Вызвать службу от кротов
@@ -14,7 +14,7 @@ draft: false
 
 place:
   title: Помощь СЭС в профессиональной обработке от кротов
-  description: комплекс мероприятий по борьбе с насекомыми на любом объекте
+  description: комплекс мероприятий по борьбе с кротами на любом участке
   place_list:
     - title: в частном доме
       icon: tabler:home

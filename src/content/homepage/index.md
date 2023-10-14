@@ -134,81 +134,38 @@ testimonial:
 ##key services
 key_services:
   title: "Осуществляем следующие виды услуг в Москве и МО"
-  service_list:
-    - title: How can I integrate Avocode to my current tool stack?
-      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-      service:
-        - title: Supporting
-          icon: "lock"
-          link: "#"
-        - title: Open
-          icon: "clock"
-          link: "#"
-        - title: Customer
-          icon: "clock"
-          link: "#"
-        - title: Open
-          icon: "clock"
-          link: "#"
-        - title: Customer
-          icon: "clock"
-          link: "#"
-    - title: How can I integrate Avocode to my current tool stack?
-      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-      service:
-        - title: Supporting
-          icon: "clock"
-          link: "#"
-        - title: Ope
-          icon: "clock"
-          link: "#"
-        - title: Custome
-          icon: "clock"
-          link: "#"
-    - title: How can I integrate Avocode to my current tool stack?
-      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-      service:
-        - title: Supporti
-          icon: "clock"
-          link: "#"
-        - title: Open tr
-          icon: "clock"
-          link: "#"
-        - title: Cust
-          icon: "clock"
-          link: "#"
+
+  basic_services:
+    - title: Дезинсекция
+      image: /images/service-pages/insects_nasekomye_200.webp
+      url: unichtozhenie-nasekomih
+    - title: Дератизация
+      image: /images/service-pages/rodents_grizuni_200.webp
+      url: unichtozhenie-grizunov
 
   service_top_list:
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "monitor" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
-    - icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      link: "#"
+    - title: Уничтожение Клопов
+      image: /images/service-pages/bedbug_klop_200.webp
+      url: unichtozhenie-klopov
+    - title: Уничтожение Тараканов
+      image: /images/service-pages/cockroach_tarakan_200.webp
+      url: unichtozhenie-tarakanov
+    - title: Уничтожение Блох
+      image: /images/service-pages/flea_bloha_200.webp
+      url: unichtozhenie-bloh
+    - title: Уничтожение Муравьев
+      image: /images/service-pages/ant_muravei_200.webp
+      url: unichtozhenie-muravev
+    - title: Уничтожение Кротов
+      image: /images/service-pages/krot_200.webp
+      url: unichtozhenie-krotov
+    - title: Уничтожение Крыс
+      image: /images/service-pages/rat_200.webp
+      url: unichtozhenie-krys
+    - title: Уничтожение Мышей
+      image: /images/service-pages/mouse_mish_200.webp
+      url: unichtozhenie-myshej
+    - title: Уничтожение Клещей
+      image: /images/service-pages/mite_klesch_200.webp
+      url: unichtozhenie-kleshchej
 ---

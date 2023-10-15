@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
+    "title": "Санэпидстанция в Москве: Городская Служба Дезинфекции | Официальный Сайт СЭС МСК",
     "base_url": "https://pinwheel-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
@@ -9,6 +9,12 @@
     "logo_width": "70",
     "logo_height": "70",
     "logo_text": "Pinwheel"
+  },
+
+  "metadata": {
+    "meta_author": "СЭС МСК",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Официальная санэпидемслужба в Москве СЭС МСК: устраним проблему с первого раза и гарантированно избавим от вредителей"
   },
 
   "settings": {
@@ -36,14 +42,8 @@
     "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
     "email": "info@andromeda.io",
     "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "phone": "+7-916-159-37-44",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
-  },
-
-  "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "copyright": "СЭС МСК © 2023 разработано [kryukovs.ru](https://kryukovs.ru)"
   }
 }

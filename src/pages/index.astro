@@ -6,7 +6,10 @@ import Testimonial from "@layouts/components/Testimonial.astro";
 import Service from "@layouts/components/Service.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
+import CounterComponent from "@components/about/CounterComponent.astro";
 
+const about = await getEntryBySlug("about", "index");
+const { counter } = about.data;
 const homepage = await getEntryBySlug("homepage", "index");
 const { banner, key_services, service, testimonial } = homepage.data;
 ---
@@ -15,9 +18,19 @@ const { banner, key_services, service, testimonial } = homepage.data;
   <!-- banner -->
   <Banner banner={banner} />
   <KeyServices key_services={key_services} />
-  <!-- service -->
+  <section class="my-8 mt-24">
+    <div class="container">
+      <div class="mx-auto text-center lg:max-w-3xl">
+        <h2>Почему выбирают именно нас</h2>
+        <p class="mt-4">
+          Наши сотрудники ведут успешную борьбу с вредителями с 2012 года. Вот
+          некоторые цифры, отражающие эффективность нашей команды:
+        </p>
+      </div>
+      <CounterComponent counter={counter} />
+    </div>
+  </section>
   <Service service={service} />
-  <!-- testimonial -->
   <Testimonial testimonial={testimonial} />
   <!-- call to action -->
   <Cta />

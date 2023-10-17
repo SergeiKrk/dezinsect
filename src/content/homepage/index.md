@@ -11,40 +11,32 @@ banner:
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
+    title: Служба дезинфекции СЭС
+    description: Современные службы СЭС представлены частными компаниями и физическими лицами, осуществляющими санитарные услуги. Основные функции включают оценку санитарного состояния объектов и борьбу с вредителями.
     tab_list:
-      - title: Habit building essential choose habit
-        icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
-      - title: Get an overview of Habit Calendars.
-        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/collaboration.png"
-      - title: Start building with Habitify platform
-        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+      - title: Санитарное обслуживание объектов различного назначения
+        icon: "flag" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/obrabotka-gos-uchrezjdenij.webp"
+      - title: Помощь с документацией по санитарным вопросам
+        icon: "bookmark" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/doc-rospotreb-.webp"
 
   our_service:
-    - title: Accept payments any country in this whole universe
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/collaboration.png"
+    - title: Услуги санитарно-эпидемиологической службы
+      description: "Наши специалисты СЭС производят санитарное обслуживание объектов различного назначения."
       list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
-      video:
-        thumbnail: "/images/intro-thumbnail.png"
-        video_id: "g3-VxLQO7do"
+        - Для гос. учреждений
+        - Для коммерческих организаций
+        - Для частных лиц
       button:
-        label: Know About Us
+        label: Заказать консультацию
         link: "#"
         enable: true
+      image: "/images/sanepidem-obrabotka.webp"
 
 #testimonial
 testimonial:
-  title: Our customers have nice things to say about us
+  title: Отзывы наших клиентов
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
     - author: David Cameron

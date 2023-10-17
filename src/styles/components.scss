@@ -92,7 +92,6 @@
 .tab-nav-item {
   padding: 0.5rem 1rem;
   cursor: pointer;
-  opacity: 0.8;
 }
 
 .tab-nav-item.active {
@@ -378,7 +377,7 @@ select:invalid {
     @apply mb-4 flex rounded py-0 text-dark opacity-100;
   }
   .tab-nav-item.active {
-    @apply border-b-0 bg-primary/40 py-3.5;
+    @apply border-b-0 bg-[#EDF7F3] py-3.5;
   }
 }
 // career

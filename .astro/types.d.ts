@@ -213,21 +213,21 @@ declare module 'astro:content' {
   slug: "-index";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "post-1.mdx": {
 	id: "post-1.mdx";
   slug: "post-1";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".mdx"] };
 "post-12.mdx": {
 	id: "post-12.mdx";
   slug: "post-12";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 "careers": {
@@ -321,21 +321,14 @@ declare module 'astro:content' {
   slug: "404";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".md"] };
-"elements.mdx": {
-	id: "elements.mdx";
-  slug: "elements";
-  body: string;
-  collection: "pages";
-  data: InferEntrySchema<"pages">
-} & { render(): Render[".mdx"] };
 "terms-and-conditions.md": {
 	id: "terms-and-conditions.md";
   slug: "terms-and-conditions";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".md"] };
 };
 "uslugi": {
@@ -517,5 +510,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }

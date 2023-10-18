@@ -4,6 +4,7 @@ import Banner from "@layouts/components/Banner.astro";
 import KeyServices from "@layouts/components/KeyServices.astro";
 import Testimonial from "@layouts/components/Testimonial.astro";
 import Service from "@layouts/components/Service.astro";
+import OurClients from "@components/about/OurClients.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 import CounterComponent from "@components/about/CounterComponent.astro";
@@ -11,7 +12,7 @@ import CounterComponent from "@components/about/CounterComponent.astro";
 const about = await getEntryBySlug("about", "index");
 const { counter } = about.data;
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, key_services, service, testimonial } = homepage.data;
+const { banner, key_services, service, testimonial, clients } = homepage.data;
 ---
 
 <Base>
@@ -32,6 +33,8 @@ const { banner, key_services, service, testimonial } = homepage.data;
   </section>
   <Service service={service} />
   <Testimonial testimonial={testimonial} />
+
+  <OurClients clients={clients} />
   <!-- call to action -->
   <Cta />
 </Base>

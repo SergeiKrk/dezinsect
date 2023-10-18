@@ -121,4 +121,27 @@ key_services:
     - title: Уничтожение Клещей
       image: /images/service-pages/mite_klesch_200.webp
       url: unichtozhenie-kleshchej
+
+clients:
+  title: This is who we are
+  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
+  member_list:
+    - name: Eleanor Pena
+      field: Co-founder & COO
+      image: "/images/users/user-1.png"
+    - name: Bukiakta Bansalo
+      field: Product Manager
+      image: "/images/users/user-2.png"
+    - name: Ortrin Okaster
+      field: Software Engineer
+      image: "/images/users/user-3.png"
+    - name: Eleanor Pena
+      field: Co-founder & COO
+      image: "/images/users/user-1.png"
+    - name: Bukiakta Bansalo
+      field: Product Manager
+      image: "/images/users/user-2.png"
+    - name: Ortrin Okaster
+      field: Software Engineer
+      image: "/images/users/user-3.png"
 ---

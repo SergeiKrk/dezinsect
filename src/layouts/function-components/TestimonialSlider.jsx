@@ -19,6 +19,10 @@ const TestimonialSlider = ({ list }) => {
           clickable: true,
           dynamicBullets: true,
         }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         onSwiper={(swiper) => {
           setSwiper(swiper);
         }}
@@ -32,14 +36,14 @@ const TestimonialSlider = ({ list }) => {
           1200: {
             slidesPerView: 3,
           },
+          1600: {
+            slidesPerView: 4,
+          },
         }}
       >
         {list.map((item, i) => (
           <SwiperSlide key={"feature-" + i}>
             <div className="review">
-              <div className="review-author-avatar bg-gradient">
-                <img src={item.avatar} alt="" />
-              </div>
               <h4 className="mb-2">{item.author}</h4>
               <p className="mb-4 text-[#666]">{item.organization}</p>
               <p>{item.content}</p>

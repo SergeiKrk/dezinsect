@@ -6,12 +6,12 @@ const { testimonial } = Astro.props;
 <section class="reviews">
   <div class="container">
     <div class="row justify-between">
-      <div class="lg:col-6">
+      <div class="text-center lg:col-6 lg:text-left">
         <h2>{testimonial.title}</h2>
       </div>
       <div class="lg:col-4">
-        <p>
-          {testimonial.description}
+        <p class="mt-4 text-center lg:mt-0 lg:text-right">
+          <a class="btn btn-outline-primary" href="contact"> Оставить отзыв</a>
         </p>
       </div>
     </div>

@@ -39,50 +39,50 @@ testimonial:
   title: Отзывы наших клиентов
   testimonial_list:
     - author: David Cameron
-      avatar: "/images/users/user-5.png"
+      avatar: "/images/clients/user-5.png"
       organization: meta limited
       rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
     - author: David Cameron
-      avatar: "/images/users/user-6.png"
+      avatar: "/images/clients/user-6.png"
       organization: meta limited
       rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
     - author: David Cameron
-      avatar: "/images/users/user-2.png"
+      avatar: "/images/clients/user-2.png"
       organization: meta limited
       rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
     - author: David Cameron
-      avatar: "/images/users/user-3.png"
+      avatar: "/images/clients/user-3.png"
       organization: meta limited
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
     - author: David Cameron
-      avatar: "/images/users/user-4.png"
+      avatar: "/images/clients/user-4.png"
       organization: meta limited
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
     - author: David Cameron
-      avatar: "/images/users/user-1.png"
+      avatar: "/images/clients/user-1.png"
       organization: meta limited
       rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
     - author: David Cameron
-      avatar: "/images/users/user-5.png"
+      avatar: "/images/clients/user-5.png"
       organization: meta limited
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
     - author: David Cameron
-      avatar: "/images/users/user-5.png"
+      avatar: "/images/clients/user-5.png"
       organization: meta limited
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
     - author: David Cameron
-      avatar: "/images/users/user-5.png"
+      avatar: "/images/clients/user-5.png"
       organization: meta limited
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Our platform helps build secure onboarding authentica experiences & engage your clients. We build .
 
 ##key services
 key_services:
@@ -123,25 +123,23 @@ key_services:
       url: unichtozhenie-kleshchej
 
 clients:
-  title: This is who we are
-  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
+  title: Нашим специалистам доверяют
+  description:
   member_list:
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
+    - name: Ашан
+      image: "/images/clients/ashan.webp"
+    - name: Детский мир
+      image: "/images/clients/detskij-mir.webp"
+    - name: Fix price
+      image: "/images/clients/fix-price.webp"
+    - name: Крошка-картошка
+      image: "/images/clients/kroshka-kartoshka.webp"
+    - name: Окей
+      image: "/images/clients/okej.webp"
+    - name: Перекресток
+      image: "/images/clients/perekrestok.webp"
+    - name: Подружка
+      image: "/images/clients/podruzhka.webp"
+    - name: Пятерочка
+      image: "/images/clients/pyatyorochka.webp"
 ---

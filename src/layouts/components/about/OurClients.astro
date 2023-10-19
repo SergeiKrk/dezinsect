@@ -16,28 +16,22 @@ const {
       </div>
     </div>
     <div class="row mt-12 justify-center">
-      <div class="lg:col-10">
-        <div class="row">
-          {
-            member_list.map((item: any) => (
-              <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
-                <div class="member-avatar inline-flex justify-center">
-                  <Image
-                    height={112}
-                    width={112}
-                    class="rouded-full h-28 w-28"
-                    src={item.image}
-                    alt=""
-                  />
-                </div>
-                <div class="mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
-                  <h5 class="font-primary">{item.name}</h5>
-                  <p class="mt-1.5">{item.field}</p>
-                </div>
+      <div class="row">
+        {
+          member_list.map((item: any) => (
+            <div class="col-6 mb-6 flex flex-col text-center lg:col-3 sm:items-center">
+              <div class="member-avatar my-2 inline-flex justify-center bg-white hover:grayscale-0 lg:grayscale">
+                <Image
+                  height={65}
+                  width={294}
+                  src={item.image}
+                  alt={item.name}
+                  class="py-2"
+                />
               </div>
-            ))
-          }
-        </div>
+            </div>
+          ))
+        }
       </div>
     </div>
   </div>

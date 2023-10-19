@@ -6,30 +6,22 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 const { footer } = menu;
-const { copyright, location, email, phone, footer_description } = config.params;
+const { copyright, email, phone } = config.params;
 ---
 
 <footer class="footer bg-[#F1F1F1]">
   <div class="container">
-    <div class="gx-5 row pb-10 pt-[52px]">
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <Logo />
-        <p class="mt-6">
-          {footer_description}
-        </p>
-      </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <div class="text-lg font-bold">Socials</div>
-
-        <Social source={social} className="social-icons mt-4 lg:mt-6" />
-      </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <div class="text-lg font-bold">Quick Links</div>
+    <div class="row py-6">
+      <div class="col-12 md:col-6 lg:col-5 md:text-right">
         <ul>
           {
             footer.map((item, i) => (
-              <li class={footer.length - 1 === i ? "mb-0" : "mb-4"}>
-                <a rel="prefetch-intent" class="hover:text-primary hover:underline " href={item.url}>
+              <li class={footer.length - 1 === i ? "mb-0" : "mb-2"}>
+                <a
+                  rel="prefetch-intent"
+                  class="hover:text-primary hover:underline "
+                  href={item.url}
+                >
                   {item.name}
                 </a>
               </li>
@@ -37,17 +29,21 @@ const { copyright, location, email, phone, footer_description } = config.params;
           }
         </ul>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <div class="text-lg font-bold">Location & Contact</div>
+      <div class="col-12 flex content-center justify-center md:col-6 lg:col-2">
+        <Logo />
+      </div>
+      <div class="col-12 md:col-6 lg:col-5">
+        <div class="text-lg font-bold">Контакты</div>
         <ul>
-          <li class="mb-2">{location}</li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
-              >{email}</a>
+              >{email}</a
+            >
           </li>
           <li>
             <a class="hover:text-primary hover:underline" href={`tel:${phone}`}
-              >{phone}</a>
+              >{phone}</a
+            >
           </li>
         </ul>
       </div>
@@ -55,7 +51,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
   </div>
   <div class="container max-w-[1440px]">
     <div
-      class="footer-copyright mx-auto border-t border-border pb-10 pt-7 text-center"
+      class="footer-copyright mx-auto border-t border-border py-6 text-center"
     >
       <p class="content text-text" set:html={markdownify(copyright)} />
     </div>

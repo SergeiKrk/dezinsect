@@ -140,12 +140,16 @@
 
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Дезинсекция",
+      "url": "/uslugi/unichtozhenie-nasekomih"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Дератизация",
+      "url": "/uslugi/unichtozhenie-grizunov"
+    },
+    {
+      "name": "Все услуги",
+      "url": "/uslugi"
     }
   ]
 }

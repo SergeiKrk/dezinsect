@@ -12,11 +12,11 @@ const { copyright, email, phone } = config.params;
 <footer class="footer bg-[#F1F1F1]">
   <div class="container">
     <div class="row py-6">
-      <div class="col-12 md:col-6 lg:col-5 md:text-right">
+      <div class="col-12 text-center md:col-6 lg:col-5 md:text-right">
         <ul>
           {
             footer.map((item, i) => (
-              <li class={footer.length - 1 === i ? "mb-0" : "mb-2"}>
+              <li class={footer.length - 1 === i ? "mb-0" : "mb-0"}>
                 <a
                   rel="prefetch-intent"
                   class="hover:text-primary hover:underline "
@@ -29,13 +29,13 @@ const { copyright, email, phone } = config.params;
           }
         </ul>
       </div>
-      <div class="col-12 flex content-center justify-center md:col-6 lg:col-2">
+      <div class="col-12 flex justify-center py-2 md:col-6 lg:col-2 md:py-0">
         <Logo />
       </div>
-      <div class="col-12 md:col-6 lg:col-5">
+      <div class="col-12 text-center md:col-6 lg:col-5 md:text-left">
         <div class="text-lg font-bold">Контакты</div>
         <ul>
-          <li class="mb-2">
+          <li>
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
               >{email}</a
             >

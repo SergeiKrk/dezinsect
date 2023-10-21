@@ -213,80 +213,24 @@ declare module 'astro:content' {
   slug: "-index";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "post-1.mdx": {
 	id: "post-1.mdx";
   slug: "post-1";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".mdx"] };
 "post-12.mdx": {
 	id: "post-12.mdx";
   slug: "post-12";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 "careers": {
-"-index.mdx": {
-	id: "-index.mdx";
-  slug: "-index";
-  body: string;
-  collection: "careers";
-  data: any
-} & { render(): Render[".mdx"] };
-"design-lead.md": {
-	id: "design-lead.md";
-  slug: "design-lead";
-  body: string;
-  collection: "careers";
-  data: any
-} & { render(): Render[".md"] };
-"full-stack-developer.md": {
-	id: "full-stack-developer.md";
-  slug: "full-stack-developer";
-  body: string;
-  collection: "careers";
-  data: any
-} & { render(): Render[".md"] };
-"head-desigin.md": {
-	id: "head-desigin.md";
-  slug: "head-desigin";
-  body: string;
-  collection: "careers";
-  data: any
-} & { render(): Render[".md"] };
-"head-of-inbound-marketing.md": {
-	id: "head-of-inbound-marketing.md";
-  slug: "head-of-inbound-marketing";
-  body: string;
-  collection: "careers";
-  data: any
-} & { render(): Render[".md"] };
-"junior-developer.md": {
-	id: "junior-developer.md";
-  slug: "junior-developer";
-  body: string;
-  collection: "careers";
-  data: any
-} & { render(): Render[".md"] };
-"laravel-developer.md": {
-	id: "laravel-developer.md";
-  slug: "laravel-developer";
-  body: string;
-  collection: "careers";
-  data: any
-} & { render(): Render[".md"] };
-"lead-product-designer.md": {
-	id: "lead-product-designer.md";
-  slug: "lead-product-designer";
-  body: string;
-  collection: "careers";
-  data: any
-} & { render(): Render[".md"] };
 };
 "contact": {
 "index.md": {
@@ -312,14 +256,14 @@ declare module 'astro:content' {
   slug: "404";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".md"] };
-"terms-and-conditions.md": {
-	id: "terms-and-conditions.md";
-  slug: "terms-and-conditions";
+"policy.md": {
+	id: "policy.md";
+  slug: "policy";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".md"] };
 };
 "uslugi": {
@@ -501,5 +445,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }

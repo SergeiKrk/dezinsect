@@ -33,7 +33,7 @@ const { item } = Astro.props;
 const posts = await getSinglePage(config.settings.blog_folder);
 const filterByTags = taxonomyFilter(posts, "categories", category);
 const page_data = {
-  index_title: "Categories",
+  index_title: "Категории",
   slug: item,
 };
 ---
@@ -45,7 +45,8 @@ const page_data = {
       <div class="page-hero-content mx-auto max-w-[883px] text-center">
         <PageHeader page_data={page_data} />
         <h1 class="h2 mb-14 text-center">
-          Showing posts from <span class="text-primary">{humanize(item)}</span> category
+          Статьи из категории "<span class="text-primary">{humanize(item)}</span
+          >"
         </h1>
       </div>
     </div>

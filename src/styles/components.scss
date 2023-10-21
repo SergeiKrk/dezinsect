@@ -467,7 +467,7 @@ select:invalid {
 }
 
 .filter-btn {
-  @apply m-3 rounded-3xl border-white bg-white text-dark shadow-xl hover:shadow-lg;
+  @apply m-3 rounded-xl border-white bg-white text-dark shadow-xl hover:shadow-lg;
 
   &-active,
   &.active {

@@ -1,12 +1,9 @@
 ---
 title: "О нас"
-page_title: "О нашей компании"
+page_title: "О нас"
 buttons:
-  - label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
-  - label: Learn More
-    link: "#"
+  - label: Заказать консультацию
+    link: "/contact"
     outline: true
     enable: true
 
@@ -32,59 +29,29 @@ counter:
     messurment: K
     color: "#FEC163"
     icon: dashicons:plus
-    
-# Gallery
-gallery:
-  title: We started with one single goal Empower entrepreneurs
-  images:
-    - "/images/about/gallery-img-1.png"
-    - "/images/about/gallery-img-3.png"
-    - "/images/about/gallery-img-2.png"
 
 ## our works
 features:
-  title: The six core work <br /> drive everything do
+  title: Шесть шагов к решению проблем с вредителями
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: Связаться с нами
+    link: "/contact"
     enable: true
   features_list:
-    - title: Accessibility
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Empowerement
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Excellence
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    
-
-## members
-members:
-  title: This is who we are
-  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
-  member_list:
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
+    - title: Заявка или звоник
+      content: Оставьте заявку на нашем сайте, в Telegram, Whatsapp или позвоните нам.
+    - title: Согласовываем выезд специалиста
+      content: Мы договоримся и пришлем специалиста на ваш объект в удобное для вас время.
+    - title: Осмотр объекта
+      content: Для выявления очагов заражения, необходимо тщательно обследовать объект и выбрать метод и тактику обработки.
+    - title: Заключение договора.
+      content: Заполняем и подписываем все необходиимые бумаги.
+    - title: Обработка объекта
+      content: Проводится обработка, расстановка ловушем и повторная проверка свего объекта.
+    - title: Готово!
+      content: Обработка завершена, но это не все! Наш специалист проинструктирует вас и расскажет, что нужно делать дальше.
 ---
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+
+Мы - команда специалистов, обладающая большиим опытом борьбы с насекомыми, грызунами и различными видами патогенных бактерий. Работаем как с частными заказчиками, так и с юридическими компаниями, а так же с государственными организациями.
+
+Мы гордимся тем, что каждый день приносим пользу людям. При выполнении работ на объекте мы предоставляем официальную гарантию, а в случае возникновения претензий, мы оперативно реагируем и решаем все вопросы. Наша компания берет на себя ответственность за каждый обработанный объект.

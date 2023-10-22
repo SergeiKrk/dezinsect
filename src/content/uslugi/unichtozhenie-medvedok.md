@@ -76,7 +76,7 @@ steps:
     link: "#toTheForm"
     enable: true
   step_list:
-    - title: Заявка или звоник
+    - title: Заявка или звонок
     - title: Согласовываем выезд специалиста
     - title: Осмотр объекта
     - title: Заключение договора

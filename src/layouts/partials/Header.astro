@@ -86,14 +86,14 @@ const { pathname } = Astro.url;
           </ul>
         </div>
       </div>
-      <MenuItems class="hidden lg:flex">
-        <ul class="flex flex-col lg:flex-row lg:gap-5">
+      <MenuItems class="hidden w-full lg:flex lg:w-auto">
+        <ul class="flex flex-col text-center lg:flex-row lg:gap-5 lg:text-left">
           {
             main.map((menu) => (
-              <li>
+              <li class="mx-auto my-2">
                 {menu.hasChildren ? (
                   <Dropdown class="group cursor-pointer">
-                    <button class="flex items-center">
+                    <button class="mx-auto flex items-center text-center font-semibold">
                       <span class="hover:text-secondary">{menu.name}</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -111,11 +111,14 @@ const { pathname } = Astro.url;
                       </svg>
                     </button>
                     <DropdownItems class="relative">
-                      <div class="top-2 w-full rounded border bg-white p-2 shadow lg:absolute lg:w-52">
-                        <ul class="nav-item nav-dropdown group relative cursor-pointer">
+                      <div class="top-2 mt-2 w-full rounded-xl bg-[#EDF7F3] p-4 lg:absolute lg:w-60 lg:bg-white">
+                        <ul class="nav-item nav-dropdown group relative w-full cursor-pointer px-8 lg:px-2">
                           {menu.children?.map((child) => (
-                            <li>
-                              <a class="hover:text-secondary" href={child.url}>
+                            <li class="my-1">
+                              <a
+                                class="font-semibold hover:text-secondary"
+                                href={child.url}
+                              >
                                 {child.name}
                               </a>
                             </li>
@@ -125,7 +128,7 @@ const { pathname } = Astro.url;
                     </DropdownItems>
                   </Dropdown>
                 ) : (
-                  <a class="hover:text-secondary" href={menu.url}>
+                  <a class="font-semibold hover:text-secondary" href={menu.url}>
                     {menu.name}
                   </a>
                 )}

@@ -4,8 +4,8 @@
     "base_url": "https://dezinsect.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon_v2.webp",
-    "logo": "/images/logo_v14.webp",
+    "favicon": "/images/favicon.webp",
+    "logo": "/images/logo.webp",
     "logo_width": "70",
     "logo_height": "70",
     "logo_text": "СЭС-МСК"

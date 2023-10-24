@@ -1,5 +1,6 @@
 ---
 import Logo from "@components/Logo.astro";
+import prefetch from "@astrojs/prefetch";
 import {
   Astronav,
   MenuItems,
@@ -129,7 +130,11 @@ const { pathname } = Astro.url;
                     </DropdownItems>
                   </Dropdown>
                 ) : (
-                  <a class="font-semibold hover:text-secondary" href={menu.url}>
+                  <a
+                    class="font-semibold hover:text-secondary"
+                    rel="prefetch"
+                    href={menu.url}
+                  >
                     {menu.name}
                   </a>
                 )}

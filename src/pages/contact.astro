@@ -3,6 +3,7 @@ import { Image } from "@astrojs/image/components";
 import PageHeader from "@components/PageHeader.astro";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
+import TelegramBotMessageSender from "@layouts/function-components/TelegramBotMessageSender";
 import { getEntryBySlug } from "astro:content";
 
 const entry = await getEntryBySlug("contact", "index");
@@ -12,8 +13,6 @@ const page_data = {
   ...contact,
   content: contact.body,
 };
-const telegramBotToken = "6735512239:AAEaEX6NrSZWIUaY0z-B-30sJRX78-KKFAo";
-const chatId = "-1002004060031";
 ---
 
 <Base
@@ -29,11 +28,11 @@ const chatId = "-1002004060031";
   <section class="section pt-0">
     <div class="container">
       <div class="row">
-        <div class="mb-10 text-center md:col-6 md:order-2 md:mb-0">
+        <div class="mb-10 text-center md:col-6 md:order-2 md:mb-0 md:pt-9">
           <div class="contact-img relative inline-flex pb-5 pl-5">
             <Image
               src="/images/contacts.webp"
-              height={300}
+              height={544}
               width={500}
               alt=""
             />
@@ -44,70 +43,41 @@ const chatId = "-1002004060031";
             class="lg:max-w-[484px]"
             action={contact_form_action}
             method="POST"
-            onSubmit={async (e) => {
-              e.preventDefault();
-              const name = e.target.name.value;
-              const email = e.target.email.value;
-              const message = e.target.message.value;
-
-              try {
-                const response = await fetch(
-                  `https://api.telegram.org/bot${telegramBotToken}/sendMessage`,
-                  {
-                    method: "POST",
-                    headers: {
-                      "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({
-                      chat_id: chatId,
-                      text: `New feedback from ${name} (${email}):\n${message}`,
-                    }),
-                  }
-                );
-
-                if (response.ok) {
-                  alert("Отзыв отправлен успешно!");
-                  e.target.reset();
-                } else {
-                  alert("Произошла ошибка при отправке отзыва.");
-                }
-              } catch (error) {
-                console.error(error);
-                alert("Произошла ошибка при отправке отзыва.");
-              }
-            }}
           >
             <div class="form-group mb-5">
-              <label class="form-label" for="name">Your Full Name</label>
+              <label class="form-label" for="name">Full Name</label>
               <input
                 class="form-control"
                 type="text"
                 id="name"
-                name="name"
                 placeholder="Your Full Name"
-                required
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="email">Your Email Address</label>
+              <label class="form-label" for="eamil">Email Adrdess</label>
               <input
                 class="form-control"
-                type="email"
+                type="text"
                 id="email"
-                name="email"
-                placeholder="Your Email Address"
-                required
+                placeholder="Your  Email Address"
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="message">Message</label>
+              <label class="form-label" for="reason">Reason/Purpose</label>
+              <select name="reason" id="reason" class="form-select" required>
+                <option value="">Select reason/purpose</option>
+                <option value="investment plane">Investment Plan</option>
+                <option value="investment plane-2">Investment Plan 2</option>
+                <option value="investment plane-3">Investment Plan 3</option>
+              </select>
+            </div>
+            <div class="form-group mb-5">
+              <label class="form-label" for="message">Message Here</label>
               <textarea
                 class="form-control h-[150px]"
                 id="message"
-                name="message"
                 cols="30"
-                rows="10"
-                required></textarea>
+                rows="10"></textarea>
             </div>
             <input
               class="btn btn-primary block w-full"
@@ -118,5 +88,7 @@ const chatId = "-1002004060031";
         </div>
       </div>
     </div>
+
+    <TelegramBotMessageSender />
   </section>
 </Base>

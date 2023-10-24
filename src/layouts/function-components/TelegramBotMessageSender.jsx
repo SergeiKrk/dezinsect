@@ -3,8 +3,8 @@ import axios from "axios";
 
 function TelegramBotMessageSender() {
   const [message, setMessage] = useState("");
-  const botToken = "YOUR_BOT_TOKEN";
-  const chatId = "YOUR_CHAT_ID";
+  const botToken = "6735512239:AAEaEX6NrSZWIUaY0z-B-30sJRX78-KKFAo";
+  const chatId = "-1002004060031";
 
   const sendMessage = async () => {
     try {

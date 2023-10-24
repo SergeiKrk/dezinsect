@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 
 function TelegramBotMessageSender() {
@@ -29,14 +29,20 @@ function TelegramBotMessageSender() {
   };
 
   return (
-    <div>
+    <div className="p-4">
       <input
         type="text"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         placeholder="Введите сообщение"
+        className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-blue-500 focus:outline-none"
       />
-      <button onClick={sendMessage}>Отправить сообщение</button>
+      <button
+        onClick={sendMessage}
+        className="mt-2 cursor-pointer rounded-md bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600"
+      >
+        Отправить сообщение
+      </button>
     </div>
   );
 }

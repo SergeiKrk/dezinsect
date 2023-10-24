@@ -3,7 +3,7 @@ import { Image } from "@astrojs/image/components";
 import PageHeader from "@components/PageHeader.astro";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
-import TelegramBotMessageSender from "@layouts/function-components/TelegramBotMessageSender";
+import WriteFeedback from "@layouts/function-components/WriteFeedback";
 import { getEntryBySlug } from "astro:content";
 
 const entry = await getEntryBySlug("contact", "index");
@@ -43,52 +43,43 @@ const page_data = {
             class="lg:max-w-[484px]"
             action={contact_form_action}
             method="POST"
+            netlify
           >
             <div class="form-group mb-5">
-              <label class="form-label" for="name">Full Name</label>
+              <label class="form-label" for="name"></label>
               <input
                 class="form-control"
                 type="text"
                 id="name"
-                placeholder="Your Full Name"
+                placeholder="Ваше имя"
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="eamil">Email Adrdess</label>
+              <label class="form-label" for="eamil"></label>
               <input
                 class="form-control"
                 type="text"
                 id="email"
-                placeholder="Your  Email Address"
+                placeholder="адрес вашей почты"
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="reason">Reason/Purpose</label>
-              <select name="reason" id="reason" class="form-select" required>
-                <option value="">Select reason/purpose</option>
-                <option value="investment plane">Investment Plan</option>
-                <option value="investment plane-2">Investment Plan 2</option>
-                <option value="investment plane-3">Investment Plan 3</option>
-              </select>
-            </div>
-            <div class="form-group mb-5">
-              <label class="form-label" for="message">Message Here</label>
+              <label class="form-label" for="message"></label>
               <textarea
                 class="form-control h-[150px]"
                 id="message"
                 cols="30"
-                rows="10"></textarea>
+                rows="10"
+                placeholder="Текст сообщения"></textarea>
             </div>
             <input
               class="btn btn-primary block w-full"
               type="submit"
-              value="Send Message"
+              value="Отправить сообщение"
             />
           </form>
         </div>
       </div>
     </div>
-
-    <TelegramBotMessageSender />
   </section>
 </Base>

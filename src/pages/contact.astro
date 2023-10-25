@@ -41,9 +41,7 @@ const page_data = {
         <div class="md:col-6 md:order-1">
           <form
             class="lg:max-w-[484px]"
-            method="POST" 
-            netlify
-            netlify-honeypot
+            name="contact" method="POST" data-netlify="true"
           >
             <div class="form-group mb-5">
               <label class="form-label" for="name"></label>
@@ -51,14 +49,16 @@ const page_data = {
                 class="form-control"
                 type="text"
                 id="name"
+                name="name"
                 placeholder="Ваше имя"
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="eamil"></label>
+              <label class="form-label" for="email"></label>
               <input
                 class="form-control"
-                type="text"
+                name="email"
+                type="email"
                 id="email"
                 placeholder="адрес вашей почты"
               />
@@ -68,6 +68,7 @@ const page_data = {
               <textarea
                 class="form-control h-[150px]"
                 id="message"
+                name="message"
                 cols="30"
                 rows="10"
                 placeholder="Текст сообщения"></textarea>

@@ -31,7 +31,7 @@ const page_data = {
           <div class="contact-img relative inline-flex pb-5 pl-5">
             <Image
               src="/images/contacts.webp"
-              height={544}
+              height={320}
               width={500}
               alt=""
             />
@@ -40,7 +40,7 @@ const page_data = {
         <div class="md:col-6 md:order-1">
           <form
             class="lg:max-w-[484px]"
-            name="Напишите нам"
+            name="contact"
             method="POST"
             data-netlify="true"
             action={soobshchenie_otpravleno}
@@ -50,7 +50,8 @@ const page_data = {
               <input
                 class="form-control"
                 type="text"
-                name="Имя"
+                id="name"
+                name="name"
                 placeholder="Ваше имя"
               />
             </div>
@@ -60,6 +61,7 @@ const page_data = {
                 class="form-control"
                 name="email"
                 type="email"
+                id="email"
                 placeholder="адрес вашей почты"
               />
             </div>
@@ -67,7 +69,8 @@ const page_data = {
               <label class="form-label" for="message"></label>
               <textarea
                 class="form-control h-[150px]"
-                name="Сообщение"
+                id="message"
+                name="message"
                 cols="30"
                 rows="10"
                 placeholder="Текст сообщения"></textarea>

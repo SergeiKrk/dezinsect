@@ -17,6 +17,8 @@ const HomepageTab = ({ homepage_tab: { tab_list, title, description } }) => {
             >
               <img
                 className="w-full object-contain"
+                width={667}
+                height={498}
                 src={item.image}
                 alt={item.title}
               />

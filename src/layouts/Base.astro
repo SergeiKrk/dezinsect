@@ -11,6 +11,8 @@ import "@styles/main.scss";
 // font families
 const pf = theme.fonts.font_family.primary;
 const sf = theme.fonts.font_family.secondary;
+const primaryFont = "/fonts/montserrat-cyrillic-300-normal.woff2";
+const secondaryFont = "/fonts/montserrat-cyrillic-700-normal.woff2";
 
 // types for frontmatters
 export interface Props {
@@ -52,11 +54,15 @@ const { title, meta_title, description, image, noindex, canonical } =
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href={`url(${primaryFont}) format("woff2"), url(${secondaryFont}) format("woff2")`}
+      rel="stylesheet"
+    />
+    <!-- <link
       href={`https://fonts.googleapis.com/css2?family=${pf}${
         sf ? "&family=" + sf : ""
       }&display=swap`}
       rel="stylesheet"
-    />
+    /> -->
 
     <!-- responsive meta -->
     <meta

@@ -1,10 +1,17 @@
 ---
+const { form_name } = Astro.props;
 ---
 
-<div class="mt-5 flex flex-col gap-2 sm:gap-3 lg:mt-8 lg:flex-row">
+<form
+  class="mt-5 flex flex-col gap-2 sm:gap-3 lg:mt-8 lg:flex-row"
+  name={form_name}
+  method="POST"
+  data-netlify="true"
+>
   <div class="">
     <label for="hero-name" class="sr-only">Имя</label>
     <input
+      name="Имя"
       type="text"
       id="hero-name"
       name="hero-name"
@@ -15,6 +22,7 @@
   <div class="">
     <label for="hero-phone" class="sr-only">Телефон</label>
     <input
+      name="Телефон"
       type="number"
       id="hero-phone"
       name="hero-phone"
@@ -37,4 +45,4 @@
       ></span>
     </span>
   </div>
-</div>
+</form>

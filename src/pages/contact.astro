@@ -3,7 +3,6 @@ import { Image } from "@astrojs/image/components";
 import PageHeader from "@components/PageHeader.astro";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
-import WriteFeedback from "@layouts/function-components/WriteFeedback";
 import { getEntryBySlug } from "astro:content";
 
 const entry = await getEntryBySlug("contact", "index");
@@ -41,7 +40,9 @@ const page_data = {
         <div class="md:col-6 md:order-1">
           <form
             class="lg:max-w-[484px]"
-            name="contact" method="POST" data-netlify="true"
+            name="contact"
+            method="POST"
+            data-netlify="true"
           >
             <div class="form-group mb-5">
               <label class="form-label" for="name"></label>

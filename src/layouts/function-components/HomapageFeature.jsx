@@ -28,7 +28,7 @@ const HomapageFeature = ({ feature_list }) => {
                 </g>
               </svg>
               <img
-                alt={item.title}
+                alt={item.alt}
                 className="w-100 h-100 absolute object-cover"
                 width={40}
                 height={40}

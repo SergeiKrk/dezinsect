@@ -73,35 +73,45 @@ key_services:
   basic_services:
     - title: Дезинсекция
       image: /images/service-pages/insects_nasekomye_200.webp
+      alt: насекомые
       url: unichtozhenie-nasekomih
     - title: Дератизация
       image: /images/service-pages/rodents_grizuni_200.webp
+      alt: грызуны
       url: unichtozhenie-grizunov
 
   service_top_list:
     - title: Уничтожение Клопов
       image: /images/service-pages/bedbug_klop_200.webp
+      alt: клопы
       url: unichtozhenie-klopov
     - title: Уничтожение Тараканов
       image: /images/service-pages/cockroach_tarakan_200.webp
+      alt: тараканы
       url: unichtozhenie-tarakanov
     - title: Уничтожение Блох
       image: /images/service-pages/flea_bloha_200.webp
+      alt: блохи
       url: unichtozhenie-bloh
     - title: Уничтожение Муравьев
       image: /images/service-pages/ant_muravei_200.webp
+      alt: муравьи
       url: unichtozhenie-muravev
     - title: Уничтожение Кротов
       image: /images/service-pages/krot_200.webp
+      alt: кроты
       url: unichtozhenie-krotov
     - title: Уничтожение Крыс
       image: /images/service-pages/rat_200.webp
+      alt: крысы
       url: unichtozhenie-krys
     - title: Уничтожение Мышей
       image: /images/service-pages/mouse_mish_200.webp
+      alt: мыши
       url: unichtozhenie-myshej
     - title: Уничтожение Клещей
       image: /images/service-pages/mite_klesch_200.webp
+      alt: клещи
       url: unichtozhenie-kleshchej
 
 clients:

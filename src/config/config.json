@@ -44,7 +44,9 @@
     "phone": "+7-916-159-37-44",
     "telegram_bot_token": "6735512239:AAEaEX6NrSZWIUaY0z-B-30sJRX78-KKFAo",
     "chat_id": "-1002004060031",
-    "contact_form_action": "http://localhost:3001/send-message",
+    "soobshchenie_otpravleno": "/soobshchenie-otpravleno",
+    "otzyv_otpravlen": "/otzyv-otpravlen",
+    "zayavka_otpravlena": "/zayavka-otpravlena",
     "copyright": "Не является публичной офертой | СЭС МСК © 2023 | Разработка [kryukovs.ru](https://kryukovs.ru)"
   }
 }

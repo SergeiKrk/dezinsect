@@ -213,21 +213,21 @@ declare module 'astro:content' {
   slug: "-index";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "post-1.mdx": {
 	id: "post-1.mdx";
   slug: "post-1";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".mdx"] };
 "post-12.mdx": {
 	id: "post-12.mdx";
   slug: "post-12";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 "contact": {
@@ -254,14 +254,35 @@ declare module 'astro:content' {
   slug: "404";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
+} & { render(): Render[".md"] };
+"otzyv-otpravlen.md": {
+	id: "otzyv-otpravlen.md";
+  slug: "otzyv-otpravlen";
+  body: string;
+  collection: "pages";
+  data: any
 } & { render(): Render[".md"] };
 "policy.md": {
 	id: "policy.md";
   slug: "policy";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
+} & { render(): Render[".md"] };
+"soobshchenie-otpravleno.md": {
+	id: "soobshchenie-otpravleno.md";
+  slug: "soobshchenie-otpravleno";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".md"] };
+"zayavka-otpravlena.md": {
+	id: "zayavka-otpravlena.md";
+  slug: "zayavka-otpravlena";
+  body: string;
+  collection: "pages";
+  data: any
 } & { render(): Render[".md"] };
 };
 "uslugi": {
@@ -443,5 +464,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }

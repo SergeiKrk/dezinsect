@@ -5,8 +5,8 @@ import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
 import { getEntryBySlug } from "astro:content";
 
-const entry = await getEntryBySlug("contact", "index");
-const { contact_form_action } = config.params;
+const entry = await getEntryBySlug("contact", "feedback");
+const { otzyv_otpravlen } = config.params;
 const contact = entry.data;
 const page_data = {
   ...contact,
@@ -40,21 +40,23 @@ const page_data = {
         <div class="md:col-6 md:order-1">
           <form
             class="lg:max-w-[484px]"
-            action="http://localhost:3001/"
+            action={otzyv_otpravlen}
+            name="Отзыв"
             method="POST"
+            data-netlify="true"
           >
             <div class="form-group mb-5">
               <label class="form-label" for="name"></label>
               <input
                 class="form-control"
                 type="text"
-                id="name"
+                name="Имя"
                 placeholder="Ваше имя"
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label ml-3" for="reason">Оценка</label>
-              <select name="reason" id="reason" class="form-select" required>
+              <label class="form-label ml-3" for="Оценка">Оценка</label>
+              <select name="Оценка" class="form-select" required>
                 <option value="five">⭐️⭐️⭐️⭐️⭐️</option>
                 <option value="four">⭐️⭐️⭐️⭐️☹️</option>
                 <option value="three">⭐️⭐️⭐️☹️☹️</option>
@@ -63,10 +65,10 @@ const page_data = {
               </select>
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="message"></label>
+              <label class="form-label" for="Отзыв"></label>
               <textarea
                 class="form-control h-[150px]"
-                id="message"
+                name="Отзыв"
                 cols="30"
                 rows="10"
                 placeholder="Ваш отзыв"></textarea>

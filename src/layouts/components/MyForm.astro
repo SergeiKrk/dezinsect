@@ -2,51 +2,53 @@
 const { form_name } = Astro.props;
 ---
 
-<form
-  class="mt-5 flex flex-col gap-2 sm:gap-3 lg:mt-8 lg:flex-row"
-  name={form_name}
-  method="POST"
-  data-netlify="true"
->
-  <div class="">
-    <label for="hero-name" class="sr-only">Имя</label>
-    <input
-      name="Имя"
-      type="text"
-      id="hero-name"
-      name="hero-name"
-      class="block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 focus:border-primary focus:ring-primary xl:min-w-[10rem]"
-      placeholder="Ваше имя"
-    />
-  </div>
-  <div class="">
-    <label for="hero-phone" class="sr-only">Телефон</label>
-    <input
-      name="Телефон"
-      type="number"
-      id="hero-phone"
-      name="hero-phone"
-      class="block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 focus:border-primary focus:ring-primary xl:min-w-[10rem]"
-      placeholder="Телефон"
-    />
-  </div>
-  <div class="inline-flex">
-    <input
-      type="submit"
-      class="z-10 flex w-full items-center justify-center gap-x-3 rounded-lg border border-transparent bg-primary px-4 py-3 text-center font-semibold text-white transition hover:bg-secondary"
-      value="Заказать"
-    />
-    <span class="relative -mt-3 ml-2 flex h-4 w-4">
-      <span
-        class="absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-75"
-      ></span>
-      <span class="relative inline-flex h-4 w-4 rounded-full bg-secondary"
-      ></span>
-    </span>
-  </div>
-</form>
-<p class="ml-4 mt-4 text-xs">
-  Отправляя запрос, Вы соглашаетесь на обработку <a href="/policy"
-    >персональных данных</a
+<div>
+  <form
+    class="mt-5 flex flex-col gap-2 sm:gap-3 lg:mt-8 lg:flex-row"
+    name={form_name}
+    method="POST"
+    data-netlify="true"
   >
-</p>
+    <div class="">
+      <label for="hero-name" class="sr-only">Имя</label>
+      <input
+        name="Имя"
+        type="text"
+        id="hero-name"
+        name="hero-name"
+        class="block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 focus:border-primary focus:ring-primary xl:min-w-[10rem]"
+        placeholder="Ваше имя"
+      />
+    </div>
+    <div class="">
+      <label for="hero-phone" class="sr-only">Телефон</label>
+      <input
+        name="Телефон"
+        type="number"
+        id="hero-phone"
+        name="hero-phone"
+        class="block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 focus:border-primary focus:ring-primary xl:min-w-[10rem]"
+        placeholder="Телефон"
+      />
+    </div>
+    <div class="inline-flex">
+      <input
+        type="submit"
+        class="z-10 flex w-full items-center justify-center gap-x-3 rounded-lg border border-transparent bg-primary px-4 py-3 text-center font-semibold text-white transition hover:bg-secondary"
+        value="Заказать"
+      />
+      <span class="relative -mt-3 ml-2 flex h-4 w-4">
+        <span
+          class="absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-75"
+        ></span>
+        <span class="relative inline-flex h-4 w-4 rounded-full bg-secondary"
+        ></span>
+      </span>
+    </div>
+  </form>
+  <p class="ml-4 mt-4 w-full text-xs">
+    Отправляя запрос, Вы соглашаетесь на обработку <a href="/policy"
+      >персональных данных</a
+    >
+  </p>
+</div>

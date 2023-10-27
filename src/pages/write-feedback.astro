@@ -27,7 +27,7 @@ const page_data = {
   <section class="section pt-0">
     <div class="container">
       <div class="row">
-        <div class="mb-10 text-center md:col-6 md:order-2 md:mb-0">
+        <div class="mb-10 text-center md:col-6 md:order-2 md:mb-0 md:pt-9">
           <div class="contact-img relative inline-flex pb-5 pl-5">
             <Image
               src="/images/feedback.webp"
@@ -57,11 +57,11 @@ const page_data = {
             <div class="form-group mb-5">
               <label class="form-label ml-3" for="Оценка">Оценка</label>
               <select name="Оценка" class="form-select" required>
-                <option value="five">⭐️⭐️⭐️⭐️⭐️</option>
-                <option value="four">⭐️⭐️⭐️⭐️☹️</option>
-                <option value="three">⭐️⭐️⭐️☹️☹️</option>
-                <option value="two">⭐️⭐️☹️☹️☹️</option>
-                <option value="one">⭐️☹️☹️☹️☹️</option>
+                <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
+                <option value="4">⭐️⭐️⭐️⭐️☹️</option>
+                <option value="3">⭐️⭐️⭐️☹️☹️</option>
+                <option value="2">⭐️⭐️☹️☹️☹️</option>
+                <option value="1">⭐️☹️☹️☹️☹️</option>
               </select>
             </div>
             <div class="form-group mb-5">
@@ -79,6 +79,11 @@ const page_data = {
               value="Отправить отзыв"
             />
           </form>
+          <p class="ml-4 mt-4 w-full text-xs">
+            Отправляя запрос, Вы соглашаетесь на обработку <a href="/policy"
+              >персональных данных</a
+            >
+          </p>
         </div>
       </div>
     </div>

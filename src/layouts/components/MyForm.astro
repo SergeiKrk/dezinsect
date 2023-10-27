@@ -1,5 +1,5 @@
 ---
-const { form_name } = Astro.props;
+const { form_name, id_number } = Astro.props;
 import config from "@config/config.json";
 const { zayavka_otpravlena } = config.params;
 ---
@@ -7,28 +7,28 @@ const { zayavka_otpravlena } = config.params;
 <div>
   <form
     class="mt-5 flex flex-col gap-2 sm:gap-3 lg:mt-8 lg:flex-row"
-    name={form_name}
+    name={form_name + " [Форма #" + id_number + "]"}
     action={zayavka_otpravlena}
     method="POST"
     data-netlify="true"
   >
     <div class="">
-      <label for="hero-name" class="sr-only">Имя</label>
+      <label for={"hero-name-" + id_number} class="sr-only">Имя</label>
       <input
-        name="Имя"
+        name={"[" + form_name + "] Имя"}
         type="text"
-        id="hero-name"
+        id={"hero-name-" + id_number}
         name="hero-name"
         class="block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 focus:border-primary focus:ring-primary xl:min-w-[10rem]"
         placeholder="Ваше имя"
       />
     </div>
     <div class="">
-      <label for="hero-phone" class="sr-only">Телефон</label>
+      <label for={"hero-phone-" + id_number} class="sr-only">Телефон</label>
       <input
         name="Телефон"
         type="number"
-        id="hero-phone"
+        id={"hero-phone-" + id_number}
         name="hero-phone"
         class="block w-full rounded-lg border-gray-200 px-4 py-3 font-semibold shadow-sm focus:z-10 focus:border-primary focus:ring-primary xl:min-w-[10rem]"
         placeholder="Телефон"

@@ -13,9 +13,11 @@ const { zayavka_otpravlena } = config.params;
     data-netlify="true"
   >
     <div class="">
-      <label for={"hero-name-" + id_number} class="sr-only">Имя1</label>
+      <label for={"hero-name-" + id_number} class="sr-only"
+        >{"[" + form_name + "] Имя"}</label
+      >
       <input
-        name={"[" + form_name + "] Имя"}
+        name="Имя"
         type="text"
         id={"hero-name-" + id_number}
         name="hero-name"

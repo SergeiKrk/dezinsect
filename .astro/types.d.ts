@@ -215,16 +215,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"post-1.mdx": {
-	id: "post-1.mdx";
-  slug: "post-1";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
-"post-12.mdx": {
-	id: "post-12.mdx";
-  slug: "post-12";
+"kak-podgotovit-pomeshchenie-k-dezinsekcii.mdx": {
+	id: "kak-podgotovit-pomeshchenie-k-dezinsekcii.mdx";
+  slug: "kak-podgotovit-pomeshchenie-k-dezinsekcii";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

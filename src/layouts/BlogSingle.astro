@@ -1,16 +1,9 @@
 ---
 import { Image } from "@astrojs/image/components";
-import dateFormat from "@lib/utils/dateFormat";
-import readingTime from "@lib/utils/readingTime";
-import Disqus from "./function-components/Disqus";
+import MyForm from "@components/MyForm.astro";
 
 import { humanize, slugify } from "@lib/utils/textConverter";
-import {
-  FaRegCalendarAlt,
-  FaRegClock,
-  FaRegFolder,
-  FaRegUserCircle,
-} from "react-icons/fa/index.js";
+import { FaRegFolder, FaRegUserCircle } from "react-icons/fa/index.js";
 
 const { post } = Astro.props;
 const { Content } = await post.render();
@@ -23,7 +16,7 @@ const { Content } = await post.render();
         <Image
           class="w-full rounded-xl"
           src={post.data.image}
-          alt=""
+          alt={post.data.title}
           width={920}
           height={450}
         />
@@ -37,15 +30,6 @@ const { Content } = await post.render();
             <li class="mr-4 inline-block">
               <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
               {humanize(post.data.author)}
-            </li>
-
-            <li class="mr-4 inline-block">
-              <FaRegCalendarAlt className={"mr-2 -mt-1 inline-block"} />
-              {dateFormat(post.data.date)}
-            </li>
-            <li class="mr-4 inline-block">
-              <FaRegClock className={"mr-2 -mt-1 inline-block"} />
-              {readingTime(post.body)}
             </li>
             <li class="mr-4 inline-block">
               <FaRegFolder className={"mr-2 -mt-1 inline-block"} />
@@ -64,10 +48,20 @@ const { Content } = await post.render();
           </ul>
         </div>
 
+        <div
+          class="category-filter mb-10 mt-3 rounded-xl bg-[#EDF7F3] py-4 lg:py-8"
+        >
+          <div class="w-full text-center text-xl font-bold md:text-3xl">
+            Закажите консультацию специалиста:
+          </div>
+          <div class="flex justify-center">
+            <MyForm form_name={"Статья: " + post.data.title} id_number="1" />
+          </div>
+        </div>
+
         <div class="content">
           <Content />
         </div>
-        <Disqus client:load />
       </div>
     </div>
   </div>
